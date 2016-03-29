@@ -1,0 +1,46 @@
+\documentclass{aip-cp}
+
+\usepackage[numbers]{natbib}
+\usepackage{rotating}
+\usepackage{graphicx}
+\usepackage{caption}
+%\input{variables}
+% Document starts
+\begin{document}
+
+% Title portion
+%\title{Transition Form Factors of Mesons and Baryons with CLAS12}
+\title{Transition Form Factors of the $\eta^{\prime}$ Meson and $\phi$ Meson with CLAS12}
+\author[aff1]{Michael C. Kunkel\corref{cor1}}
+\affil[aff1]{Forschungszentrum J\"ulich, J\"ulich (Germany)}
+\corresp[cor1]{m.kunkel@fz-juelich.de}
+\author{\textit{For the CLAS Collaboration}}
+\maketitle
+
+\begin{abstract}
+Transition form factors characterize modifications of the point-like photon-meson vertex due to the structure of the meson. The virtual photon can interact with quarks, therefore it can be used as a probe for the internal structure of mesons and its electromagnetic interaction is calculable with the Kroll-Wada formula, Equation~\ref{eq:kroll};
+\begin{equation}
+\frac{d\Gamma_{M{\rightarrow l^{+}l^{-}X}}}{dq^{2} d\Gamma_{M{\rightarrow X\gamma}}} = \frac{\alpha}{3\pi q^{2}}\left(\left(1+\frac{q^{2}}{m^{2}_{M}-m^{2}_{X}}\right)^2 - \frac{4m^{2}_{M}q^2}{(m^{2}_{M}-m^{2}_{X})^2}\right)^\frac{3}{2}\left(1-\frac{4m_{l}^{2}}{q^{2}}\right)^{1/2}\left(1+\frac{2m_{l}^{2}}{q^{2}}\right) \bigg|_{\mathrm{Q.E.D}}  \label{eq:kroll} \ . \\
+\end{equation}
+ where $M$ is the species of meson i.e. $\omega$, $\eta^{\prime}$, $\phi$, etc., $X$ is the child particle in the decay, $m_M$ the mass of the meson, $m_X$ the mass of the child particle, $m_l$ the mass of the lepton species in the decay, i.e. $e^{\pm}$ or $\mu^{\pm}$ and $q$ being the momentum transfer which is identical to the invariant mass of the dilepton. Deviations of Equation~\ref{eq:kroll} represent the internal structure of the meson for pseudoscalar mesons, while for vector mesons the deviation represents the transition from $M \to X$. These deviations are the transition form factor $\left| F(q^2)\right|$ and can be determined by comparing Equation~\ref{eq:kroll} to what is measured experimentally.
+ \begin{equation}
+ \frac{d\Gamma_{M{\rightarrow l^{+}l^{-}X}}}{dq^{2} d\Gamma_{M{\rightarrow X\gamma}}}\bigg|_{\mathrm{measured}} =   \frac{d\Gamma_{M{\rightarrow l^{+}l^{-}X}}}{dq^{2} d\Gamma_{M{\rightarrow X\gamma}}} \bigg|_{\mathrm{Q.E.D}} \left| F(q^2)\right|^2 \label{eq:kroll_ff} \ . \\
+ \end{equation}
+ Depending on the decay width of the meson of interest, the transition can be modeled as a simple pole, Equation~\ref{eq:pole}, a complex pole, Equation~\ref{eq:cpole}, or some other function that describes the transition.
+ \begin{eqnarray}
+\left| F(q^2)\right| = \frac{1}{1-\frac{q^2}{\Lambda^2}} \label{eq:pole} \\
+\left| F(q^2)\right|^2 = \frac{\Lambda^2(\Lambda^2 + \gamma^2)}{(\Lambda^2 - q^2)\Lambda^2 \gamma^2} \label{eq:cpole} \ ,
+ \end{eqnarray} 
+ where $\Lambda$ and $\gamma$ is the mass and width of the virtual vector meson mass, respectively.
+ Recent measurements of the transition form factor for $\omega \to \mu^+\mu^- \gamma$ have shown unexpected discrepancies with the Vector Dominance Model and recent models of chiral Lagrangian field theory and dispersion theory attempt to predict the contributions of the virtual vector meson.
+Also, the knowledge of the $\eta$ form factor is needed for the interpretation of the $(g_{\mu}-2)/2$ uncertainty. Furthermore, the ratio of the $\eta$ and $\eta^{\prime}$ transition form factor provides information of the mixing angle of the combination of the singlet, $\eta_0$, and nonet, $\eta_8$, which are the components of the physical eigenstates, the $\eta$ and $\eta^{\prime}$ meson.
+%\newpage
+\\ \\
+The CLAS12 detector will be used to identify and measure the $e^+e^-$ decay products by means of the High Threshold Cherenkov Counter (HTCC), Pre-Calorimeter (PCAL) and Electromagnetic Calorimeter (EC). The combination of HTCC+PCAL+EC can provide a rejection factor for single $e^\pm/\pi^\pm$ of up to $10^6$ for momenta less than 4.9~GeV/c with $\approx$ 100\% efficiency. For dileptons ($e^+e^-$ pairs), this rejection factor will be $\approx 10^{12}$, which enables semi-leptonic studies for branching ratios $\approx 10^{-9}$. Precise determination of momenta and angles of the $e^+e^-$ decay products  are the key features available to CLAS12.
+A beam time of 100 days at full luminosity of ∼$10^{35}cm^{−2}s^{−1}$ will be sufficient to accumulate enough statistics to perform a complete analysis for transition decays. 
+
+%This will give greater insight into the structure of the $ \eta^{\prime} $ meson than previously measured. 
+\end{abstract}
+
+
+\end{document}

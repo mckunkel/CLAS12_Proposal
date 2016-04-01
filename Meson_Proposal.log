@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.3.18)  31 MAR 2016 17:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.3.18)  1 APR 2016 11:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -326,11 +326,7 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks18
 \@floatcapt=\box27
 )
-(./Meson_Proposal.aux
-
-LaTeX Warning: Label `eq:eeg.final' multiply defined.
-
-)
+(./Meson_Proposal.aux)
 \openout1 = `Meson_Proposal.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
@@ -376,13 +372,12 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 (./Appendix.tex (./meson_decay/meson_decay.tex
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <10.95> on input line 2.
+ (./meson_decay/dalitz.tex
+
+LaTeX Warning: Reference `fig:piz.dalitz' on page 2 undefined on input line 2.
 
 
-LaTeX Warning: Reference `fig:piz.dalitz' on page 2 undefined on input line 19.
-
-
-
-Overfull \hbox (55.33206pt too wide) detected at line 24
+Overfull \hbox (55.33206pt too wide) detected at line 7
 []\OMS/cmsy/m/n/10.95 M\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 P \OMS/cmsy/m/n/
 10.95 ! \OML/cmm/m/it/10.95 l[]\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 p[]; s[]
 \OT1/cmr/m/n/10.95 )\OML/cmm/m/it/10.95 l[]\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10
@@ -395,10 +390,7 @@ OML/cmm/m/it/10.95 p[]; s[]\OT1/cmr/m/n/10.95 )\OML/cmm/m/it/10.95 q[]^^O[]k[]:
  []
 
 
-LaTeX Warning: Reference `eq:piz.gg.amp' on page 2 undefined on input line 25.
-
-
-LaTeX Warning: Reference `eq:piz.gg' on page 2 undefined on input line 25.
+LaTeX Warning: Reference `eq:piz.eeg.amp' on page 2 undefined on input line 8.
 
 
 ! LaTeX Error: Environment align undefined.
@@ -407,14 +399,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.30 \begin{align}
+l.13 \begin{align}
                   \label{eq:piz.eeg}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ! Misplaced alignment tab character &.
-l.31 &
+l.14 &
        \left|{\cal M}(P\to l^+(p_+,s_+)l^-(p_-,s_-) \gamma)\right|^2 = \nonu...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -426,7 +418,7 @@ might try typing `S' now just to see what is salvageable.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.31 & \left
+l.14 & \left
             |{\cal M}(P\to l^+(p_+,s_+)l^-(p_-,s_-) \gamma)\right|^2 = \nonu...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -434,7 +426,7 @@ you left one out. Proceed, with fingers crossed.
 ! Misplaced alignment tab character &.
 <recently read> &
                  
-l.31 ...p_-,s_-) \gamma)\right|^2 = \nonumber \\ &
+l.14 ...p_-,s_-) \gamma)\right|^2 = \nonumber \\ &
                                                    \frac{e^2}{q^4} \left|M\r...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -450,7 +442,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.33 \end{align}
+l.16 \end{align}
                 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -459,7 +451,7 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.33 \end{align}
+l.16 \end{align}
                 
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -468,7 +460,7 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-LaTeX Warning: Citation `peskin' on page 2 undefined on input line 34.
+LaTeX Warning: Citation `peskin' on page 2 undefined on input line 17.
 
 
 ! LaTeX Error: Environment align undefined.
@@ -477,14 +469,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.35 \begin{align}
+l.18 \begin{align}
                   \label{eq:spin.sum}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ! Misplaced alignment tab character &.
-l.36 &
+l.19 &
        \sum\limits_{s_{-},s_{+}}^{} \bar{u}(p_{-},s_{-})\gamma^{\mu}\nu(p_{+...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -496,13 +488,13 @@ might try typing `S' now just to see what is salvageable.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.36 & \sum
+l.19 & \sum
            \limits_{s_{-},s_{+}}^{} \bar{u}(p_{-},s_{-})\gamma^{\mu}\nu(p_{+...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Undefined control sequence.
-l.36 ...prime}}u(p_{-},s_{-}) = Tr\left[ (\slashed
+l.19 ...prime}}u(p_{-},s_{-}) = Tr\left[ (\slashed
                                                   {p}_- +m)\gamma^{\mu} (\sl...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -511,7 +503,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.36 ...[ (\slashed{p}_- +m)\gamma^{\mu} (\slashed
+l.19 ...[ (\slashed{p}_- +m)\gamma^{\mu} (\slashed
                                                   {p}_+-m)\gamma^{\mu^{\prim...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -522,7 +514,7 @@ and I'll forget about whatever was undefined.
 ! Misplaced alignment tab character &.
 <recently read> &
                  
-l.36 ...\gamma^{\mu^{\prime}} \right]\nonumber \\&
+l.19 ...\gamma^{\mu^{\prime}} \right]\nonumber \\&
                                                    =2q^{2}\left[-(g_{\mu\mu^...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -538,7 +530,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.37 \end{align}
+l.20 \end{align}
                 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -547,7 +539,7 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.37 \end{align}
+l.20 \end{align}
                 
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -556,13 +548,19 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
+LaTeX Warning: Reference `eq:spin.sum' on page 2 undefined on input line 22.
+
+
+LaTeX Warning: Reference `eq:piz.eeg' on page 2 undefined on input line 22.
+
+
 ! LaTeX Error: Environment align undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.40 \begin{align}
+l.23 \begin{align}
                    \label{eq:piz.eeg.midway1}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -571,7 +569,7 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.41 \left
+l.24 \left
           |{\cal M}\right|^{2} =\frac{2e^{2}\left|M_{P}\right|^{2}}{q^{2}}\v...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -583,7 +581,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.42 \end{align}
+l.25 \end{align}
                 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -592,7 +590,7 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.42 \end{align}
+l.25 \end{align}
                 
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -601,13 +599,17 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
+LaTeX Warning: Reference `eq:piz.eeg.midway1' on page 2 undefined on input line
+ 26.
+
+
 ! LaTeX Error: Environment align undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.44 \begin{align}
+l.27 \begin{align}
                    \label{eq:piz.eeg.midway2}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -616,13 +618,13 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.45 \left
+l.28 \left
           |{\cal M}\right|^{2} = & \frac{2e^{2}\left|M_{P}\right|^{2}}{q^{2}...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Misplaced alignment tab character &.
-l.45 \left|{\cal M}\right|^{2} = &
+l.28 \left|{\cal M}\right|^{2} = &
                                    \frac{2e^{2}\left|M_{P}\right|^{2}}{q^{2}...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -634,7 +636,7 @@ might try typing `S' now just to see what is salvageable.
 ! Misplaced alignment tab character &.
 <recently read> &
                  
-l.45 ...mu^{\prime}}}{q^{2}}\right] \nonumber \\ &
+l.28 ...mu^{\prime}}}{q^{2}}\right] \nonumber \\ &
                                                    \times (-g^{\nu\nu^{\prim...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -650,7 +652,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.47 \end{align}
+l.30 \end{align}
                 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -659,7 +661,7 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.47 \end{align}
+l.30 \end{align}
                 
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -668,13 +670,17 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
+LaTeX Warning: Reference `eq:piz.eeg.midway2' on page 2 undefined on input line
+ 31.
+
+
 ! LaTeX Error: Environment align undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.49 \begin{align}
+l.32 \begin{align}
                    \label{eq:piz.eeg.midway3}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -683,13 +689,13 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.50 \left
+l.33 \left
           |{\cal M}\right|^{2} = & \frac{2e^{2}\left|M_{P}\right|^{2}}{q^{2}}
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Misplaced alignment tab character &.
-l.50 \left|{\cal M}\right|^{2} = &
+l.33 \left|{\cal M}\right|^{2} = &
                                    \frac{2e^{2}\left|M_{P}\right|^{2}}{q^{2}}
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -705,7 +711,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.52 \end{align}
+l.35 \end{align}
                 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -714,7 +720,7 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.52 \end{align}
+l.35 \end{align}
                 
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -723,13 +729,17 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
+LaTeX Warning: Reference `eq:piz.eeg.midway3' on page 2 undefined on input line
+ 36.
+
+
 ! LaTeX Error: Environment align undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.54 \begin{align}
+l.37 \begin{align}
                    \label{eq:piz.eeg.midway4}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -738,13 +748,13 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.55 \left
+l.38 \left
           |{\cal M}\right|^{2} = & \frac{2e^{2}\left|M_{P}\right|^{2}}{q^{2}...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Misplaced alignment tab character &.
-l.55 \left|{\cal M}\right|^{2} = &
+l.38 \left|{\cal M}\right|^{2} = &
                                    \frac{2e^{2}\left|M_{P}\right|^{2}}{q^{2}...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -760,7 +770,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.57 \end{align}
+l.40 \end{align}
                 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -769,7 +779,7 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.57 \end{align}
+l.40 \end{align}
                 
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -778,13 +788,17 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
+LaTeX Warning: Reference `eq:piz.eeg.midway4' on page 2 undefined on input line
+ 42.
+
+
 ! LaTeX Error: Environment align undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.60 \begin{align}
+l.43 \begin{align}
                    \label{eq:piz.eeg.final}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -793,7 +807,7 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.61 \left
+l.44 \left
           |{\cal M}\right|^{2} =  \frac{2e^{2}\left|M_{P}\right|^{2}}{q^{2}}...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -805,7 +819,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.63 \end{align}
+l.46 \end{align}
                 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -814,7 +828,7 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.63 \end{align}
+l.46 \end{align}
                 
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -823,7 +837,7 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Overfull \hbox (15.03351pt too wide) in paragraph at lines 31--64
+Overfull \hbox (15.03351pt too wide) in paragraph at lines 14--47
 [] [][] \OML/cmm/m/it/10.95 "[]"[][]\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 p[]
 ; s[]\OT1/cmr/m/n/10.95 )\OML/cmm/m/it/10.95 ^^M[]v\OT1/cmr/m/n/10.95 (\OML/cmm
 /m/it/10.95 p[]; s[]\OT1/cmr/m/n/10.95 )[](\OML/cmm/m/it/10.95 p[]; s[]\OT1/cmr
@@ -832,7 +846,7 @@ Overfull \hbox (15.03351pt too wide) in paragraph at lines 31--64
  []
 
 
-Overfull \hbox (188.35669pt too wide) in paragraph at lines 31--64
+Overfull \hbox (188.35669pt too wide) in paragraph at lines 14--47
 \T1/cmr/m/n/10.95 us-ing an equa-tion found be-tween equa-tion 5.3 and 5.4 foun
 d in [[]] [] $[] []\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 p[]; s[]\OT1/cmr/m/n
 /10.95 )\OML/cmm/m/it/10.95 ^^M[]^^W\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 p[]
@@ -842,31 +856,31 @@ L/cmm/m/it/10.95 ^^M[]u\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 p[]; s[]\OT1/cmr
  []
 
 
-Overfull \hbox (219.70137pt too wide) in paragraph at lines 31--64
-\T1/cmr/m/n/10.95 was used. Sub-sti-tut-ing Eq. 1.2.1[] into Eq. 1.2.1[]  []$[]
-[] \OT1/cmr/m/n/10.95 = []\OML/cmm/m/it/10.95 "[]"[] [] \OT1/cmr/m/n/10.95 (\OM
-S/cmsy/m/n/10.95 ^^@\OML/cmm/m/it/10.95 g[]\OT1/cmr/m/n/10.95 )\OML/cmm/m/it/10
-.95 q[]k[]q[]k[]$
+Overfull \hbox (198.56325pt too wide) in paragraph at lines 14--47
+\T1/cmr/m/n/10.95 was used. Sub-sti-tut-ing Eq. [] into Eq. []  []$[][] \OT1/cm
+r/m/n/10.95 = []\OML/cmm/m/it/10.95 "[]"[] [] \OT1/cmr/m/n/10.95 (\OMS/cmsy/m/n
+/10.95 ^^@\OML/cmm/m/it/10.95 g[]\OT1/cmr/m/n/10.95 )\OML/cmm/m/it/10.95 q[]k[]
+q[]k[]$
  []
 
 
-Overfull \hbox (160.58646pt too wide) in paragraph at lines 31--64
+Overfull \hbox (150.0174pt too wide) in paragraph at lines 14--47
 \T1/cmr/m/n/10.95 Sub-sti-tut-ing $\OML/cmm/m/it/10.95 k \OT1/cmr/m/n/10.95 = \
 OML/cmm/m/it/10.95 P \OMS/cmsy/m/n/10.95 ^^@ \OML/cmm/m/it/10.95 q$ \T1/cmr/m/n
 /10.95 and $\OML/cmm/m/it/10.95 p[] \OT1/cmr/m/n/10.95 = \OML/cmm/m/it/10.95 q 
-\OMS/cmsy/m/n/10.95 ^^@ \OML/cmm/m/it/10.95 p[]$ \T1/cmr/m/n/10.95 into Eq. 1.2
-.1[]  []$[][] \OT1/cmr/m/n/10.95 = []\OML/cmm/m/it/10.95 "[]"[] [] [] 
+\OMS/cmsy/m/n/10.95 ^^@ \OML/cmm/m/it/10.95 p[]$ \T1/cmr/m/n/10.95 into Eq. [] 
+ []$[][] \OT1/cmr/m/n/10.95 = []\OML/cmm/m/it/10.95 "[]"[] [] [] 
  []
 
 
-Overfull \hbox (100.60564pt too wide) in paragraph at lines 31--64
-\OMS/cmsy/m/n/10.95 ^^@\OML/cmm/m/it/10.95 g[]$ \T1/cmr/m/n/10.95 onto Eq. 1.2.
-1[]  []$[][] \OT1/cmr/m/n/10.95 = [] []$
+Overfull \hbox (90.03658pt too wide) in paragraph at lines 14--47
+\OMS/cmsy/m/n/10.95 ^^@\OML/cmm/m/it/10.95 g[]$ \T1/cmr/m/n/10.95 onto Eq. []  
+[]$[][] \OT1/cmr/m/n/10.95 = [] []$
  []
 
 [2]
 
-LaTeX Warning: Citation `pdg2014' on page 3 undefined on input line 66.
+LaTeX Warning: Citation `pdg2014' on page 3 undefined on input line 49.
 
 
 ! LaTeX Error: Environment align undefined.
@@ -875,7 +889,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.67 \begin{align}
+l.50 \begin{align}
                   \label{eq:pdg.3body}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -884,7 +898,7 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.68 d\Gamma
+l.51 d\Gamma
              = \frac{1}{(2 \pi)^5} \frac{1}{16 m_p^2} \left|{\cal M}\right|^...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -896,7 +910,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.69 \end{align}
+l.52 \end{align}
                 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -905,7 +919,7 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.69 \end{align}
+l.52 \end{align}
                 
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -914,7 +928,14 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-LaTeX Warning: Citation `pdg2014' on page 3 undefined on input line 71.
+LaTeX Warning: Citation `pdg2014' on page 3 undefined on input line 54.
+
+
+LaTeX Warning: Reference `eq:pdg.3body' on page 3 undefined on input line 54.
+
+
+LaTeX Warning: Reference `eq:piz.eeg.final' on page 3 undefined on input line 5
+4.
 
 
 ! LaTeX Error: Environment align undefined.
@@ -923,7 +944,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.72 \begin{align}
+l.55 \begin{align}
                   \label{eq:pdg.3body.sub}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -932,7 +953,7 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.73 d\Gamma
+l.56 d\Gamma
              = \frac{1}{(2 \pi)^5} \frac{1}{16 m_p^2} \left|{\cal M}\right|^...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -944,7 +965,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.74 \end{align}
+l.57 \end{align}
                 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -953,7 +974,7 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.74 \end{align}
+l.57 \end{align}
                 
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -962,13 +983,21 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
+LaTeX Warning: Reference `eq:piz.eeg.final' on page 3 undefined on input line 5
+9.
+
+
+LaTeX Warning: Reference `eq:pdg.3body.sub' on page 3 undefined on input line 5
+9.
+
+
 ! LaTeX Error: Environment align undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.78 \begin{align}
+l.61 \begin{align}
                   \label{eq:pdg.3body.sub2}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -977,7 +1006,7 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.79 d\Gamma
+l.62 d\Gamma
              = \frac{1}{(2 \pi)^5} \frac{1}{16 m_p^2} \frac{2e^{2}\left|M_{P...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -989,7 +1018,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.81 \end{align}
+l.64 \end{align}
                 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -998,7 +1027,7 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.81 \end{align}
+l.64 \end{align}
                 
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1007,7 +1036,7 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-LaTeX Warning: Citation `pdg2014' on page 3 undefined on input line 82.
+LaTeX Warning: Citation `pdg2014' on page 3 undefined on input line 65.
 
 
 ! LaTeX Error: Environment align undefined.
@@ -1016,7 +1045,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.83 \begin{align}
+l.66 \begin{align}
                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1025,7 +1054,7 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.84 \left
+l.67 \left
           |\bf{q}\right| = \frac{m_p^2 - q^2}{2m_p} \label{eq:eeg.qeq} \\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1037,7 +1066,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.86 \end{align}
+l.69 \end{align}
                 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1046,7 +1075,7 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.86 \end{align}
+l.69 \end{align}
                 
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1055,13 +1084,23 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
+LaTeX Warning: Reference `eq:eeg.qeq' on page 3 undefined on input line 70.
+
+
+LaTeX Warning: Reference `eq:eeg.p+eq' on page 3 undefined on input line 70.
+
+
+LaTeX Warning: Reference `eq:pdg.3body.sub2' on page 3 undefined on input line 
+70.
+
+
 ! LaTeX Error: Environment align undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.88 \begin{align}
+l.71 \begin{align}
                   \label{eq:pdg.3body.sub3}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1070,7 +1109,7 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.89 d\Gamma
+l.72 d\Gamma
              = \frac{1}{(2 \pi)^5} \frac{1}{16 m_p^2} \left|M_{P}\right|^{2}...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1082,7 +1121,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.90 \end{align}
+l.73 \end{align}
                 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1091,7 +1130,7 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.90 \end{align}
+l.73 \end{align}
                 
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1100,13 +1139,17 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
+LaTeX Warning: Reference `eq:pdg.3body.sub3' on page 3 undefined on input line 
+74.
+
+
 ! LaTeX Error: Environment align undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.92 \begin{align}
+l.75 \begin{align}
                   \label{eq:pdg.3body.sub4}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1115,7 +1158,7 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.93 d\Gamma
+l.76 d\Gamma
              = \frac{1}{(2 \pi)^3} \frac{1}{32} \frac{4 \pi \alpha}{3} \left...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1127,7 +1170,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.94 \end{align}
+l.77 \end{align}
                 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1136,7 +1179,7 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.94 \end{align}
+l.77 \end{align}
                 
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1151,7 +1194,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.96 \begin{align}
+l.79 \begin{align}
                   \label{eq:eeg.final}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1160,7 +1203,7 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.97 d\Gamma
+l.80 d\Gamma
              = \left(\frac{1}{64\pi} \left|M_{P}\right|^{2}m_{P}^{3} \right)...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1172,7 +1215,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.98 \end{align}
+l.81 \end{align}
                 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1181,7 +1224,7 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.98 \end{align}
+l.81 \end{align}
                 
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1196,8 +1239,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.101 \begin{align}
-                   
+l.84 \begin{align}
+                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -1205,7 +1248,7 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.102 {M}_
+l.85  {M}_
           P \to {M}_P \times \left|F(q^2)\right| \ ,
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1217,8 +1260,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.103 \end{align}
-                 
+l.86 \end{align}
+                
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -1226,8 +1269,8 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.103 \end{align}
-                 
+l.86 \end{align}
+                
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
@@ -1235,41 +1278,37 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-LaTeX Warning: Reference `sec:piz.gg' on page 3 undefined on input line 104.
-
-
-Overfull \hbox (98.86343pt too wide) in paragraph at lines 66--105
-\T1/cmr/m/n/10.95 Eq. 1.2.2[] yields; []d$\OT1/cmr/m/n/10.95 ^^@ = [][][]\OML/c
-mm/m/it/10.95 m[] [] [] [] d\OT1/cmr/m/n/10.95 
+Overfull \hbox (55.457pt too wide) in paragraph at lines 49--88
+\T1/cmr/m/n/10.95 yields; []d$\OT1/cmr/m/n/10.95 ^^@ = [][][]\OML/cmm/m/it/10.9
+5 m[] [] [] [] d\OT1/cmr/m/n/10.95 
 []\OML/cmm/m/it/10.95 d\OT1/cmr/m/n/10.95 
 []\OML/cmm/m/it/10.95 dq :$
  []
 
 
-Overfull \hbox (75.91171pt too wide) in paragraph at lines 66--105
-\T1/cmr/m/n/10.95 terms yields; []d$\OT1/cmr/m/n/10.95 ^^@ = [][] [][] [] [] []
-\OML/cmm/m/it/10.95 dq[]d\OT1/cmr/m/n/10.95 
+Overfull \hbox (46.8144pt too wide) in paragraph at lines 49--88
+\T1/cmr/m/n/10.95 yields; []d$\OT1/cmr/m/n/10.95 ^^@ = [][] [][] [] [] []\OML/c
+mm/m/it/10.95 dq[]d\OT1/cmr/m/n/10.95 
 []\OML/cmm/m/it/10.95 d\OT1/cmr/m/n/10.95 
 [] \OML/cmm/m/it/10.95 ;$
  []
 
 
-Overfull \hbox (98.19115pt too wide) in paragraph at lines 66--105
+Overfull \hbox (87.62209pt too wide) in paragraph at lines 49--88
 \T1/cmr/m/n/10.95 plac-ing $\OML/cmm/m/it/10.95 e[] \OT1/cmr/m/n/10.95 = 4\OML/
-cmm/m/it/10.95 ^^Y$ \T1/cmr/m/n/10.95 trans-forms Eq. 1.2.2[] into; []d$\OT1/c
-mr/m/n/10.95 ^^@ = [][][] [][] [] [] []\OML/cmm/m/it/10.95 dq[] ;$
+cmm/m/it/10.95 ^^Y$ \T1/cmr/m/n/10.95 trans-forms Eq. [] into; []d$\OT1/cmr/m/
+n/10.95 ^^@ = [][][] [][] [] [] []\OML/cmm/m/it/10.95 dq[] ;$
  []
 
 
-Overfull \hbox (118.74957pt too wide) in paragraph at lines 66--105
+Overfull \hbox (118.74957pt too wide) in paragraph at lines 49--88
 \T1/cmr/m/n/10.95 which can be sim-pli-fied fur-ther to; []d$\OT1/cmr/m/n/10.95
  ^^@ = [] [][] [][] [] [][] \OML/cmm/m/it/10.95 dq[] :$
  []
 
 [3]
 
-LaTeX Warning: Reference `eq:piz.gg.decay.final' on page 4 undefined on input l
-ine 106.
+LaTeX Warning: Reference `eq:eeg.final' on page 4 undefined on input line 89.
 
 
 ! LaTeX Error: Environment align undefined.
@@ -1278,8 +1317,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.107 \begin{align}
-                   \label{eq:eeg.final}
+l.90 \begin{align}
+                  \label{eq:eeg.final}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -1287,16 +1326,16 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.108 \frac{d\Gamma}{\Gamma_{\gamma\gamma} dq^2}
-                                                 = \frac{2 \alpha}{3 \pi} \f...
+l.91 \frac{d\Gamma}{\Gamma_{\gamma\gamma} dq^2}
+                                                = \frac{2 \alpha}{3 \pi} \fr...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.108 \frac{d\Gamma}{\Gamma_{\gamma\gamma} dq^2}
-                                                 = \frac{2 \alpha}{3 \pi} \f...
+l.91 \frac{d\Gamma}{\Gamma_{\gamma\gamma} dq^2}
+                                                = \frac{2 \alpha}{3 \pi} \fr...
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
@@ -1306,16 +1345,16 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.108 \frac{d\Gamma}{\Gamma_{\gamma\gamma} dq^2}
-                                                 = \frac{2 \alpha}{3 \pi} \f...
+l.91 \frac{d\Gamma}{\Gamma_{\gamma\gamma} dq^2}
+                                                = \frac{2 \alpha}{3 \pi} \fr...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Extra }, or forgotten $.
 \frac #1#2->{\begingroup #1\endgroup \over #2}
                                               
-l.108 \frac{d\Gamma}{\Gamma_{\gamma\gamma} dq^2}
-                                                 = \frac{2 \alpha}{3 \pi} \f...
+l.91 \frac{d\Gamma}{\Gamma_{\gamma\gamma} dq^2}
+                                                = \frac{2 \alpha}{3 \pi} \fr...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
 you forgot something else, as in `\hbox{$x}'. In such cases
@@ -1329,8 +1368,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.109 \end{align}
-                 
+l.92 \end{align}
+                
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -1338,8 +1377,8 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.109 \end{align}
-                 
+l.92 \end{align}
+                
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
@@ -1349,8 +1388,8 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.109 \end{align}
-                 
+l.92 \end{align}
+                
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
@@ -1358,7 +1397,13 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-LaTeX Warning: Citation `KrollWada' on page 4 undefined on input line 110.
+LaTeX Warning: Citation `KrollWada' on page 4 undefined on input line 93.
+
+
+Overfull \hbox (2.46306pt too wide) in paragraph at lines 89--94
+\T1/cmr/m/n/10.95 Eq. 1.2.2[], there-fore; []d$\OT1/cmr/m/n/10.95 ^^@$$[]$ \T1/
+cmr/m/n/10.95 which
+ []
 
 
 ! LaTeX Error: Environment align undefined.
@@ -1367,8 +1412,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.113 \begin{align}
-                   
+l.96 \begin{align}
+                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -1376,16 +1421,16 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.114 \frac{d\sigma}{dq^{2}}
-                             = \left[\frac{d\sigma}{dq^{2}}\right]_{\text{po...
+l.97 \frac{d\sigma}{dq^{2}}
+                            = \left[\frac{d\sigma}{dq^{2}}\right]_{\text{poi...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.114 \frac{d\sigma}{dq^{2}}
-                             = \left[\frac{d\sigma}{dq^{2}}\right]_{\text{po...
+l.97 \frac{d\sigma}{dq^{2}}
+                            = \left[\frac{d\sigma}{dq^{2}}\right]_{\text{poi...
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
@@ -1395,16 +1440,16 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.114 \frac{d\sigma}{dq^{2}}
-                             = \left[\frac{d\sigma}{dq^{2}}\right]_{\text{po...
+l.97 \frac{d\sigma}{dq^{2}}
+                            = \left[\frac{d\sigma}{dq^{2}}\right]_{\text{poi...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Extra }, or forgotten $.
 \frac #1#2->{\begingroup #1\endgroup \over #2}
                                               
-l.114 \frac{d\sigma}{dq^{2}}
-                             = \left[\frac{d\sigma}{dq^{2}}\right]_{\text{po...
+l.97 \frac{d\sigma}{dq^{2}}
+                            = \left[\frac{d\sigma}{dq^{2}}\right]_{\text{poi...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
 you forgot something else, as in `\hbox{$x}'. In such cases
@@ -1412,7 +1457,7 @@ the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
 ! Undefined control sequence.
-l.114 ...left[\frac{d\sigma}{dq^{2}}\right]_{\text
+l.97 ...\left[\frac{d\sigma}{dq^{2}}\right]_{\text
                                                   {pointlike}}\left| F(q^{2}...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1427,8 +1472,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.115 \end{align}
-                 
+l.98 \end{align}
+                
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -1436,8 +1481,8 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.115 \end{align}
-                 
+l.98 \end{align}
+                
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
@@ -1447,8 +1492,8 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.115 \end{align}
-                 
+l.98 \end{align}
+                
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
@@ -1462,7 +1507,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.117 \begin{align}
+l.100 \begin{align}
                    
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1471,7 +1516,7 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.118 F(q^
+l.101 F(q^
           {2}) = [1-\frac{q^{2}}{\Lambda^{2}}]^{-1} \nonumber
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1483,7 +1528,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.119 \end{align}
+l.102 \end{align}
                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1492,7 +1537,7 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.119 \end{align}
+l.102 \end{align}
                  
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1501,7 +1546,7 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 ! Undefined control sequence.
-l.121 ...in $\ell$H$_2$, the total amount of \epem
+l.104 ...in $\ell$H$_2$, the total amount of \epem
                                                    pairs produced via photon...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1509,19 +1554,19 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-)) [4] (./Meson_Proposal.aux)
+))) [4] (./Meson_Proposal.aux)
 
 LaTeX Warning: There were undefined references.
 
 
-LaTeX Warning: There were multiply-defined labels.
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 2599 strings out of 493117
- 36826 string characters out of 6135433
+ 2611 strings out of 493117
+ 37042 string characters out of 6135433
  115680 words of memory out of 5000000
- 6053 multiletter control sequences out of 15000+600000
+ 6062 multiletter control sequences out of 15000+600000
  19985 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  44i,10n,43p,1435b,430s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1553,7 +1598,7 @@ pe1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2014/texmf-dist/fonts/type
 1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/
 public/cm-super/sfrm1440.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/pu
 blic/cm-super/sfrm1728.pfb>
-Output written on Meson_Proposal.pdf (4 pages, 339448 bytes).
+Output written on Meson_Proposal.pdf (4 pages, 339539 bytes).
 PDF statistics:
  126 PDF objects out of 1000 (max. 8388607)
  92 compressed objects within 1 object stream

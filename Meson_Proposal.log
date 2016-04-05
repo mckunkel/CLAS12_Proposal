@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.3.18)  5 APR 2016 15:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.3.18)  5 APR 2016 15:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -369,15 +369,16 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [1{/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 ]
-[2] (./Meson_Proposal.aux) ) 
+(./Intro.tex) (./Motivation.tex) (./Measurement.tex) (./Summary.tex) [2]
+[3] (./Meson_Proposal.aux) ) 
 Here is how much of TeX's memory you used:
- 2547 strings out of 493117
- 36080 string characters out of 6135433
+ 2565 strings out of 493117
+ 36290 string characters out of 6135433
  105680 words of memory out of 5000000
- 6015 multiletter control sequences out of 15000+600000
- 15405 words of font info for 39 fonts, out of 8000000 for 9000
+ 6018 multiletter control sequences out of 15000+600000
+ 17739 words of font info for 42 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 44i,10n,43p,1435b,430s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 44i,10n,43p,1433b,430s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips
 /cm-super/cm-super-t1.enc}</usr/local/texlive/2014/texmf-dist/fonts/type1/publi
 c/amsfonts/cm/cmex10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public
@@ -389,17 +390,20 @@ ts/cm/cmsy10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmsy6.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmsy7.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm
 /cmsy8.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfbx
-1000.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfrm08
-00.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfrm0900
-.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfrm1000.p
-fb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb
-></usr/local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><
-/usr/local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></u
-sr/local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb>
-Output written on Meson_Proposal.pdf (2 pages, 171052 bytes).
+1000.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfbx10
+95.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfbx1200
+.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfbx1440.p
+fb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb
+></usr/local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb><
+/usr/local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></u
+sr/local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr
+/local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/l
+ocal/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/loc
+al/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb>
+Output written on Meson_Proposal.pdf (3 pages, 240901 bytes).
 PDF statistics:
- 80 PDF objects out of 1000 (max. 8388607)
- 58 compressed objects within 1 object stream
+ 95 PDF objects out of 1000 (max. 8388607)
+ 69 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

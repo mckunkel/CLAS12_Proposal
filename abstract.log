@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.3.18)  1 APR 2016 14:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.3.18)  5 APR 2016 15:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -295,49 +295,49 @@ e
 \c@tabnotecount=\count103
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Calculating math sizes for size <18> on input line 23.
-LaTeX Font Info:    Try loading font information for U+txmia on input line 23.
+LaTeX Font Info:    Calculating math sizes for size <18> on input line 25.
+LaTeX Font Info:    Try loading font information for U+txmia on input line 25.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/txfonts/utxmia.fd
 File: utxmia.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsya on input line 23.
+LaTeX Font Info:    Try loading font information for U+txsya on input line 25.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/txfonts/utxsya.fd
 File: utxsya.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsyb on input line 23.
+LaTeX Font Info:    Try loading font information for U+txsyb on input line 25.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/txfonts/utxsyb.fd
 File: utxsyb.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsyc on input line 23.
+LaTeX Font Info:    Try loading font information for U+txsyc on input line 25.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/txfonts/utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Calculating math sizes for size <14> on input line 23.
+LaTeX Font Info:    Calculating math sizes for size <14> on input line 25.
 
-Underfull \hbox (badness 10000) in paragraph at lines 25--33
+Underfull \hbox (badness 10000) in paragraph at lines 27--35
 
  []
 
-LaTeX Font Info:    Try loading font information for OMS+txr on input line 34.
+LaTeX Font Info:    Try loading font information for OMS+txr on input line 36.
 (/usr/local/texlive/2014/texmf-dist/tex/latex/txfonts/omstxr.fd
 File: omstxr.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `OMS/txr/m/n' in size <9> not available
-(Font)              Font shape `OMS/txsy/m/n' tried instead on input line 34.
+(Font)              Font shape `OMS/txsy/m/n' tried instead on input line 36.
  [1{/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./a
 bstract.aux) ) 
 Here is how much of TeX's memory you used:
- 3870 strings out of 493117
- 56147 string characters out of 6135433
- 114363 words of memory out of 5000000
- 7273 multiletter control sequences out of 15000+600000
+ 3873 strings out of 493117
+ 56181 string characters out of 6135433
+ 114366 words of memory out of 5000000
+ 7276 multiletter control sequences out of 15000+600000
  50695 words of font info for 130 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,5n,38p,1412b,205s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,5n,38p,1411b,205s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/base/8r.enc}<
 /usr/local/texlive/2014/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/l
 ocal/texlive/2014/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/local/te
@@ -346,7 +346,7 @@ xlive/2014/texmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/local/texlive/2
 mf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2014/texmf-dist/fo
 nts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/
 urw/times/utmri8a.pfb>
-Output written on abstract.pdf (1 page, 51321 bytes).
+Output written on abstract.pdf (1 page, 52271 bytes).
 PDF statistics:
  37 PDF objects out of 1000 (max. 8388607)
  26 compressed objects within 1 object stream

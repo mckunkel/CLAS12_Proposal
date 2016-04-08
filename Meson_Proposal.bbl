@@ -34,4 +34,15 @@ Norman~M. Kroll and Walter Wada.
   gamma rays.
 \newblock {\em Phys. Rev.}, 98:1355--1359, Jun 1955.
 
+\bibitem{peskin}
+M.E. Peskin and D.V. Schroeder.
+\newblock {\em An Introduction to Quantum Field Theory}.
+\newblock Advanced book classics. Addison-Wesley Publishing Company, 1995.
+
+\bibitem{halzen}
+F.~Halzen and A.D. Martin.
+\newblock {\em Quarks and leptons: an introductory course in modern particle
+  physics}.
+\newblock Wiley, 1984.
+
 \end{thebibliography}

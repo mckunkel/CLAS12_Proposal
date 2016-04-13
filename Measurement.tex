@@ -3,9 +3,20 @@ Here I will write about how we plan on using CLAS12
 \subsection{Previous CLAS6 analysis}
 \subsection{Simulating}
 Write about using PLUTO++
-\subsection{Lepton Acceptance}
+\subsection{Lepton Acceptance}\label{sec.acceptance}
 Write about the acceptance
 \subsection{Calculating Expected Yield}
-\subsubsection{Calculating Virtual Photon Flux}
-Expected yield
+\subsubsection{Calculating Photon Flux}\label{sec:calflux}
+A simple method for calculating the photon flux in CLAS12 is as follows; Using the fact that g12 had a photon flux of $7\cdot 10^7 \mathrm{\gamma/s}$ on a Au radiator of $10^{-4} \chi_0$ an expected $\sim 4\cdot 10^9  \mathrm{\gamma/s}$ will be seen in CLAS12 at ${\cal L} = 10^{35}\mathrm{cm^{-2}s^{-1}}$
+\subsubsection{Calculating Yield}
+The average number of \etaDal \ expected in CLAS12 can be calculated as:
+\begin{align}
+\bar{N}(\epem)_{\etaP \to \epem \gamma} = \Phi \epsilon(\epem)\bar{\sigma} \rho_{\ell_{H_2}}\ell_{target}N_A \frac{\Gamma_{\mathrm{tot} \etaP}}{\Gamma_{\etaP \to \epem \gamma}}\ ,
+\end{align}
+where $\Phi$ is the photon flux estimated in Sec.~\ref{sec:calflux}, $\epsilon$ is the acceptance, $\bar{\sigma}$ is the average cross-section, $\rho_{\ell_{H_2}}$ is the atomic density of $\ell_{H_2}$, $\ell_{target}$ is the target length, $N_A$ is Avogadro's constant, and $\frac{\Gamma_{\mathrm{tot} \etaP}}{\Gamma_{\etaP \to \epem \gamma}}$ is the total branching fraction of \etaTP \  decaying into $\epem \gamma$.
+Using the lepton acceptance shown is Sec.~\ref{sec.acceptance} the average number of \etaTP \  per $M(\epem)$ can be seen in Fig.~\ref{fig:etayield}.
+\missingfigure[figwidth=6cm]{etap yield}\label{fig:etayield}\\
+Integrating the $M(\epem)$ expected yield calculates to be $\sim 30,414$ events for inclusive $ep\to e'\etaP (p) \to e'\epem \gamma(p)$ and $\sim 3,415$ events for exclusive $ep\to e'\etaP p \to e'\epem \gamma p$, and increase of $\sim$35 and $\sim$3.5 respectively to the most statistically reported data sample by BESIII. 
 \subsection{Realistic Yield}
+As a reality check, lets compute the number of $\etaP \to \epem \gamma$ that g12 would have seen, had the experiment ran for 80 days with the \epemT trigger configuration with a real photon flux as calculated for CLAS12.
+The 89 $\etaP \to \epem \gamma$ events produced in g12 were recorded when the \epemT trigger was established. This time was 66\% of the total 44 days, which is $\sim29$ days. The total integrated flux measured during this time was $\sim 8.8\cdot 10^{13} \gamma \mathrm{'s}$, therefore in 80 days the total integrated flux would have been $\sim 2.4\cdot 10^{14}$ and the total number of \etaPDal \ events recorded would have been 242. The ratio of g12 total flux at 80 days per CLAS12 real photon flux is $2.73\cdot 10^{16} / 2.4\cdot 10^{14} \sim 114 $. Therefore g12 would have recorded $114\cdot 242 = 27590$ \etaPDal events, which is consistent with what is proposed to be measured in the inclusive measurement of the analysis.

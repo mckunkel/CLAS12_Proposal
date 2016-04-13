@@ -10,6 +10,8 @@
 \usepackage{todonotes}
 \usepackage{amsmath}
 \usepackage{slashed}
+\usepackage{graphicx}
+\usepackage{todonotes}
 \newcommand*\samethanks[1][\value{footnote}]{\footnotemark[#1]}
 \title{Transition Form Factors of the $\eta^{\prime}$ and $\phi$ Mesons with CLAS12}
 \date{}
@@ -22,7 +24,10 @@
 \affil[1]{Forschungszentrum J\"ulich, J\"ulich (Germany)}
 \affil[2]{Old Dominion University (U.S.A.)}
 \renewcommand\Authands{, }
-
+\renewcommand{\includegraphics}[2][]{%
+	\setlength{\fboxsep}{-\fboxrule}% Remove frame separator/gap
+	\framebox{\rule{0pt}{100pt}\rule{50pt}{0pt}}% Framed box of 150pt x 100pt
+}
 \fancypagestyle{firststyle}
 {
 	\fancyhf{}
@@ -51,12 +56,12 @@
 \def\etaP{\eta^{\prime}}
 \def\etaTP{$\eta^{\prime}  $}
  \def\etaPDal{$\eta^{\prime} \rightarrow e^+e^- \gamma  $}
- 
+
  \def\phiT{$\phi  $}
  \def\phiDal{$\phi \rightarrow e^+e^- \eta  $}
 
- \def\epem{$ e^+e^-  $}
-
+ \def\epemT{$ e^+e^-  $}
+ \def\epem{e^+e^-}
 
 
 \def\grpath{figures}
@@ -78,6 +83,7 @@ by using the PCAL and EC. Consequently, the photon in the process $\eta^{\prime}
 \input{Motivation}
 \input{Kinematics}
 \input{Measurement}
+\input{BeamTime_Request}
 \input{Summary}
 %\input{Appendix}
 

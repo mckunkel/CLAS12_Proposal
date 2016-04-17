@@ -1,7 +1,7 @@
 \section{Measurement}\label{sec:measurement}
-Here I will write about how we plan on using CLAS12
+This section will describe the previous CLAS preliminary result on the \etaTP \ analysis performed with the g12 experiment. Also in this section is a description on how the \etaDal \ and \ \phiDal \ were simulated and reconstructed for this CLAS12 proposal.
 \subsection{Previous CLAS analyses}
-The g12 experiment performed at CLAS produced data set of photon-induced reactions. Fortunately, the Cherenkov Counters(CC) were filled with perflourbutane ($C_4F_{10}$) and a trigger consisting of a coincidence between the (ST$\cdot$TOF)(CC$\cdot$EC) allowing the study of dilepton reactions throughout the entire beam energy range $1.15 \ \mathrm{GeV}<E_\gamma<5.45 \ \mathrm{GeV}}$. Preliminary analyses of g12 involving dileptons include the decays:
+The g12 experiment performed at CLAS produced data set of photon-induced reactions. Fortunately, the Cherenkov Counters(CC) were filled with perflourbutane ($C_4F_{10}$) and a trigger consisting of a coincidence between the (ST$\cdot$TOF)(CC$\cdot$EC) allowing the study of dilepton reactions throughout the entire beam energy range $1.15 \ \mathrm{GeV}<E_\gamma <5.45 \ \mathrm{GeV}$. Preliminary analyses of g12 involving dileptons include the decays:
 \begin{itemize}
 \item $\Delta \to p \epem$ (Transition form factor)
 \item $\eta \to \epem \gamma$ (Transition form factor)
@@ -14,13 +14,13 @@ while advanced analyses involving dileptons include:
 \item $\omega \to \epem \piz$ (Transition form factor)
 \item $\etaP \to \epem \gamma$ (Transition form factor / branching ratio)
 \end{itemize}
-\subsection{Simulating}
-Write about using PLUTO++
+\subsection{Simulating and Reconstruction}
+To simulate \etaPR \ and \phiPR \ the program PLUTO++~\cite{PLUTO} was utilize for its ability to simulate the decays of the \etaPDal \ and \phiDal \ according to QED, Vector Meson Dominance or a user inputted TFF. For reconstruction of the desired topologies, the CLAS12 FASTMC was used, in which $10^7$ events were generated for \etaPDal \ and \phiDal and then simulated with FASTMC at 75\% torus field. An extra simulation was performed for the tour field setting of 50\% to show the effects of the magnetic field o the lepton acceptance.
 \subsection{Lepton Acceptance}\label{sec.acceptance}
 Write about the acceptance
 \subsection{Calculating Expected Yield}
 \subsubsection{Calculating Photon Flux}\label{sec:calflux}
-A simple method for calculating the photon flux in CLAS12 is as follows; Using the fact that g12 had a photon flux of $7\cdot 10^7 \mathrm{\gamma/s}$ on a Au radiator of $10^{-4} \chi_0$ an expected $\sim 4\cdot 10^9  \mathrm{\gamma/s}$ will be seen in CLAS12 at ${\cal L} = 10^{35}\mathrm{cm^{-2}s^{-1}}$ on a 5~cm $\ell H_2$ target.
+A simple method for calculating the photon flux in CLAS12 is as follows; Using the fact that g12 had a photon flux of $7\cdot 10^7 \mathrm{\gamma/s}$ on a Au radiator of $10^{-4} \chi_0$ an expected $\sim 4\cdot 10^9  \mathrm{\gamma/s}$ will be seen in CLAS12 at ${\cal L} = 10^{35}\mathrm{cm^{-2}s^{-1}}$ on a 5~cm $\ell H_2$ target which is $\sim 5.7\cdot 10^{-3} \chi_0$. This number has been independently confirmed in a previous CLAS proposal~\cite{clas.proposal.meson}.
 \subsubsection{Calculating Yield}
 The average number of \etaDal \ expected in CLAS12 can be calculated as:
 \begin{align}

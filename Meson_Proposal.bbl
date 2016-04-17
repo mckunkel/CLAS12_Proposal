@@ -34,6 +34,29 @@ Norman~M. Kroll and Walter Wada.
   gamma rays.
 \newblock {\em Phys. Rev.}, 98:1355--1359, Jun 1955.
 
+\bibitem{clas.proposal.eta}
+P.~Stoler et~al.
+\newblock Hard exclusive electroproduction of pi0 and eta with clas12.
+\newblock Technical report, \texttt{CLAS} Analysis Proposal
+  \texttt{E12-06-108}, 2011.
+
+\bibitem{clas.proposal.phi}
+P.~Stoler et~al.
+\newblock Exclusive phi meson electroproduction with clas12.
+\newblock Technical report, \texttt{CLAS} Analysis Proposal
+  \texttt{E12-12-007}, 2012.
+
+\bibitem{PLUTO}
+I.~Frohlich, I.~Froehlich, Lorenzo Cazon, T.~Galatyuk, V.~Hejny, et~al.
+\newblock {Pluto: A Monte Carlo Simulation Tool for Hadronic Physics}.
+\newblock {\em PoS}, ACAT2007:076, 2007.
+
+\bibitem{clas.proposal.meson}
+M.~Battaglieri et~al.
+\newblock Meson spectroscopy with low q2 electron scattering in clas12.
+\newblock Technical report, \texttt{CLAS} Analysis Proposal
+  \texttt{E12-11-005}, 2010.
+
 \bibitem{peskin}
 M.E. Peskin and D.V. Schroeder.
 \newblock {\em An Introduction to Quantum Field Theory}.

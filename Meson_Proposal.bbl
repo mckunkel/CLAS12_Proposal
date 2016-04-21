@@ -1,94 +1,53 @@
-\begin{thebibliography}{10}
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.5 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
 
-\bibitem{Dalitz}
-R~H Dalitz.
-\newblock On an alternative decay process for the neutral $\pi^{0}$-meson.
-\newblock {\em Proceedings of the Physical Society. Section A}, 64(7):667,
-  1951.
 
-\bibitem{Lord}
-J.~J. Lord, Joseph Fainberg, D.~M. Haskin, and Marcel Schein.
-\newblock Narrow angle pairs of particles from nuclear interactions.
-\newblock {\em Phys. Rev.}, 87:538--539, Aug 1952.
+\refsection{0}
+  \sortlist{}{}
+    \entry{Dalitz}{article}{}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+    \endentry
+    \entry{Lord}{article}{}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+    \endentry
+    \entry{Samios}{article}{}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+    \endentry
+    \entry{Lindenfeld}{article}{}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+    \endentry
+    \entry{Sargent}{article}{}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+    \endentry
+    \entry{KrollWada}{article}{}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+    \endentry
+    \entry{PLUTO}{article}{}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+    \endentry
+  \endsortlist
+\endrefsection
+\endinput
 
-\bibitem{Samios}
-N.~P. Samios.
-\newblock Dynamics of internally converted electron-positron pairs.
-\newblock {\em Phys. Rev.}, 121:275--281, Jan 1961.
-
-\bibitem{Lindenfeld}
-P.~{Lindenfeld}, A.~{Sachs}, and J.~{Steinberger}.
-\newblock {The Internal Pair Production of {$\gamma$}-Rays of Mesonic Origin;
-  Alternate Modes of {$\pi$}$^{0}$ Decay}.
-\newblock {\em Physical Review}, 89:531--537, February 1953.
-
-\bibitem{Sargent}
-C.~P. Sargent, R.~Cornelius, M.~Rinehart, L.~M. Lederman, and K.~Rogers.
-\newblock Diffusion cloud-chamber study of very slow mesons. i. internal pair
-  formation.
-\newblock {\em Phys. Rev.}, 98:1349--1354, Jun 1955.
-
-\bibitem{KrollWada}
-Norman~M. Kroll and Walter Wada.
-\newblock Internal pair production associated with the emission of high-energy
-  gamma rays.
-\newblock {\em Phys. Rev.}, 98:1355--1359, Jun 1955.
-
-\bibitem{clas.proposal.eta}
-P.~Stoler et~al.
-\newblock Hard exclusive electroproduction of pi0 and eta with clas12.
-\newblock Technical report, \texttt{CLAS} Analysis Proposal
-  \texttt{E12-06-108}, 2011.
-
-\bibitem{clas.proposal.phi}
-P.~Stoler et~al.
-\newblock Exclusive phi meson electroproduction with clas12.
-\newblock Technical report, \texttt{CLAS} Analysis Proposal
-  \texttt{E12-12-007}, 2012.
-
-\bibitem{PLUTO}
-I.~Frohlich, I.~Froehlich, Lorenzo Cazon, T.~Galatyuk, V.~Hejny, et~al.
-\newblock {Pluto: A Monte Carlo Simulation Tool for Hadronic Physics}.
-\newblock {\em PoS}, ACAT2007:076, 2007.
-
-\bibitem{clas.proposal.meson}
-M.~Battaglieri et~al.
-\newblock Meson spectroscopy with low q2 electron scattering in clas12.
-\newblock Technical report, \texttt{CLAS} Analysis Proposal
-  \texttt{E12-11-005}, 2010.
-
-\bibitem{peskin}
-M.E. Peskin and D.V. Schroeder.
-\newblock {\em An Introduction to Quantum Field Theory}.
-\newblock Advanced book classics. Addison-Wesley Publishing Company, 1995.
-
-\bibitem{halzen}
-F.~Halzen and A.D. Martin.
-\newblock {\em Quarks and leptons: an introductory course in modern particle
-  physics}.
-\newblock Wiley, 1984.
-
-\bibitem{pdg2014}
-K.A.~Olive et~al.
-\newblock Review of particle physics.
-\newblock {\em Phys. Rev. C}, 38:090001, 2014.
-
-\bibitem{Hanhart2015}
-C.~Hanhart, A.~Kup{\'{s}}{\'{c}}, U.-G. Mei{\ss}ner, F.~Stollenwerk, and
-  A.~Wirzba.
-\newblock Erratum to: Dispersive analysis for $\eta \rightarrow \gamma \gamma
-  ^\star $.
-\newblock {\em The European Physical Journal C}, 75(6):1--3, 2015.
-
-\bibitem{BESIII}
-M.~Ablikim and et. al.
-\newblock Observation of the dalitz decay
-  $\ensuremath{\eta}\ensuremath{'}\ensuremath{\rightarrow}\ensuremath{\gamma}{e}^{+}{e}^{-}$.
-\newblock {\em Phys. Rev. D}, 92:012001, Jul 2015.
-
-\bibitem{landsberg}
-L.G. Landsberg.
-\newblock Electromagnetic decays of light mesons.
-\newblock {\em Physics Reports}, 128(6):301 -- 376, 1985.
-
-\end{thebibliography}

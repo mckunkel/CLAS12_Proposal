@@ -1,5 +1,115 @@
 \begin{thebibliography}{10}
 
+\bibitem{Jegerlehner:2009ry}
+Fred Jegerlehner and Andreas Nyffeler.
+\newblock {The Muon g-2}.
+\newblock {\em Phys. Rept.}, 477:1--110, 2009.
+
+\bibitem{Blum:2013xva}
+Thomas Blum, Achim Denig, Ivan Logashenko, Eduardo de~Rafael, B.~Lee~Roberts,
+  Thomas Teubner, and Graziano Venanzoni.
+\newblock {The Muon (g-2) Theory Value: Present and Future}.
+\newblock 2013.
+
+\bibitem{Bennett:2006fi}
+G.~W. Bennett et~al.
+\newblock {Final Report of the Muon E821 Anomalous Magnetic Moment Measurement
+  at BNL}.
+\newblock {\em Phys. Rev.}, D73:072003, 2006.
+
+\bibitem{Davier:2010nc}
+Michel Davier, Andreas Hoecker, Bogdan Malaescu, and Zhiqing Zhang.
+\newblock {Reevaluation of the Hadronic Contributions to the Muon g-2 and to
+  alpha(MZ)}.
+\newblock {\em Eur. Phys. J.}, C71:1515, 2011.
+\newblock [Erratum: Eur. Phys. J.C72,1874(2012)].
+
+\bibitem{Hagiwara:2011af}
+Kaoru Hagiwara, Ruofan Liao, Alan~D. Martin, Daisuke Nomura, and Thomas
+  Teubner.
+\newblock {(g-2)$_mu$ and alpha(M$\mathrm{_Z^2}$) re-evaluated using new
+  precise data}.
+\newblock {\em J. Phys.}, G38:085003, 2011.
+
+\bibitem{Grange:2015fou}
+J.~Grange et~al.
+\newblock {Muon (g-2) Technical Design Report}.
+\newblock 2015.
+
+\bibitem{Saito:2012zz}
+Naohito Saito.
+\newblock {A novel precision measurement of muon g-2 and EDM at J-PARC}.
+\newblock {\em AIP Conf. Proc.}, 1467:45--56, 2012.
+
+\bibitem{Bijnens:2007pz}
+Johan Bijnens and Joaquim Prades.
+\newblock {The Hadronic Light-by-Light Contribution to the Muon Anomalous
+  Magnetic Moment: Where do we stand?}
+\newblock {\em Mod. Phys. Lett.}, A22:767--782, 2007.
+
+\bibitem{Gattringer:2010zz}
+Christof Gattringer and Christian~B. Lang.
+\newblock {Quantum chromodynamics on the lattice}.
+\newblock {\em Lect. Notes Phys.}, 788:1--343, 2010.
+
+\bibitem{Blum:2014oka}
+Thomas Blum, Saumitra Chowdhury, Masashi Hayakawa, and Taku Izubuchi.
+\newblock {Hadronic light-by-light scattering contribution to the muon
+  anomalous magnetic moment from lattice QCD}.
+\newblock {\em Phys. Rev. Lett.}, 114(1):012001, 2015.
+
+\bibitem{Colangelo:2014dfa}
+Gilberto Colangelo, Martin Hoferichter, Massimiliano Procura, and Peter
+  Stoffer.
+\newblock {Dispersive approach to hadronic light-by-light scattering}.
+\newblock {\em JHEP}, 09:091, 2014.
+
+\bibitem{Pauk:2014rfa}
+Vladyslav Pauk and Marc Vanderhaeghen.
+\newblock {Anomalous magnetic moment of the muon in a dispersive approach}.
+\newblock {\em Phys. Rev.}, D90(11):113012, 2014.
+
+\bibitem{Colangelo:2014pva}
+Gilberto Colangelo, Martin Hoferichter, Bastian Kubis, Massimiliano Procura,
+  and Peter Stoffer.
+\newblock {Towards a data-driven analysis of hadronic light-by-light
+  scattering}.
+\newblock {\em Phys. Lett.}, B738:6--12, 2014.
+
+\bibitem{Colangelo:2015ama}
+Gilberto Colangelo, Martin Hoferichter, Massimiliano Procura, and Peter
+  Stoffer.
+\newblock {Dispersion relation for hadronic light-by-light scattering:
+  theoretical foundations}.
+\newblock {\em JHEP}, 09:074, 2015.
+
+\bibitem{Adlarson:2011xb}
+P.~Adlarson et~al.
+\newblock {Exclusive Measurement of the $\eta \to \pi^+ \pi^- \gamma$ Decay}.
+\newblock {\em Phys. Lett.}, B707:243--249, 2012.
+
+\bibitem{Stollenwerk:2011zz}
+F.~Stollenwerk, C.~Hanhart, A.~Kupsc, U.~G. Meissner, and A.~Wirzba.
+\newblock {Model-independent approach to eta -> pi+ pi- gamma and eta' -> pi+
+  pi- gamma}.
+\newblock {\em Phys. Lett.}, B707:184--190, 2012.
+
+\bibitem{Hanhart:2013vba}
+C.~Hanhart, A.~Kup?c, U.~G. Meißner, F.~Stollenwerk, and A.~Wirzba.
+\newblock {Dispersive analysis for $\eta\to \gamma\gamma^*$}.
+\newblock {\em Eur. Phys. J.}, C73(12):2668, 2013.
+\newblock [Erratum: Eur. Phys. J.C75,no.6,242(2015)].
+
+\bibitem{Kubis:2015sga}
+Bastian Kubis and Judith Plenter.
+\newblock {Anomalous decay and scattering processes of the $\eta $ meson}.
+\newblock {\em Eur. Phys. J.}, C75(6):283, 2015.
+
+\bibitem{Xiao:2015uva}
+C.~W. Xiao, T.~Dato, C.~Hanhart, B.~Kubis, U.~G. Meißner, and A.~Wirzba.
+\newblock {Towards an improved understanding of eta --> gamma$^*$ gamma$^*$}.
+\newblock 2015.
+
 \bibitem{Dalitz}
 R~H Dalitz.
 \newblock On an alternative decay process for the neutral $\pi^{0}$-meson.
@@ -62,10 +172,91 @@ K.A.~Olive et~al.
 \newblock Review of particle physics.
 \newblock {\em Phys. Rev. C}, 38:090001, 2014.
 
+\bibitem{FARZ}
+F.~Farzanpay et~al.
+\newblock Measurement of the slope of the $\pi^0$ electromagnetic form factor.
+\newblock {\em Physics Letters B}, 278(4):413 -- 418, 1992.
+
+\bibitem{Berg}
+H.~Berghäuser et~al.
+\newblock Determination of the $\eta$-transition form factor in the reaction.
+\newblock {\em Physics Letters B}, 701(5):562 -- 567, 2011.
+
+\bibitem{A2}
+P.~Aguar-Bartolom\'e and others.
+\newblock New determination of the $\eta$ transition form factor in the dalitz
+  decay $\eta^{\prime} \rightarrow e^+e^- \gamma $ with the crystal ball/taps
+  detectors at the mainz microtron.
+\newblock {\em Phys. Rev. C}, 89:044608, Apr 2014.
+
+\bibitem{Ablikim:2015wnx}
+M.~Ablikim et~al.
+\newblock {Observation of the Dalitz Decay $\eta' \to \gamma e^+e^-$}.
+\newblock {\em Phys. Rev.}, D92(1):012001, 2015.
+
+\bibitem{Babusci:2014ldz}
+D.~Babusci et~al.
+\newblock {Study of the Dalitz decay $\phi \to \eta e^+e^-$ with the KLOE
+  detector}.
+\newblock {\em Phys. Lett.}, B742:1--6, 2015.
+
+\bibitem{Dzhelyadin:1980tj}
+R.~I. Dzhelyadin et~al.
+\newblock {Study of the Electromagnetic Transition Form-factor in $\omega \to
+  \pi^0 \mu^+ \mu^-$ Decay}.
+\newblock {\em Phys. Lett.}, B102:296, 1981.
+\newblock [JETP Lett.33,228(1981)].
+
+\bibitem{Arnaldi:2009aa}
+R.~Arnaldi et~al.
+\newblock {Study of the electromagnetic transition form-factors in eta ---> mu+
+  mu- gamma and omega ---> mu+ mu- pi0 decays with NA60}.
+\newblock {\em Phys. Lett.}, B677:260--266, 2009.
+
+\bibitem{Uras:2011zz}
+Antonio Uras.
+\newblock {Measurement of the $\eta$ and $\omega$ Dalitz decays transition form
+  factors in p-A collisions at 400 GeV/$c$ with the NA60 apparatus}.
+\newblock {\em J. Phys. Conf. Ser.}, 270:012038, 2011.
+
+\bibitem{Achasov:2013btb}
+M.~N. Achasov et~al.
+\newblock {Study of $e^+e^- \to \omega\pi^0 \to \pi^0\pi^0\gamma$ in the energy
+  range $1.05-2.00$ GeV with SND}.
+\newblock {\em Phys. Rev.}, D88(5):054013, 2013.
+
+\bibitem{Anastasi:2016bfh}
+A.~Anastasi et~al.
+\newblock {Measurement of the $\phi \to \pi^0 e^+e^-$ transition form factor
+  with the KLOE detector}.
+\newblock {\em Phys. Lett.}, B757:362--367, 2016.
+
+\bibitem{Achasov:2000ne}
+M.~N. Achasov et~al.
+\newblock {Study of Conversion Decays phi --> eta e+ e- and eta --> gamma e+ e-
+  in the Experiment with SND Detector at the VEPP-2M Collider}.
+\newblock {\em Phys. Lett.}, B504:275--281, 2001.
+
+\bibitem{Achasov:2002hs}
+M.~N. Achasov et~al.
+\newblock {Measurement of the phi --> pi0 e+ e- decay probability}.
+\newblock {\em JETP Lett.}, 75:449--451, 2002.
+\newblock [Pisma Zh. Eksp. Teor. Fiz.75,539(2002)].
+
+\bibitem{Akhmetshin:2000wi}
+R.~R. Akhmetshin et~al.
+\newblock {Observation of the conversion decay phi ---> pi0 e+ e- at CMD-2}.
+\newblock {\em Phys. Lett.}, B503:237--244, 2001.
+
 \bibitem{PLUTO}
 I.~Frohlich, I.~Froehlich, Lorenzo Cazon, T.~Galatyuk, V.~Hejny, et~al.
 \newblock {Pluto: A Monte Carlo Simulation Tool for Hadronic Physics}.
 \newblock {\em PoS}, ACAT2007:076, 2007.
+
+\bibitem{fastmc}
+CLAS software repository.
+\newblock Monte-carlo program to simulate clas12 detector response.
+\newblock Technical report.
 
 \bibitem{Williams}
 M.~Williams et~al.
@@ -76,9 +267,16 @@ M.~Williams et~al.
 
 \bibitem{clas.proposal.meson}
 M.~Battaglieri et~al.
-\newblock Meson spectroscopy with low q2 electron scattering in clas12.
+\newblock {Meson spectroscopy with low Q2 electron scattering in CLAS12}.
 \newblock Technical report, \texttt{CLAS} Analysis Proposal
   \texttt{E12-11-005}, 2010.
+
+\bibitem{clas.proposal.jpsi}
+P.~Nadel-Turonski et~al.
+\newblock {Timelike Compton Scattering and $J/\psi$ photoproduction on the
+  proton in e+e- pair production with CLAS12 at 11 GeV}.
+\newblock Technical report, \texttt{CLAS} Analysis Proposal
+  \texttt{E12-12-001}, 2012.
 
 \bibitem{peskin}
 M.E. Peskin and D.V. Schroeder.

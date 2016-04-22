@@ -1,21 +1,28 @@
 \select@language {english}
 \contentsline {section}{\numberline {1}Introduction}{3}{section.1}
-\contentsline {section}{\numberline {2}Motivation}{4}{section.2}
-\contentsline {section}{\numberline {3}Kinematics}{4}{section.3}
-\contentsline {subsection}{\numberline {3.1}The Dalitz Decay}{6}{subsection.3.1}
-\contentsline {subsection}{\numberline {3.2}Form Factor}{6}{subsection.3.2}
-\contentsline {subsection}{\numberline {3.3}Photon Conversion to $ e^+e^- $Pairs}{7}{subsection.3.3}
-\contentsline {subsection}{\numberline {3.4}Summary}{9}{subsection.3.4}
-\contentsline {section}{\numberline {4}Measurement}{10}{section.4}
-\contentsline {subsection}{\numberline {4.1}Previous CLAS analyses}{11}{subsection.4.1}
-\contentsline {subsection}{\numberline {4.2}Simulating and Reconstruction}{13}{subsection.4.2}
-\contentsline {subsubsection}{\numberline {4.2.1}Reconstruction And Acceptance}{13}{subsubsection.4.2.1}
-\contentsline {subsection}{\numberline {4.3}Calculating Expected Yield}{16}{subsection.4.3}
-\contentsline {subsubsection}{\numberline {4.3.1}Calculating Photon Flux}{16}{subsubsection.4.3.1}
-\contentsline {subsubsection}{\numberline {4.3.2}Calculating Yield}{17}{subsubsection.4.3.2}
-\contentsline {subsection}{\numberline {4.4}Realistic Yield}{18}{subsection.4.4}
-\contentsline {subsection}{\numberline {4.5}Acceptance at 100\% Torus field}{19}{subsection.4.5}
-\contentsline {section}{\numberline {5}Manpower}{20}{section.5}
-\contentsline {section}{\numberline {6}Beam Time Request}{20}{section.6}
-\contentsline {section}{BIBLIOGRAPHY}{21}{section*.19}
-\contentsline {section}{APPENDICES}{23}{section*.20}
+\contentsline {subsection}{\numberline {1.1}Motivation}{3}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}History}{5}{subsection.1.2}
+\contentsline {subsection}{\numberline {1.3}Proposal}{5}{subsection.1.3}
+\contentsline {section}{\numberline {2}Kinematics}{6}{section.2}
+\contentsline {subsection}{\numberline {2.1}The Dalitz Decay}{7}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Form Factor}{8}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}Photon Conversion to $ e^+e^- $Pairs}{10}{subsection.2.3}
+\contentsline {subsection}{\numberline {2.4}Summary}{12}{subsection.2.4}
+\contentsline {section}{\numberline {3}Measurement}{14}{section.3}
+\contentsline {subsection}{\numberline {3.1}Current Experimental Results}{15}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Previous CLAS analyses}{15}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}Simulation and Reconstruction}{16}{subsection.3.3}
+\contentsline {subsubsection}{\numberline {3.3.1}Trigger Requirements}{17}{subsubsection.3.3.1}
+\contentsline {subsubsection}{\numberline {3.3.2}Detection of $ e^+e^- $Events}{17}{subsubsection.3.3.2}
+\contentsline {subsubsection}{\numberline {3.3.3}Particle Identification}{17}{subsubsection.3.3.3}
+\contentsline {subsubsection}{\numberline {3.3.4}Acceptance}{17}{subsubsection.3.3.4}
+\contentsline {subsection}{\numberline {3.4}Calculating Expected Yield}{21}{subsection.3.4}
+\contentsline {subsubsection}{\numberline {3.4.1}Calculating Photon Flux}{21}{subsubsection.3.4.1}
+\contentsline {subsubsection}{\numberline {3.4.2}Calculating Yield}{21}{subsubsection.3.4.2}
+\contentsline {subsection}{\numberline {3.5}Realistic Yield}{22}{subsection.3.5}
+\contentsline {subsection}{\numberline {3.6}Acceptance at 100\% Torus field}{23}{subsection.3.6}
+\contentsline {subsection}{\numberline {3.7}Expected Systematic Uncertainties}{23}{subsection.3.7}
+\contentsline {section}{\numberline {4}Manpower}{24}{section.4}
+\contentsline {section}{\numberline {5}Beam Time Request}{24}{section.5}
+\contentsline {section}{BIBLIOGRAPHY}{25}{section*.20}
+\contentsline {section}{APPENDICES}{29}{section*.21}

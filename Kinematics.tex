@@ -51,28 +51,43 @@ Figure~\ref{fig:piz.alldecay} illustrates the Feynman diagrams for the pseudosca
   as derived as~\cite{landsberg}:
    An example of QED expectation for \etaTP  \ and $\phi$ is shown in Fig.~\ref{fig:dalitz_compare}.
   \subsection{Form Factor}
-  The form factor ${M}_P(p^2,k^2=0)$ or ${M}_P(p_{1}^2,p_{2}^2)$  can be written as follows:
+   It has been experimentally observed that the shape of the dilepton mass spectrum deviates significantly from the QED predictions, displaying a rise at larger dilepton mass. Therefore, the form factor ${M}_P(p^2,k^2=0)$ or ${M}_P(p_{1}^2,p_{2}^2)$  can be written as follows:
   \begin{align}
-  {M}_P \to {M}_P \times \left|F(q^2)\right| \ ,
+  {M}_P \to {M}_P' \times \left|F(q^2)\right| \ ,
   \end{align}
-  where $M_p$ is the decay constant of two photons or $\eta$ photon (as mentioned in Sec.~\ref{sec:piz.gg}), while $\left|F(q^2)\right|$ is called the transition form factor, which defines the electromagnetic space structure of the meson, therefore for the $\etaP \to e^+e^- \gamma$ the decay rate modifies as;
+  where $M_P'$ is the decay constant of two photons or $\eta$ photon (as mentioned in Sec.~\ref{sec:piz.gg}), while $\left|F(q^2)\right|$ is called the transition form factor, which defines the electromagnetic space structure of the meson. According to that, the $\etaP \to e^+e^- \gamma$ the decay rate modifies as;
   \begin{align}\label{eq:eegff.final}
   \frac{d\Gamma_{\epem \gamma}}{\Gamma_{\gamma\gamma} dq^2} = \frac{2 \alpha}{3 \pi} \frac{1}{q^2} \left( 1- \frac{q^2}{m_p^2}\right)^3 \left( 1+ \frac{2m_l^2}{q^2}\right) \left( 1- \frac{4m_l^2}{q^2}\right)^{\frac{1}{2}} \left|F(q^2)\right|^2 \ ,
   \end{align}
-  ,which is the Kroll-Wada equation founded in~\cite{KrollWada}, while the $\phi \to \eta e^+e^-$ decay rate modifies as;
+ while the $\phi \to \eta e^+e^-$ decay rate modifies as;
   \begin{align}
   \frac{d\Gamma_{\eta \epem}}{\Gamma_{\eta\gamma} dq^2} = \frac{\alpha}{3 \pi} \frac{1}{q^2} \left( \left(1+ \frac{q^2}{m_{\phi}^2 - m_{\eta}^2} \right)^2 - \frac{4 m_{\phi}^2 q^2}{m_{\phi}^2 - m_{\eta}^2}\right)^\frac{3}{2} \left( 1+ \frac{2m_l^2}{q^2}\right) \left( 1- \frac{4m_l^2}{q^2}\right)^{\frac{1}{2}} \left|F(q^2)\right|^2 \ ,
   \end{align}
-  
-  The value of $\left|F(q^2)\right|$ can be directly measured by comparison of the differential cross section with that of Q.E.D. pointlike differential cross section i.e.
+  First observations were described with standard vector meson dominance (VMD) where the virtual photon can stem from a intermediate vector mesons. 
+  The value of $\left|F(q^2)\right|$ can be directly measured by comparing QED predictions to the measured rate~\cite{landsberg}. 
   \begin{align}
-  \frac{d\sigma}{dq^{2}} = \left[\frac{d\sigma}{dq^{2}}\right]_{\text{pointlike}}\left| F(q^{2})\right| ^{2}\nonumber \ ,
+  \frac{d\Gamma(A\to B+l^+l^-)}{dq^2 \Gamma(A\to B\gamma)} = \left[\frac{d\Gamma}{dq^2}\right]_{\text{QED}} \cdot \left | F(q^2) \right |^2 
   \end{align}
-  or by performing a line shape analysis on the $l^{+}l^{-}$ invariant system using assumptions on the structure of $\left|F(q^2)\right|$. One such assumption for $\left|F(q^2)\right|$ is the dipole approximation, from the Vector Dominance Model (VMD), in which 
+  or by performing a line shape analysis on the $l^{+}l^{-}$ invariant mass using assumptions on the structure of $\left|F(q^2)\right|$. One such assumption for $\left|F(q^2)\right|$ is the dipole approximation from the VMD model, which can be parametrized as:
   \begin{align}
-  F(q^{2}) = \frac{\Lambda^2(\Lambda^2 + \gamma^2)}{(\Lambda^{2} - q^2) + \Lambda^2\gamma^2 } \nonumber
+  F(q^2) = \frac{1}{1-q^2/\Lambda^2} 
   \end{align}
-  where the parameters $\Lambda$ and $\gamma$ correspond to the mass and width of the Breit-Wigner shape for the effective contributing vector meson. A first approximation is that $\Lambda \approx M_{\rho} \approx 0.7$~GeV and $\gamma \approx \Gamma_{\rho}  \approx 0.12$~GeV. A comparison showing the QED spectra and the deviation from QED using the VMD parameterization is shown in Fig.~\ref{fig:dalitz_compare} for \etaTP  \ and $\phi$.
+   where the parameter $\Lambda$ corresponds to the mass for the effective contributing vector meson.
+%  , in which 
+%  \begin{align}
+%  F(q^{2}) = \frac{\Lambda^2(\Lambda^2 + \gamma^2)}{(\Lambda^{2} - q^2) + \Lambda^2\gamma^2 } \nonumber
+%  \end{align}
+%  where the parameters $\Lambda$ and $\gamma$ correspond to the mass and width of the Breit-Wigner shape for the effective contributing vector meson. A first approximation is that $\Lambda \approx M_{\rho} \approx 0.7$~GeV and $\gamma \approx \Gamma_{\rho}  \approx 0.12$~GeV. A comparison showing the QED spectra and the deviation from QED using the VMD parameterization is shown in Fig.~\ref{fig:dalitz_compare} for \etaTP  \ and $\phi$.
+
+ The slope of the transition form factor, $b$, is defined as:
+\begin{align}
+b \equiv \frac{dF}{dq^2}|_{q^2=0}.
+\end{align}
+and characterizes the intrinsic spatial charge radius for the $\etaP$ meson, and the $\phi \to \eta$ transition for the $\phi$ meson.
+
+
+
+
  \begin{figure}[h!]\begin{center}
  		\subfloat[$\etaP$ Dalitz spectra][]{ %Feynman diagram of $\etaP$ two photon decay
  			\includegraphics[width=0.8\columnwidth,height=1.0\qfigheight]{\grpath/decays/etaP_Dalitz_QED_FF_comparePlot.pdf}\label{fig:etap_dalitz_conpare}
@@ -84,7 +99,7 @@ Figure~\ref{fig:piz.alldecay} illustrates the Feynman diagrams for the pseudosca
  		}
  		\caption[Dalitz  for \etaTP \ and $\phi$]{\label{fig:dalitz_compare}Example of Dalitz spectra for \etaTP \ using only QED(red) and the deviation from QED using the VMD parameterization(blue) with 500K Dalitz events generated~\subref{fig:etap_dalitz_w_conversion}.  Example of Dalitz  spectra for $\phi$ using only QED(red) and the deviation from QED using the VMD parameterization(blue)  with 500K Dalitz events generated~\subref{fig:phi_dalitz_w_conversion}. }
  	\end{center}\end{figure}
- 	 
+\FloatBarrier 	 
 \subsection{Photon Conversion to \epemT Pairs}\label{sec:intro.conversion}
 When a photon travels through matter at energies greater than 100~MeV, it can convert into an electron-positron pair. The process of pair production, $\gamma Z \rightarrow Ze^{+}e^{-}$, occurs when a photon with $E_0 > 2 m_e c^2$ converts into an electron and a positron. The cross section for this process can be written as;
 \begin{equation}\label{pair_crosssection}
@@ -135,7 +150,7 @@ From multiple scattering effects the \epemT \ from a converted photon will obtai
  		}
 \caption[Dalitz and conversion spectra for \etaTP \ and $\phi$]{\label{fig:dalitz_w_conversion}Example of Dalitz and conversion spectra for \etaTP \ with 500K Dalitz events generated and $\sim 2.35 \cdot 10^7$ $\etaP \to \gamma \gamma$ generated~\subref{fig:etap_dalitz_w_conversion}.  Example of Dalitz and conversion spectra for $\phi$  with 500K Dalitz events generated and $\sim 5.7 \cdot 10^7$ $\phi \to \eta \gamma$ generated ~\subref{fig:phi_dalitz_w_conversion}. }
 \end{center}\end{figure}
-
+\FloatBarrier
   
   
   

@@ -1,62 +1,12 @@
 \section{Measurement}\label{sec:measurement}
-This section will describe the previous published results on transition form factors as well as current CLAS analyses. A summary on the CLAS preliminary result on the \etaTP \, with the emphasize on the desire to further this measurement in CLAS12. Also in this section is a description on how the \etaDal \ and \ \phiDal \ were simulated and reconstructed for this CLAS12 proposal.
-\subsection{Current Experimental Results}
-Several experimental groups are currently investigating decays of light mesons, including the 
-\begin{itemize}
-	\item TRIUMF $\pi^0 \to \epem \gamma$~\cite{FARZ} (Transition form factor)
-	\item A2 Collaboration $\eta \to \epem \gamma$~\cite{Berg,A2} (Transition form factor)
-	\item Multiple Groups $\omega\to\pi^0 \mu^+\mu^-$ ~\cite{Dzhelyadin:1980tj,Arnaldi:2009aa,Uras:2011zz}(Transition form factor)
-	\item BESIII Collaboration $\eta'\to e^+e^-\gamma $~\cite{Ablikim:2015wnx} (Transition form factor)
-	\item KLOE Collaboration $\phiDalT$~\cite{Babusci:2014ldz} (Transition form factor)
-\end{itemize}
-The experiential results of the $\pi^0$ and $\omega$ present a puzzle because for the $\pi^0$ the measurement in the time-like region does not have agreement between several experiemtn
-
-The experimental results on the conversion decay of the $\omega$ meson, $\omega\to\pi^0 \mu^+\mu^-$  present a puzzle ~\cite{Dzhelyadin:1980tj,Arnaldi:2009aa,Uras:2011zz}. 
-The measurements suggest a dramatic increase of the transition form factor for large momentum transfers that is not consistent with VMD models nor explicable with modern theoretical advances. 
-These experimental results are in contradiction to measurements in the space-like regime~\cite{Achasov:2013btb}. 
-The situation makes it important to investigate the conversion decays of vector mesons. 
-
-{\it ... mention A2 measurement ? ...}
-
-The conversion decays of the  $\omega$ meson are currently being studied within the LMD group using data from the CLAS g12 experiment. 
-We plan to approach the conversion decays of the $\phi$ meson by analyzing the decay $\phi\to\eta\gamma^\star$ based on the proposed experiment. 
-The decay $\phi \to \pi^0\gamma^\star$ would enable access to higher dilepton masses and more precise mapping of transition form factors in this kinematic regime. However, the decay is OZI suppressed and statistically significant results may be obtained after a luminosity upgrade of the experiment facility.
-Current measurements by the KLOE collaboration for $\phi\to\eta e^+e^-$~\cite{Babusci:2014ldz} and $\phi\to\pi^0 e^+e^-$~\cite{Anastasi:2016bfh} have improved the values for the respective branching ratios by the SND and CMD-2 collaborations ~\cite{Achasov:2000ne,Akhmetshin:2000bw,Achasov:2002hs,Akhmetshin:2000wi}. The $\phi\to\eta e^+e^-$ measurement by KLOE is based on ~31000 events and deduces a slope parameter of $ \text{KLOE} \ b_{\phi\eta}=1.28\pm 0.10^{+0.09}_{-0.08} $.
-
-{\it ... figure of KLOE phi-eta TFF here? ...}
-%  \begin{figure}[!h]
-%   \begin{center}
-%    \includegraphics[width=11.cm]{fig_new/data_5MeV}
-%     \caption{Fit to the $|$F$_{\phi \eta}$$|$$^2$ distribution as a function of the invariant mass of the electron positron pair, with a binning of 5 MeV. The blue curve is the fit result, and in dashed blue the functions obtained for $\Lambda_{\phi\eta}$=$\Lambda_{\phi\eta} \pm 1\sigma$ are reported. VMD expectations are superimposed in pink while the curve obtained from reference~\cite{biblio:Leupold} is reported in red.} 
-%     \label{fig:data_5MeV}
-%   \end{center}
-% \end{figure}
-
-\subsection{Previous CLAS analyses}
-LMD (Light Meson Decay) group of CLAS. 
-% performed with the g12 experiment
-The g12 experiment performed at CLAS produced data set of photon-induced reactions. Fortunately, the Cherenkov Counters(CC) were filled with perflourbutane ($C_4F_{10}$) and a trigger consisting of a coincidence between the (ST$\cdot$TOF)(CC$\cdot$EC) allowing the study of dilepton reactions throughout the entire beam energy range $1.15 \ \mathrm{GeV}<E_\gamma <5.45 \ \mathrm{GeV}$. Preliminary analyses of g12 involving dileptons include the decays:
-\begin{itemize}
-\item $\Delta \to p \epem$ (Transition form factor)
-\item $\eta \to \epem \gamma$ (Transition form factor)
-\end{itemize}
-
-while advanced analyses involving dileptons include:
-\begin{itemize}
-\item $\piz \to \epem \gamma$ (Differential Cross-Section)
-\item $\omega / \rho \to \epem$ (Interference of $\omega/\rho$ )
-\item $\omega \to \epem \piz$ (Transition form factor)
-\item $\etaP \to \epem \gamma$ (Transition form factor / branching ratio)
-\end{itemize}
-\missingfigure{g12plots}
-As seen in Fig. the current CLAS results suffer from insufficient statistics. Therefore, we propose to repeat the \etaPDal \  measurement with CLAS12.
+This section is a description on how the \etaDal \ was simulated and reconstructed for this CLAS12 proposal.
 \subsection{Simulation and Reconstruction}
-To simulate the reactions in Eq.~\ref{eq:etaP} and Eq.~\ref{eq:phiP}, the program PLUTO++~\cite{PLUTO} was utilize for its ability to simulate the decays of those according to QED, Vector Meson Dominance or a user inputted TFF. For reconstruction of the desired topologies, the CLAS12 FASTMC~\cite{fastmc} was used, in which $\sim 9\cdot10^6$ events were generated for \etaPDal \ and \phiDal \ and then simulated with FASTMC at 75\% torus field. An extra simulation was performed for the torus field setting of 100\% to show the effects of the magnetic field on the lepton acceptance. All detector efficiencies are assumed to be 100\% except the EC efficiency, in which an efficiency of 10\% was factored for each detected lepton. This EC efficiency was calculated with the g12 data set and the assumption is that the CLAS12 EC efficiency will be at least the same as the previous CLAS EC since the EC is the same sub-detector in both detectors.
+To simulate the reactions in Eq.~\ref{eq:etaP} and Eq.~\ref{eq:phiP}, the program PLUTO++~\cite{PLUTO} was utilize for its ability to simulate the decays of those according to QED, Vector Meson Dominance or a user inputted TFF. For reconstruction of the desired topologies, the CLAS12 FASTMC~\cite{fastmc} was used, in which $\sim 9\cdot10^6$ events were generated for \etaPDal \ and \phiDal \ and then simulated with FASTMC at 75\% torus field. An extra simulation was performed for the torus field setting of 100\% to show the effects of the magnetic field on the lepton acceptance. All detector efficiencies are assumed to be 100\% except the EC efficiency, in which an efficiency of 10\% was factored for each detected lepton and photon. The EC efficiency was calculated by comparing GEMC (GEANT4) simulations with FASTMC. This EC efficiency was also calculated with the g12 data set and was identical to the comparison of the two simulation methods.
 
 \indent The production of each particle was weighted by photo-production 
 differential cross-sections, $\frac{d\sigma}{d\Omega}(v,\cos\theta_{cm})$, published in~\cite{Williams}, where $v$ is the virtual photon energy. This was done to achieve a quasi realistic model of the production. The \epemT \  decay spectrum, of each meson, was weighted via the VMD model (including QED predictions). Another simulation was performed using a flat $M(\epem)$ distribution (No QED, No VMD) to analyze any effects of the model on the \epemT acceptance. The analysis showed that this acceptance was independent of the decay model, see Fig.\ref{fig:VMDaccepted} and Fig.\ref{fig:FLATaccepted}.
 \subsubsection{Trigger Requirements}
-The standard CLAS12 electron trigger (HTCC(Nphe>2) * [ (PCAL+EC)>1.0 GeV ] is sufficient for these types of analyses. It has been shown in previous
+The standard CLAS12 electron trigger (HTCC(Nphe>2) * [ (PCAL+EC)>1.0 GeV ] is sufficient for this types of analysis. It has been shown in previous
 proposals~\cite{clas.proposal.meson,clas.proposal.jpsi} that the rate of the standard electron trigger will be 6~kHz, which the expected data acquisition (DAQ) readout rate is 10~kHz.
 \subsubsection{Detection of \epemT Events} 
 Electron/positron ID will include responses from the HTCC, PCAL and EC calorimeters. The energy information of the PCAL and the inner and outer parts of EC will be used to compare the total energy deposition with the momentum measured in the DC ($\alpha*(\mathrm{E_{Pcal}} + \mathrm{E_{ECin}}+ \mathrm{E_{ECout}}) \sim \mathrm{P_{DC}}$), where $\alpha$ is a scaling factor.

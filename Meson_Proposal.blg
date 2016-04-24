@@ -3,51 +3,51 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: Meson_Proposal.aux
 The style file: unsrt.bst
 Database file #1: Meson.bib
-Warning--I didn't find a database entry for "Akhmetshin:2000bw"
 Warning--empty journal in Blum:2013xva
 Warning--empty journal in Grange:2015fou
 Warning--empty journal in Xiao:2015uva
+Warning--empty journal in CLEO
+Warning--empty journal in qfactor
 Warning--empty institution in fastmc
-Warning--empty year in fastmc
-You've used 51 entries,
+You've used 50 entries,
             1791 wiz_defined-function locations,
-            781 strings with 11988 characters,
-and the built_in function-call counts, 10790 in all, are:
-= -- 936
-> -- 506
+            767 strings with 11575 characters,
+and the built_in function-call counts, 10326 in all, are:
+= -- 889
+> -- 494
 < -- 0
-+ -- 188
-- -- 137
-* -- 738
-:= -- 1828
-add.period$ -- 158
-call.type$ -- 51
++ -- 184
+- -- 134
+* -- 694
+:= -- 1763
+add.period$ -- 154
+call.type$ -- 50
 change.case$ -- 54
 chr.to.int$ -- 0
 cite$ -- 56
-duplicate$ -- 443
-empty$ -- 1047
-format.name$ -- 137
-if$ -- 2356
+duplicate$ -- 429
+empty$ -- 998
+format.name$ -- 134
+if$ -- 2247
 int.to.chr$ -- 0
-int.to.str$ -- 51
-missing$ -- 48
-newline$ -- 262
-num.names$ -- 51
-pop$ -- 76
+int.to.str$ -- 50
+missing$ -- 46
+newline$ -- 256
+num.names$ -- 50
+pop$ -- 84
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 169
+skip$ -- 162
 stack$ -- 0
-substring$ -- 737
-swap$ -- 43
+substring$ -- 662
+swap$ -- 39
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 5
-while$ -- 97
-width$ -- 53
-write$ -- 562
+warning$ -- 6
+while$ -- 92
+width$ -- 52
+write$ -- 546
 (There were 6 warnings)

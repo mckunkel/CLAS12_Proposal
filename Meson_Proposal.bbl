@@ -167,11 +167,6 @@ M.~Ablikim and et. al.
   $\ensuremath{\eta}\ensuremath{'}\ensuremath{\rightarrow}\ensuremath{\gamma}{e}^{+}{e}^{-}$.
 \newblock {\em Phys. Rev. D}, 92:012001, Jul 2015.
 
-\bibitem{pdg2014}
-K.A.~Olive et~al.
-\newblock Review of particle physics.
-\newblock {\em Phys. Rev. C}, 38:090001, 2014.
-
 \bibitem{FARZ}
 F.~Farzanpay et~al.
 \newblock Measurement of the slope of the $\pi^0$ electromagnetic form factor.
@@ -188,17 +183,6 @@ P.~Aguar-Bartolom\'e and others.
   decay $\eta^{\prime} \rightarrow e^+e^- \gamma $ with the crystal ball/taps
   detectors at the mainz microtron.
 \newblock {\em Phys. Rev. C}, 89:044608, Apr 2014.
-
-\bibitem{Ablikim:2015wnx}
-M.~Ablikim et~al.
-\newblock {Observation of the Dalitz Decay $\eta' \to \gamma e^+e^-$}.
-\newblock {\em Phys. Rev.}, D92(1):012001, 2015.
-
-\bibitem{Babusci:2014ldz}
-D.~Babusci et~al.
-\newblock {Study of the Dalitz decay $\phi \to \eta e^+e^-$ with the KLOE
-  detector}.
-\newblock {\em Phys. Lett.}, B742:1--6, 2015.
 
 \bibitem{Dzhelyadin:1980tj}
 R.~I. Dzhelyadin et~al.
@@ -219,34 +203,37 @@ Antonio Uras.
   factors in p-A collisions at 400 GeV/$c$ with the NA60 apparatus}.
 \newblock {\em J. Phys. Conf. Ser.}, 270:012038, 2011.
 
-\bibitem{Achasov:2013btb}
-M.~N. Achasov et~al.
-\newblock {Study of $e^+e^- \to \omega\pi^0 \to \pi^0\pi^0\gamma$ in the energy
-  range $1.05-2.00$ GeV with SND}.
-\newblock {\em Phys. Rev.}, D88(5):054013, 2013.
+\bibitem{CLEO}
+R.~Briere and others (CLEO~Collaboration).
+\newblock Rare decays of the $\eta^{\prime}$.
+\newblock 1999.
 
-\bibitem{Anastasi:2016bfh}
-A.~Anastasi et~al.
-\newblock {Measurement of the $\phi \to \pi^0 e^+e^-$ transition form factor
-  with the KLOE detector}.
-\newblock {\em Phys. Lett.}, B757:362--367, 2016.
+\bibitem{DZH}
+R.I.~Dzhelyadin andothers.
+\newblock Observation of $\eta^{\prime} \to \mu^+\mu^-\gamma$ decay.
+\newblock {\em Physics Letters B}, 88(3):379 -- 380, 1979.
 
-\bibitem{Achasov:2000ne}
-M.~N. Achasov et~al.
-\newblock {Study of Conversion Decays phi --> eta e+ e- and eta --> gamma e+ e-
-  in the Experiment with SND Detector at the VEPP-2M Collider}.
-\newblock {\em Phys. Lett.}, B504:275--281, 2001.
+\bibitem{Ablikim:2015wnx}
+M.~Ablikim et~al.
+\newblock {Observation of the Dalitz Decay $\eta' \to \gamma e^+e^-$}.
+\newblock {\em Phys. Rev.}, D92(1):012001, 2015.
 
-\bibitem{Achasov:2002hs}
-M.~N. Achasov et~al.
-\newblock {Measurement of the phi --> pi0 e+ e- decay probability}.
-\newblock {\em JETP Lett.}, 75:449--451, 2002.
-\newblock [Pisma Zh. Eksp. Teor. Fiz.75,539(2002)].
+\bibitem{Babusci:2014ldz}
+D.~Babusci et~al.
+\newblock {Study of the Dalitz decay $\phi \to \eta e^+e^-$ with the KLOE
+  detector}.
+\newblock {\em Phys. Lett.}, B742:1--6, 2015.
 
-\bibitem{Akhmetshin:2000wi}
-R.~R. Akhmetshin et~al.
-\newblock {Observation of the conversion decay phi ---> pi0 e+ e- at CMD-2}.
-\newblock {\em Phys. Lett.}, B503:237--244, 2001.
+\bibitem{g12note}
+Z.~Akbar et~al.
+\newblock {g12 Analysis Procedures, Statistics and Systematics}.
+\newblock Technical report, \texttt{CLAS} Technical Note, 2016.
+
+\bibitem{qfactor}
+M.~Williams et~al.
+\newblock Separating signals from non-interfering backgrounds using
+  probabilistic event weightings.
+\newblock 2008.
 
 \bibitem{PLUTO}
 I.~Frohlich, I.~Froehlich, Lorenzo Cazon, T.~Galatyuk, V.~Hejny, et~al.
@@ -256,7 +243,7 @@ I.~Frohlich, I.~Froehlich, Lorenzo Cazon, T.~Galatyuk, V.~Hejny, et~al.
 \bibitem{fastmc}
 CLAS software repository.
 \newblock Monte-carlo program to simulate clas12 detector response.
-\newblock Technical report.
+\newblock Technical report, 2016.
 
 \bibitem{Williams}
 M.~Williams et~al.
@@ -288,6 +275,11 @@ F.~Halzen and A.D. Martin.
 \newblock {\em Quarks and leptons: an introductory course in modern particle
   physics}.
 \newblock Wiley, 1984.
+
+\bibitem{pdg2014}
+K.A.~Olive et~al.
+\newblock Review of particle physics.
+\newblock {\em Phys. Rev. C}, 38:090001, 2014.
 
 \bibitem{Hanhart2015}
 C.~Hanhart, A.~Kup{\'{s}}{\'{c}}, U.-G. Mei{\ss}ner, F.~Stollenwerk, and

@@ -1,29 +1,27 @@
 \section{Measurement}\label{sec:measurement}
 This section is a description on how the \etaDal \ was simulated and reconstructed for this CLAS12 proposal.
 \subsection{Simulation and Reconstruction}
-To simulate the reactions in Eq.~\ref{eq:etaP} and Eq.~\ref{eq:phiP}, the program PLUTO++~\cite{PLUTO} was utilize for its ability to simulate the decays of those according to QED, Vector Meson Dominance or a user inputted TFF. For reconstruction of the desired topologies, the CLAS12 FASTMC~\cite{fastmc} was used, in which $\sim 9\cdot10^6$ events were generated for \etaPDal \ and \phiDal \ and then simulated with FASTMC at 75\% torus field. An extra simulation was performed for the torus field setting of 100\% to show the effects of the magnetic field on the lepton acceptance. All detector efficiencies are assumed to be 100\% except the EC efficiency, in which an efficiency of 10\% was factored for each detected lepton and photon. The EC efficiency was calculated by comparing GEMC (GEANT4) simulations with FASTMC. This EC efficiency was also calculated with the g12 data set and was identical to the comparison of the two simulation methods.
-
-\indent The production of each particle was weighted by photo-production 
-differential cross-sections, $\frac{d\sigma}{d\Omega}(v,\cos\theta_{cm})$, published in~\cite{Williams}, where $v$ is the virtual photon energy. This was done to achieve a quasi realistic model of the production. The \epemT \  decay spectrum, of each meson, was weighted via the VMD model (including QED predictions). Another simulation was performed using a flat $M(\epem)$ distribution (No QED, No VMD) to analyze any effects of the model on the \epemT acceptance. The analysis showed that this acceptance was independent of the decay model, see Fig.\ref{fig:VMDaccepted} and Fig.\ref{fig:FLATaccepted}.
+To simulate the reaction in Eq.~\ref{eq:etaP}, the program PLUTO++~\cite{PLUTO} was utilize for its ability to simulate the decays of those according to QED, Vector Meson Dominance or a user inputted TFF. For reconstruction of the desired topologies, the CLAS12 FASTMC~\cite{fastmc} and GEMC were used, in which $\sim 9\cdot10^6$ events were generated for \etaPDal \ and then simulated with FASTMC/GEMC at 75\% torus field. The EC efficiency was calculated by comparing GEMC (GEANT4) simulations with FASTMC. This EC efficiency was also calculated with the g12 data set and was identical to the comparison of the two simulation methods. The accpetance for this propose was performed using FASTMC. \newline
+\indent An extra FASTMC simulation was performed for the torus field setting of 100\% to show the effects of the magnetic field on the lepton acceptance. All detector efficiencies are assumed to be 100\% except the EC efficiency, in which an efficiency of 10\% was factored for each detected lepton and photon. \newline
+\indent The production of each particle was weighted by photo-production differential cross-sections, $\frac{d\sigma}{d\Omega}(v,\cos\theta_{cm})$, published in~\cite{Williams}, where $v$ is the virtual photon energy. This was done to achieve a quasi realistic model of the production. The \epemT \  decay spectrum, of each meson, was weighted via the VMD model (including QED predictions). Another simulation was performed using a flat $M(\epem)$ distribution (No QED, No VMD) to analyze any effects of the model on the \epemT acceptance. The analysis showed that this acceptance was independent of the decay model, see Fig.\ref{fig:VMDaccepted} and Fig.\ref{fig:FLATaccepted}.
 \subsubsection{Trigger Requirements}
 The standard CLAS12 electron trigger (HTCC(Nphe>2) * [ (PCAL+EC)>1.0 GeV ] is sufficient for this types of analysis. It has been shown in previous
 proposals~\cite{clas.proposal.meson,clas.proposal.jpsi} that the rate of the standard electron trigger will be 6~kHz, which the expected data acquisition (DAQ) readout rate is 10~kHz.
 \subsubsection{Detection of \epemT Events} 
 Electron/positron ID will include responses from the HTCC, PCAL and EC calorimeters. The energy information of the PCAL and the inner and outer parts of EC will be used to compare the total energy deposition with the momentum measured in the DC ($\alpha*(\mathrm{E_{Pcal}} + \mathrm{E_{ECin}}+ \mathrm{E_{ECout}}) \sim \mathrm{P_{DC}}$), where $\alpha$ is a scaling factor.
 \subsubsection{Particle Identification}
-The $\etaP$ and $\phi$ mesons have pion decay modes, which are orders of magnitude greater than the Dalitz decay. For the $\etaP$ meson, for example, the ratio $\Gamma \pi^+\pi^-\gamma / \Gamma e^+e^- \gamma $ is $ 6.2\cdot 10^2$. 
+The $\etaP$ meson have pion decay modes, which are orders of magnitude greater than the Dalitz decay. For example, the ratio $\Gamma \pi^+\pi^-\gamma / \Gamma e^+e^- \gamma $ is $ 6.2\cdot 10^2$. 
 Electrons/positrons will be identified by using the information from the detectors described above. The expected $e^\pm/\pi^\pm$ rejection factor for single particles (p<4.9~GeV) is $10^3$ for the HTCC, while the PCAL+EC can provide an additional factor of $10^2$. Combining both methods yields a $e^\pm/\pi^\pm$ rejection factor of $10^5$ which results in a $e^+e^-/\pi^+\pi^-$ rejection factor of $10^{10}$. Therefore, the amount of $\pi^+\pi^-$ background in the $M(\epem)$ spectrum will be $\approx 6.2\cdot 10^2/10^{10} = 6.2\cdot10^{-8}$. A detailed explanation of particle identification for \epemT \ pairs can be found in~\cite{clas.proposal.jpsi}.
 \subsubsection{Acceptance}\label{sec.reconstruction}
 An exclusive reconstruction scheme
 \begin{align}
-ep\to e'p \etaP \rightarrow p e^+e^- \gamma  \\
-ep\to e'p \phi \rightarrow p e^+e^- \eta \ ,
+ep\to e'p \etaP \rightarrow p e^+e^- \gamma 
 \end{align}
 where all final state particle are detected, as well as an inclusive reconstruction scheme
 \begin{align}
-ep\to e'p \etaP \rightarrow e^+e^- \gamma (p) \\
+ep\to e'p \etaP \rightarrow e^+e^- \gamma (p)
 \end{align}
-where the proton was not detected, was analyzed. Figure~\ref{fig:VMD} and Fig.~\ref{fig:FLAT} show the generated \epemT \ spectrum along with the accepted events for both reconstruction schemes. The acceptance was calculated by dividing the accepted events by the generated events, per $M(\epem)$ bin. The $\etaP$ Dalitz decay acceptance can be seen in Fig.\ref{fig:VMDaccepted} and the $\phi$ Dalitz decay acceptance in Fig.\todo{add reference to plot once done}.
+where the proton was not detected, was analyzed. Figure~\ref{fig:VMD} and Fig.~\ref{fig:FLAT} show the generated \epemT \ spectrum along with the accepted events for both reconstruction schemes for the VMD $M(\epem)$ weighted MC and the flat $M(\epem)$ weight MC. The acceptance was calculated by dividing the accepted events by the generated events, per $M(\epem)$ bin. The $\etaP$ Dalitz decay acceptance can be seen in Fig.\ref{fig:VMDaccepted}.
 \begin{figure}[h!]\begin{center}
 		\includegraphics[width=\figwidth,height=2.6\qfigheight]{\grpath/counts/75_TORUS/VMD/VMD_Generated_Accepted.pdf}
 		\caption[Generated and Accepted counts, as a function of $M(\epem)$]{\label{fig:VMD}{Generated events (Top), accepted events for an exclusive (Middle), inclusive(Bottom) reconstruction schemes as a function of $M(\epem)$. In all panels a VMD decay model was employed}}
@@ -47,7 +45,7 @@ where the proton was not detected, was analyzed. Figure~\ref{fig:VMD} and Fig.~\
 \subsection{Calculating Expected Yield}
 \subsubsection{Calculating Photon Flux}\label{sec:calflux}
 A simple method for calculating the photon flux in CLAS12 is as follows; Using the fact that g12 had a photon flux of $7\cdot 10^7 \ \mathrm{\gamma/s}$ on a Au radiator of $10^{-4} \chi_0$ an expected $\sim 4\cdot 10^9  \mathrm{\gamma/s}$ will be seen in CLAS12 at ${\cal L} = 10^{35}\mathrm{cm^{-2}s^{-1}}$ on a 5~cm $\ell H_2$ target which is $\sim 5.7\cdot 10^{-3} \chi_0$. This number has been independently confirmed in a previous CLAS proposal~\cite{clas.proposal.meson}.
-\subsubsection{Calculating Yield}
+\subsubsection{Expected Results}
 The average number of $\mathrm{meson} \to \epem X$ expected in CLAS12 can be calculated as:
 \begin{align}
 \bar{N}(\epem)_{\mathrm{meson}  \to \epem X} = \Phi \epsilon(\epem)\bar{\sigma} \rho_{\ell_{H_2}}\ell_{target}N_A \frac{\Gamma_{\mathrm{tot}_\mathrm{meson} }}{\Gamma_{\mathrm{meson}  \to \epem X}}\ ,

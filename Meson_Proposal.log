@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.3.18)  25 APR 2016 15:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.3.18)  25 APR 2016 17:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1052,9 +1052,12 @@ File: figures/intro/hadronicgm2.pdf Graphic file (type pdf)
 <use figures/intro/hadronicgm2.pdf>
 Package pdftex.def Info: figures/intro/hadronicgm2.pdf used on input line 46.
 (pdftex.def)             Requested size: 360.0pt x 81.21927pt.
- [3] [4 <./figures/intro/hadronicgm2.pdf>]
-[5]) (./Kinematics.tex
-<figures/decays/psudoscalar_gammagamma.pdf, id=315, 388.45125pt x 234.8775pt>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[3] [4 <./figures/intro/hadronicgm2.pdf>] [5]) (./Kinematics.tex
+<figures/decays/psudoscalar_gammagamma.pdf, id=316, 388.45125pt x 234.8775pt>
 File: figures/decays/psudoscalar_gammagamma.pdf Graphic file (type pdf)
 
 <use figures/decays/psudoscalar_gammagamma.pdf>
@@ -1062,7 +1065,7 @@ Package pdftex.def Info: figures/decays/psudoscalar_gammagamma.pdf used on inpu
 t line 18.
 (pdftex.def)             Requested size: 143.99736pt x 111.71132pt.
 
-<figures/decays/psudoscalar_dalitz.pdf, id=316, 425.59pt x 202.7575pt>
+<figures/decays/psudoscalar_dalitz.pdf, id=317, 425.59pt x 202.7575pt>
 File: figures/decays/psudoscalar_dalitz.pdf Graphic file (type pdf)
 
 <use figures/decays/psudoscalar_dalitz.pdf>
@@ -1081,7 +1084,7 @@ Overfull \hbox (1.46716pt too wide) in paragraph at lines 42--45
 
 [7 <./figures/decays/psudoscalar_gammagamma.pdf> <./figures/decays/psudoscalar_
 dalitz.pdf>] (./tables/models.tex)
-<figures/decays/etaP_Dalitz_QED_FF_comparePlot.pdf, id=378, 569.12625pt x 520.9
+<figures/decays/etaP_Dalitz_QED_FF_comparePlot.pdf, id=379, 569.12625pt x 520.9
 4624pt>
 File: figures/decays/etaP_Dalitz_QED_FF_comparePlot.pdf Graphic file (type pdf)
 
@@ -1089,14 +1092,6 @@ File: figures/decays/etaP_Dalitz_QED_FF_comparePlot.pdf Graphic file (type pdf)
 Package pdftex.def Info: figures/decays/etaP_Dalitz_QED_FF_comparePlot.pdf used
  on input line 66.
 (pdftex.def)             Requested size: 288.01004pt x 148.94815pt.
-
-
-LaTeX Warning: Reference `sub@fig:etap_dalitz_w_conversion' on page 8 undefined
- on input line 67.
-
-
-LaTeX Warning: Reference `sub@fig:etap_dalitz_w_conversion' on page 8 undefined
- on input line 67.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -1118,21 +1113,21 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 84.
 
-<figures/decays/cmplot.pdf, id=389, 487.8225pt x 203.76125pt>
+<figures/decays/cmplot.pdf, id=390, 487.8225pt x 203.76125pt>
 File: figures/decays/cmplot.pdf Graphic file (type pdf)
 
 <use figures/decays/cmplot.pdf>
 Package pdftex.def Info: figures/decays/cmplot.pdf used on input line 97.
 (pdftex.def)             Requested size: 324.00337pt x 148.95589pt.
 
-<figures/decays/mmplot.pdf, id=391, 487.8225pt x 203.76125pt>
+<figures/decays/mmplot.pdf, id=392, 487.8225pt x 203.76125pt>
 File: figures/decays/mmplot.pdf Graphic file (type pdf)
 
 <use figures/decays/mmplot.pdf>
 Package pdftex.def Info: figures/decays/mmplot.pdf used on input line 102.
 (pdftex.def)             Requested size: 324.00337pt x 148.95589pt.
 
-<figures/decays/etaP_total_conversionPlot.pdf, id=393, 569.12625pt x 520.94624p
+<figures/decays/etaP_total_conversionPlot.pdf, id=394, 569.12625pt x 520.94624p
 t>
 File: figures/decays/etaP_total_conversionPlot.pdf Graphic file (type pdf)
  <use figures/decays/etaP_total_conversionPlot.pdf>
@@ -1151,24 +1146,27 @@ rees>]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+[10 <./figures/decays/cmplot.pdf> <./figures/decays/mmplot.pdf
 
-<figures/decays/etaP_Dalitz_decay_with_conversion_spectra.pdf, id=447, 569.1262
+pdfTeX warning: /usr/texbin/pdflatex (file ./figures/decays/mmplot.pdf): PDF in
+clusion: multiple pdfs with page group included in a single page
+>]
+<figures/decays/etaP_Dalitz_decay_with_conversion_spectra.pdf, id=542, 569.1262
 5pt x 520.94624pt>
 File: figures/decays/etaP_Dalitz_decay_with_conversion_spectra.pdf Graphic file
  (type pdf)
 
 <use figures/decays/etaP_Dalitz_decay_with_conversion_spectra.pdf>
 Package pdftex.def Info: figures/decays/etaP_Dalitz_decay_with_conversion_spect
-ra.pdf used on input line 114.
+ra.pdf used on input line 115.
 (pdftex.def)             Requested size: 288.01004pt x 148.94815pt.
- [10 <./figures/decays/cmplot.pdf> <./figures/decays/mmplot.pdf
 
-pdfTeX warning: /usr/texbin/pdflatex (file ./figures/decays/mmplot.pdf): PDF in
-clusion: multiple pdfs with page group included in a single page
->]) (./Current_Measurement.tex [11 <./figures/decays/etaP_total_conversionPlot.
-pdf, page is rotated 90 degrees> <./figures/decays/etaP_Dalitz_decay_with_conve
-rsion_spectra.pdf, page is rotated 90 degrees>]
-<figures/current_status/CLEO_keynote.pdf, id=648, 1027.84pt x 770.88pt>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[11 <./figures/decays/etaP_total_conversionPlot.pdf, page is rotated 90 degrees
+>]) (./Current_Measurement.tex
+<figures/current_status/CLEO_keynote.pdf, id=606, 1027.84pt x 770.88pt>
 File: figures/current_status/CLEO_keynote.pdf Graphic file (type pdf)
 
 <use figures/current_status/CLEO_keynote.pdf>
@@ -1180,19 +1178,17 @@ Overfull \hbox (7.2614pt too wide) in paragraph at lines 32--33
  [] 
  []
 
-<figures/current_status/BESIII_EtaP.pdf, id=649, 597.23125pt x 845.1575pt>
+<figures/current_status/BESIII_EtaP.pdf, id=607, 597.23125pt x 845.1575pt>
 File: figures/current_status/BESIII_EtaP.pdf Graphic file (type pdf)
 
 <use figures/current_status/BESIII_EtaP.pdf>
 Package pdftex.def Info: figures/current_status/BESIII_EtaP.pdf used on input l
 ine 36.
 (pdftex.def)             Requested size: 287.99823pt x 268.10884pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[12] [13 <./figures/current_status/CLEO_keynote.pdf> <./figures/current_status/
-BESIII_EtaP.pdf>] <figures/g12/MxP_g12.pdf, id=860, 845.1575pt x 597.23125pt>
+ [12 <./figures/decays/etaP_Dalitz_decay_with_conversion_spectra.pdf, page is r
+otated 90 degrees>] [13 <./figures/current_status/CLEO_keynote.pdf> <./figures/
+current_status/BESIII_EtaP.pdf>]
+<figures/g12/MxP_g12.pdf, id=860, 845.1575pt x 597.23125pt>
 File: figures/g12/MxP_g12.pdf Graphic file (type pdf)
 
 <use figures/g12/MxP_g12.pdf>
@@ -1406,17 +1402,13 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 153.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 153.
 Package rerunfilecheck Info: File `Meson_Proposal.out' has not changed.
 (rerunfilecheck)             Checksum: B9170E43A879216908BE891B9360DE6F;2338.
-
-
-LaTeX Warning: There were undefined references.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 153.
  ) 
 Here is how much of TeX's memory you used:
- 21096 strings out of 493117
- 390960 string characters out of 6135433
- 502753 words of memory out of 5000000
- 23917 multiletter control sequences out of 15000+600000
+ 21095 strings out of 493117
+ 390926 string characters out of 6135433
+ 502669 words of memory out of 5000000
+ 23916 multiletter control sequences out of 15000+600000
  29341 words of font info for 81 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,16n,87p,1222b,650s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1462,7 +1454,7 @@ m1728.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sftc1
 095.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfti109
 5.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sftt1095.
 pfb>
-Output written on Meson_Proposal.pdf (36 pages, 2270688 bytes).
+Output written on Meson_Proposal.pdf (36 pages, 2270040 bytes).
 PDF statistics:
  1341 PDF objects out of 1440 (max. 8388607)
  1053 compressed objects within 11 object streams

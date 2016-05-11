@@ -1,12 +1,12 @@
 \section{Measurement}\label{sec:measurement}
 This section is a description on how the \etaDal \ was simulated and reconstructed for this CLAS12 proposal.
 \subsection{Simulation and Reconstruction}
-To simulate the reaction in Eq.~\ref{eq:etaP}, the program PLUTO++~\cite{PLUTO} was utilize for its ability to simulate the decays of those according to QED, Vector Meson Dominance or a user inputted TFF. For reconstruction of the desired topologies, the CLAS12 FASTMC~\cite{fastmc} and GEMC were used, in which $\sim 9\cdot10^6$ events were generated for \etaPDal \ and then simulated with FASTMC/GEMC at 75\% torus field. The EC efficiency was calculated by comparing GEMC (GEANT4) simulations with FASTMC. This EC efficiency was also calculated with the g12 data set and was identical to the comparison of the two simulation methods. The accpetance for this propose was performed using FASTMC. \newline
+To simulate the reaction in Eq.~\ref{eq:etaP}, the program PLUTO++~\cite{PLUTO} was utilize for its ability to simulate the decays of those according to QED, Vector Meson Dominance or a user defined TFF. For reconstruction of the desired topologies, the CLAS12 FASTMC~\cite{fastmc} and GEMC~\cite{gemc} were used, in which $\sim 9\cdot10^6$ events were generated for \etaPDal \ and then simulated with FASTMC/GEMC at 75\% torus field. The EC efficiency was calculated by comparing GEMC (GEANT4) simulations with FASTMC. This EC efficiency was also calculated with the g12 data set and was identical to the comparison of the two simulation methods. The acceptance for this propose was performed using FASTMC. \newline
 \indent An extra FASTMC simulation was performed for the torus field setting of 100\% to show the effects of the magnetic field on the lepton acceptance. All detector efficiencies are assumed to be 100\% except the EC efficiency, in which an efficiency of 10\% was factored for each detected lepton and photon. \newline
-\indent The production of each particle was weighted by photo-production differential cross-sections, $\frac{d\sigma}{d\Omega}(v,\cos\theta_{cm})$, published in~\cite{Williams}, where $v$ is the virtual photon energy. This was done to achieve a quasi realistic model of the production. The \epemT \  decay spectrum, of each meson, was weighted via the VMD model (including QED predictions). Another simulation was performed using a flat $M(\epem)$ distribution (No QED, No VMD) to analyze any effects of the model on the \epemT acceptance. The analysis showed that the acceptance, in $M(\epem)$, was independent of the decay model, see Fig.\ref{fig:VMDaccepted} and Fig.\ref{fig:FLATaccepted}.
+\indent The production of \etaTP \ was weighted by photo-production differential cross-sections, $\frac{d\sigma}{d\Omega}(v,\cos\theta_{cm})$, published in~\cite{Williams}, where $v$ is the virtual photon energy and $\cos\theta_{cm}$ is the production angle in the center-of-mass frame of the system. This was done to achieve a quasi realistic model of the production. The \epemT \  decay spectrum, of each meson, was weighted via the VMD model (including QED predictions). Another simulation was performed using a flat $M(\epem)$ distribution (No QED, No VMD) to analyze any effects of the model on the \epemT acceptance. The analysis showed that the acceptance, in $M(\epem)$, was independent of the decay model, see Fig.\ref{fig:VMDaccepted} and Fig.\ref{fig:FLATaccepted}.
 \subsubsection{Trigger Requirements}
 The standard CLAS12 electron trigger (HTCC(Nphe>2) * [ (PCAL+EC)>1.0 GeV ] is sufficient for this types of analysis. It has been shown in previous
-proposals~\cite{clas.proposal.meson,clas.proposal.jpsi} that the rate of the standard electron trigger will be 6~kHz, which the expected data acquisition (DAQ) readout rate is 10~kHz.
+proposals~\cite{clas.proposal.meson,clas.proposal.jpsi} that the rate of the standard electron trigger will be 6~kHz, while the expected data acquisition (DAQ) readout rate is 10~kHz.
 \subsubsection{Detection of \epemT Events} 
 Electron/positron ID will include responses from the HTCC, PCAL and EC calorimeters. The energy information of the PCAL and the inner and outer parts of EC will be used to compare the total energy deposition with the momentum measured in the DC ($\alpha*(\mathrm{E_{Pcal}} + \mathrm{E_{ECin}}+ \mathrm{E_{ECout}}) \sim \mathrm{P_{DC}}$), where $\alpha$ is a scaling factor.
 \subsubsection{Particle Identification}
@@ -21,15 +21,17 @@ where all final state particle are detected, as well as an inclusive reconstruct
 \begin{align}
 ep\to e'p \etaP \rightarrow e^+e^- \gamma (p)
 \end{align}
-where the proton was not detected, was analyzed. Figure~\ref{fig:VMD} and Fig.~\ref{fig:FLAT} show the generated \epemT \ spectrum along with the accepted events for both reconstruction schemes for the VMD $M(\epem)$ weighted MC and the flat $M(\epem)$ weight MC. The acceptance was calculated by dividing the accepted events by the generated events, per $M(\epem)$ bin. The $\etaP$ Dalitz decay acceptance can be seen in Fig.\ref{fig:VMDaccepted}.
-\begin{figure}[h!]\begin{center}
-		\includegraphics[width=\figwidth,height=2.6\qfigheight]{\grpath/counts/75_TORUS/VMD/VMD_Generated_Accepted.pdf}
-		\caption[Generated and Accepted counts, as a function of $M(\epem)$]{\label{fig:VMD}{Generated events (Top), accepted events for an exclusive (Middle), inclusive(Bottom) reconstruction schemes as a function of $M(\epem)$. In all panels a VMD decay model was employed}}
-\end{center}\end{figure}
-\begin{figure}[h!]\begin{center}
-			\includegraphics[width=\figwidth,height=2.6\qfigheight]{\grpath/counts/75_TORUS/FLAT/FLAT_Generated_Accepted.pdf}
-			\caption[Generated and Accepted counts, as a function of $M(\epem)$]{\label{fig:FLAT}{Generated events (Top), accepted events for an exclusive (Middle), inclusive(Bottom) reconstruction schemes as a function of $M(\epem)$. In all panels a Flat \epemT \ decay model was employed}}
-\end{center}\end{figure}
+where the proton was not detected, was analyzed. 
+%Figure~\ref{fig:VMD} and Fig.~\ref{fig:FLAT} show the generated \epemT \ spectrum along with the accepted events for both reconstruction schemes for the VMD $M(\epem)$ weighted MC and the flat $M(\epem)$ weight MC. 
+The acceptance was calculated by dividing the accepted events by the generated events, per $M(\epem)$ bin. The $\etaP$ Dalitz decay acceptance using the VMD as a decay model can be seen in Fig.\ref{fig:VMDaccepted}, while the acceptance using a flat \epemT \ mass distribution can be seen in Fig.~\ref{fig:FLATaccepted}. A comparison of these two figures shows a model independent \epemT \ acceptance. 
+%\begin{figure}[h!]\begin{center}
+%		\includegraphics[width=\figwidth,height=2.6\qfigheight]{\grpath/counts/75_TORUS/VMD/VMD_Generated_Accepted.pdf}
+%		\caption[Generated and Accepted counts, as a function of $M(\epem)$]{\label{fig:VMD}{Generated events (Top), accepted events for an exclusive (Middle), inclusive(Bottom) reconstruction schemes as a function of $M(\epem)$. In all panels a VMD decay model was employed}}
+%\end{center}\end{figure}
+%\begin{figure}[h!]\begin{center}
+%			\includegraphics[width=\figwidth,height=2.6\qfigheight]{\grpath/counts/75_TORUS/FLAT/FLAT_Generated_Accepted.pdf}
+%			\caption[Generated and Accepted counts, as a function of $M(\epem)$]{\label{fig:FLAT}{Generated events (Top), accepted events for an exclusive (Middle), inclusive(Bottom) reconstruction schemes as a function of $M(\epem)$. In all panels a Flat \epemT \ decay model was employed}}
+%\end{center}\end{figure}
 \FloatBarrier
 
 \begin{figure}[h!]\begin{center}

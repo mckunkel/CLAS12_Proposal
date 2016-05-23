@@ -233,30 +233,16 @@ Z.~Akbar et~al.
 \newblock {g12 Analysis Procedures, Statistics and Systematics}.
 \newblock Technical report, \texttt{CLAS} Technical Note, 2016.
 
-\bibitem{clas.proposal.meson}
-M.~Battaglieri et~al.
-\newblock {Meson spectroscopy with low Q2 electron scattering in CLAS12}.
-\newblock Technical report, \texttt{CLAS} Analysis Proposal
-  \texttt{E12-11-005}, 2010.
-
-\bibitem{clas.proposal.jpsi}
-P.~Nadel-Turonski et~al.
-\newblock {Timelike Compton Scattering and $J/\psi$ photoproduction on the
-  proton in e+e- pair production with CLAS12 at 11 GeV}.
-\newblock Technical report, \texttt{CLAS} Analysis Proposal
-  \texttt{E12-12-001}, 2012.
-
 \bibitem{thesiskunkel}
 M.C. Kunkel.
 \newblock {\em {Photoproduction of $\pi^0$ on hydrogen with CLAS from 1.1 GeV -
   5.45 GeV using $\lowercase{e}^{+}\lowercase{e}^{-}\gamma$ decay}}.
 \newblock PhD thesis, Old Dominion University, 2014.
 
-\bibitem{qfactor}
-M.~Williams et~al.
-\newblock Separating signals from non-interfering backgrounds using
-  probabilistic event weightings.
-\newblock 2008.
+\bibitem{thesisschever}
+M~Schever.
+\newblock {Towards Measuring the Electromagnetic Structure of $\eta'$ Mesons
+  with CLAS }, 2015.
 
 \bibitem{PLUTO}
 I.~Frohlich, I.~Froehlich, Lorenzo Cazon, T.~Galatyuk, V.~Hejny, et~al.
@@ -279,6 +265,19 @@ M.~Williams et~al.
   $\ensuremath{\gamma}p\ensuremath{\rightarrow}p\ensuremath{\eta}$ and
   $\ensuremath{\gamma}p\ensuremath{\rightarrow}p{\ensuremath{\eta}}^{'}$.
 \newblock {\em Phys. Rev. C}, 80:045213, Oct 2009.
+
+\bibitem{clas.proposal.meson}
+M.~Battaglieri et~al.
+\newblock {Meson spectroscopy with low Q2 electron scattering in CLAS12}.
+\newblock Technical report, \texttt{CLAS} Analysis Proposal
+  \texttt{E12-11-005}, 2010.
+
+\bibitem{clas.proposal.jpsi}
+P.~Nadel-Turonski et~al.
+\newblock {Timelike Compton Scattering and $J/\psi$ photoproduction on the
+  proton in e+e- pair production with CLAS12 at 11 GeV}.
+\newblock Technical report, \texttt{CLAS} Analysis Proposal
+  \texttt{E12-12-001}, 2012.
 
 \bibitem{peskin}
 M.E. Peskin and D.V. Schroeder.

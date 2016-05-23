@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.3.18)  23 MAY 2016 14:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.3.18)  23 MAY 2016 16:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1726,7 +1726,7 @@ rm1728.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sftc
 1095.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfti10
 95.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sftt1095
 .pfb>
-Output written on Meson_Proposal.pdf (42 pages, 2446221 bytes).
+Output written on Meson_Proposal.pdf (42 pages, 2446186 bytes).
 PDF statistics:
  1588 PDF objects out of 1728 (max. 8388607)
  1221 compressed objects within 13 object streams

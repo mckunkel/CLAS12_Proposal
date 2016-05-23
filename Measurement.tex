@@ -44,9 +44,35 @@ The acceptance was calculated by dividing the accepted events by the generated e
  		\caption[Acceptance, as a function of $M(\epem)$]{\label{fig:FLATaccepted}{Acceptance using a flat \epemT \ decay model, as a function of $M(\epem)$ for the exclusive (Top) and inclusive reconstruction scheme(Bottom).}}
  \end{center}\end{figure} 
 \FloatBarrier
-\subsection{Calculating Expected Yield}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%THIS IS WHAT I ADDED:
+\subsection{Calculating the Expected Yield}
 %\subsubsection{Calculating Photon Flux}\label{sec:calflux}
 %A simple method for calculating the photon flux in CLAS12 is as follows; Using the fact that g12 had a photon flux of $7\cdot 10^7 \ \mathrm{\gamma/s}$ on a Au radiator of $10^{-4} \chi_0$ an expected $\sim 4\cdot 10^9  \mathrm{\gamma/s}$ will be seen in CLAS12 at ${\cal L} = 10^{35}\mathrm{cm^{-2}s^{-1}}$ on a 5~cm $\ell H_2$ target which is $\sim 5.7\cdot 10^{-3} \chi_0$. This number has been independently confirmed in a previous CLAS proposal~\cite{clas.proposal.meson}.
+
+The expected yield for $ep\to e'p \etaP [\etaP\rightarrow p e^+e^- \gamma ]$ is calculated under the assumption, that the $\etaP$ electro-production cross-section can be deduced from the $\etaP$ photo-production cross-section. A qualitative justification of this assumption may be found in Fig.~\ref{fig:EtaProdX}.
+
+\begin{figure}[h!]\begin{center}
+		\includegraphics[width=\figwidth,height=1.2\qfigheight]{\grpath/XSection/eta_phot_electXSection.pdf}\\
+		\includegraphics[width=0.7\figwidth,height=0.9\qfigheight]{\grpath/XSection/eta_phot_prodXSection.pdf}
+		\caption[eta el-prod. XSection]{\label{fig:EtaProdX}{Integrated cross-section for (Top) $ep\to e'p\eta$ (Top) for different $Q^2$-values~\cite{etaelect} and (Bottom) for $\gamma p\rightarrow p\eta$~\cite{etaphoto}.}}
+\end{center}\end{figure}
+
+The shape of the cross-section distributions for $ep\rightarrow e'p\eta$, shown in the top row of Fig.~\ref{fig:EtaProdX}, are comparable to the corresponding distribution for $\gamma p\rightarrow p\eta$, plotted in the bottom row of Fig.~\ref{fig:EtaProdX}. The major difference is related to the scaling rule of $1/Q^2$, i.e. the electro-production cross-section might be approximated by the photo-production cross-section by scaling down the latter one by $1/Q^2$.
+
+\FloatBarrier
+
+\begin{figure}[h!]\begin{center}
+		\includegraphics[width=\figwidth,height=1.2\qfigheight]{\grpath/XSection/hadron_prod_photoproduction.pdf}\\
+		\includegraphics[width=0.7\figwidth,height=0.9\qfigheight]{\grpath/XSection/etaP_total_XSection.pdf}
+		\caption[eta el-prod. XSection]{\label{fig:EtaProdX}{Integrated cross-section for (Top) $ep\to e'p\eta$ (Top) for different $Q^2$-values~\cite{etaelect} and (Bottom) for $\gamma p\rightarrow p\eta$~\cite{etaphoto}.}}
+\end{center}\end{figure}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 \subsubsection{Expected Results}
 To extrapolate the number of $\etaP$ \ produced in 
 \\

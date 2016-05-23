@@ -45,21 +45,27 @@ The acceptance was calculated by dividing the accepted events by the generated e
  \end{center}\end{figure} 
 \FloatBarrier
 
+
+
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %THIS IS WHAT I ADDED:
+
 \subsection{Calculating the Expected Yield}
 %\subsubsection{Calculating Photon Flux}\label{sec:calflux}
 %A simple method for calculating the photon flux in CLAS12 is as follows; Using the fact that g12 had a photon flux of $7\cdot 10^7 \ \mathrm{\gamma/s}$ on a Au radiator of $10^{-4} \chi_0$ an expected $\sim 4\cdot 10^9  \mathrm{\gamma/s}$ will be seen in CLAS12 at ${\cal L} = 10^{35}\mathrm{cm^{-2}s^{-1}}$ on a 5~cm $\ell H_2$ target which is $\sim 5.7\cdot 10^{-3} \chi_0$. This number has been independently confirmed in a previous CLAS proposal~\cite{clas.proposal.meson}.
 
 The expected yield for $ep\to e'p \etaP [\etaP\rightarrow p e^+e^- \gamma ]$ is calculated under the assumption, that the $\etaP$ electro-production cross-section can be deduced from the $\etaP$ photo-production cross-section. A qualitative justification of this assumption may be found in Fig.~\ref{fig:EtaProdX}. The shape of the cross-section distributions for $ep\rightarrow e'p\eta$, shown in the top row of Fig.~\ref{fig:EtaProdX}, are comparable to the corresponding distribution for $\gamma p\rightarrow p\eta$, plotted in the bottom row of Fig.~\ref{fig:EtaProdX}. The major difference is related to the scaling rule of $1/Q^2$, i.e. the electro-production cross-section might be approximated by the photo-production cross-section by scaling down the latter one by $1/Q^2$.
 
-\begin{figure}[h!]\begin{center}
+\begin{figure}[htbp]\begin{center}
 		\includegraphics[width=\figwidth,height=1.2\qfigheight]{\grpath/XSection/eta_phot_electXSection.pdf}\\
 		\includegraphics[width=0.7\figwidth,height=0.9\qfigheight]{\grpath/XSection/eta_phot_prodXSection.pdf}
-		\caption[eta el-prod. XSection]{\label{fig:EtaProdX}{Integrated cross-section for (Top) $ep\to e'p\eta$ (Top) for different $Q^2$-values~\cite{etaelect} and (Bottom) for $\gamma p\rightarrow p\eta$~\cite{etaphoto}.}}
+		\caption[eta el-prod. XSection]{\label{fig:EtaProdX}{Integrated cross-section for $ep\to e'p\eta$ (Top) for: (a) $Q^2=0.625(GeV/c)^2$, (b) $Q^2=0.875(GeV/c)^2$, (a) $Q^2=1.125(GeV/c)^2$~\cite{etaelect} and for $\gamma p\rightarrow p\eta$ (Bottom)~\cite{etaphoto}.}}
 \end{center}\end{figure}
 
-The top row of Fig.~\ref{fig:EtaPProdX} shows the total photo-production cross-section for hadrons in comparison with the photo-production cross-section for $\etaP$ (see bottom row of Fig.~\ref{fig:EtaPProdX}). Due to the considerations made above, these two cross-section distributions might be directly translated to the corresponding electro-production cross-sections. Using the cross-sections shown in Fig.~\ref{fig:EtaPProdX}, one might define the following ratio $R(W)$:
+\FloatBarrier
+
+The top row of Fig.~\ref{fig:EtaPProdX} shows the total photo-production cross-section for hadrons in comparison with the photo-production cross-section for $\etaP$ (see bottom row of Fig.~\ref{fig:EtaPProdX}). Due to the considerations made above, these two cross-section distributions might be directly translated to the corresponding electro-production cross-sections. Using the distributions shown in Fig.~\ref{fig:EtaPProdX}, one might define the following ratio $R(W)$:
 
 \begin{equation}
  R(W) = \frac{\sigma(W)}{\etaP\text{ integrated } \sigma(W)}
@@ -72,20 +78,32 @@ The top row of Fig.~\ref{fig:EtaPProdX} shows the total photo-production cross-s
 		\caption[etaP phot-prod. XSection]{\label{fig:EtaPProdX}{Integrated cross-section for $\gamma p\rightarrow pX$ (Top) and $\gamma p\rightarrow p\etaP$ (Bottom) as a function of $W$.}}
 \end{center}\end{figure}
 
-The rate for mesons in electro-production where the scattered electron is left undetected is $\sim 140\,\rm{kHz}$. 
+The rate for mesons in electro-production where the scattered electron is left undetected is $\sim 140\,\rm{kHz}$~\cite{Sargsyan}. This rate needs to be scaled down by $R(W)$ in order to achieve the corresponding rate for $\etaP$ production. This leads to:
+
+\begin{equation}
+ \etaP\text{ total rates / 80 Days }(W) = 140\,\rm{kHz}\cdot \frac{86,400}{\text{80 days}}\cdot \frac{1}{R(W)}
+\label{etaPRate}
+\end{equation}
+
+A plot of Eq.~\ref{etaPRate} is shown in Fig.~\ref{fig:EtaPRate} (left y-axis). The total $\etaP\rightarrow\epem\gamma$ rates per 80 days, and as a function $W$, is calculated by multiplying Eq.\ref{etaPRate} with the product of the average detection efficiency $\epsilon\approx 5\%$ as well as the branching fraction $\mathcal{BR} $ for $\etaP\rightarrow\epem\gamma$. The corresponding plot is shown in Fig.~\ref{fig:EtaPRate} (right y-axis). Obviously, the total number $N_{tot}$ of expected $\etaP\rightarrow\epem\gamma$ events after 80 days of measurement is given by the integral of Fig.~\ref{fig:EtaPRate} over $W$. This leads to the expected yield:
+
+\begin{equation}
+  N_{tot} = \int\limits_{1.9\,\rm{GeV}}^{2.8\,\rm{GeV}} \Big[ {\color{red}{\etaP\rightarrow\epem\gamma\text{ total rates / 80 Days }(W)}} \Big]dW = 52,100
+\label{yield}
+\end{equation}
+
 
 \begin{figure}[h!]\begin{center}
-		\includegraphics[width=0.9\figwidth,height=0.9\qfigheight]{\grpath/XSection/hadron_prod_photoproduction.pdf}\\
-		\includegraphics[width=0.9\figwidth,height=0.9\qfigheight]{\grpath/XSection/etaP_total_XSection.pdf}
-		\caption[etaP phot-prod. XSection]{\label{fig:EtaPProdX}{Integrated cross-section for $\gamma p\rightarrow pX$ (Top) and $\gamma p\rightarrow p\etaP$ (Bottom) as a function of $W$.}}
+		\includegraphics[width=0.9\figwidth,height=0.9\qfigheight]{\grpath/XSection/Total_rates.pdf}\\
+		\caption[etaP rates]{\label{fig:EtaPRate}{Total $\etaP$ production rate per 80 days (left y-axis) and total $\etaP\rightarrow \epem\gamma$ rates per 80 days (right y-axis) as a function of $W$. Both rates have been calculated according to Eq.~\ref{etaPRate}}}
 \end{center}\end{figure}
-
-\FloatBarrier
-
-
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
 
 \subsubsection{Expected Results}
 To extrapolate the number of $\etaP$ \ produced in 

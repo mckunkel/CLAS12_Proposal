@@ -171,9 +171,7 @@ void fitMKVoight(TH1 *h33 , Double_t low, Double_t high, Double_t p0, Double_t p
 
 
 void plot_stuff(){
-<<<<<<< HEAD
-<<<<<<< HEAD
-   
+ 
     gStyle->SetOptStat(0);
     gStyle->SetOptTitle(0);
     
@@ -217,9 +215,7 @@ void plot_stuff(){
     hMMPEmX_cut->SetLineColor(kRed);
     hMMPEmX_cut->SetFillColor(kRed);
     hMMPEmX_cut->SetFillStyle(3001);
-=======
-=======
->>>>>>> master
+
   
   gStyle->SetOptStat(0);
   gStyle->SetOptTitle(0);
@@ -227,10 +223,7 @@ void plot_stuff(){
   gROOT->ForceStyle();
   TFile *in = TFile::Open("IncLusive_Plots_vmd.root");
   TFile *inflat = TFile::Open("IncLusive_Plots_flat.root");
-<<<<<<< HEAD
->>>>>>> master
-=======
->>>>>>> master
+
 
   TH1D *hIVEpEmGam = (TH1D*)in->Get("hIVEpEmGam");
   TH1D *hIVEpEmGam_cut = (TH1D*)in->Get("hIVEpEmGam_cut");
@@ -290,8 +283,6 @@ void plot_stuff(){
     if(i>critMMbin){
       MMrest->SetBinContent(i,0);
     }
-<<<<<<< HEAD
-<<<<<<< HEAD
     MMrest->SetFillStyle(3001);
     MMrest->SetFillColor(8);
     MMrest->SetLineColor(8);
@@ -398,11 +389,7 @@ void plot_stuff(){
     c3->cd();
     
     
-    
-    
-=======
-=======
->>>>>>> master
+
   }
   MMrest->SetFillStyle(3001);
   MMrest->SetFillColor(8);
@@ -462,6 +449,7 @@ void plot_stuff(){
   
   //MK stuff
 
+
   TCanvas *cmkII =  new TCanvas("cmkII","cmkII",1200,500);
   //cmkII->Divide(1,2);
   cmkII->cd();
@@ -482,8 +470,6 @@ void plot_stuff(){
   hEpEm_corrected->GetXaxis()->SetTitleSize(0.05);
   hEpEm_corrected->Draw("EP");
   hIVEpEm_cut_clone->Draw("EP same");
-<<<<<<< HEAD
-=======
 
   TLegend *legmkII = new TLegend(0.45,0.7,0.9,0.9);
   legmkII->SetTextSize(0.05);
@@ -614,6 +600,27 @@ void plot_stuff(){
   TString sbn_flat = Form("b_{n} = %2.4f #pm %2.4f  ", bn_flat,bn_err_flat);
 >>>>>>> master
 
+  TCanvas *cmkII =  new TCanvas("cmkII","cmkII",1200,500);
+  //cmkII->Divide(1,2);
+  cmkII->cd();
+  cmkII->SetLogy();
+  TH1D *hIVEpEm_cut_clone = (TH1D*)in->Get("hIVEpEm_cut_clone");
+  hIVEpEm_cut_clone->SetLineColor(kRed);
+  hIVEpEm_cut_clone->SetYTitle("Expected Counts / 10 MeV");
+  hIVEpEm_cut_clone->GetYaxis()->SetTitleSize(0.05);
+  hIVEpEm_cut_clone->GetYaxis()->SetTitleOffset(0.8);
+  hIVEpEm_cut_clone->GetXaxis()->SetTitle("M(e^{+}e^{-}) [GeV]");
+  hIVEpEm_cut_clone->GetXaxis()->SetTitleSize(0.05);
+  hIVEpEm_cut_clone->GetXaxis()->SetTitleOffset(0.8);
+  TH1D *hEpEm_corrected = (TH1D*)in->Get("hEpEm_corrected");
+  hEpEm_corrected->SetYTitle("Counts / 10 MeV");
+  hEpEm_corrected->GetYaxis()->SetTitleSize(0.05);
+  hEpEm_corrected->GetYaxis()->SetTitleOffset(0.8);
+  hEpEm_corrected->GetXaxis()->SetTitle("M(e^{+}e^{-}) [GeV]");
+  hEpEm_corrected->GetXaxis()->SetTitleSize(0.05);
+  hEpEm_corrected->Draw("EP");
+  hIVEpEm_cut_clone->Draw("EP same");
+
   TLegend *legmkII = new TLegend(0.45,0.7,0.9,0.9);
   legmkII->SetTextSize(0.05);
   legmkII->SetFillColor(0);
@@ -721,7 +728,6 @@ void plot_stuff(){
   hEpEm_QEDnorm_flat->Fit("FF_fittepoleII","REM");
   hEpEm_QEDnorm->Fit("FF_fittepole","REM+");
 
-<<<<<<< HEAD
   Double_t Lambda = FF_fittepole->GetParameter(1);
   Double_t Lambdaerr = FF_fittepole->GetParError(1);
   Double_t bn = 1./Lambda;
@@ -742,11 +748,135 @@ void plot_stuff(){
   
   TString sLambda_flat = Form("#Lambda^{2}_{fit}  = %2.4f #pm %2.4f  ", Lambda_flat,Lambdaerr_flat);
   TString sbn_flat = Form("b_{n} = %2.4f #pm %2.4f  ", bn_flat,bn_err_flat);
->>>>>>> master
 
+  TLegend *legmkII = new TLegend(0.45,0.7,0.9,0.9);
+  legmkII->SetTextSize(0.05);
+  legmkII->SetFillColor(0);
+  legmkII->AddEntry(hIVEpEm_cut_clone,"Expected counts in 80 days","l");
 
-=======
->>>>>>> master
+  legmkII->AddEntry(hEpEm_corrected,"Accepted corrected counts in 80 days","l");
+  legmkII->Draw("same");
+  
+  
+  TCanvas *cmkIII =  new TCanvas("cmkIII","cmkIII",1200,500);
+  cmkIII->cd();
+  TH1D *hEpEm_acceptance = (TH1D*)in->Get("hEpEm_acceptance");
+  hEpEm_acceptance->SetLineColor(kRed);
+  hEpEm_acceptance->SetYTitle("Acceptance / 10 MeV");
+  hEpEm_acceptance->GetYaxis()->SetTitleSize(0.05);
+  hEpEm_acceptance->GetYaxis()->SetTitleOffset(0.8);
+  hEpEm_acceptance->GetXaxis()->SetTitle("M(e^{+}e^{-}) [GeV]");
+  hEpEm_acceptance->GetXaxis()->SetTitleSize(0.05);
+  hEpEm_acceptance->GetXaxis()->SetTitleOffset(0.8);
+  TH1D *hEpEm_acceptance_flat = (TH1D*)inflat->Get("hEpEm_acceptance");
+  hEpEm_acceptance_flat->SetYTitle("Acceptance / 10 MeV");
+  hEpEm_acceptance_flat->GetYaxis()->SetTitleSize(0.05);
+  hEpEm_acceptance_flat->GetYaxis()->SetTitleOffset(0.8);
+  hEpEm_acceptance_flat->GetXaxis()->SetTitle("M(e^{+}e^{-}) [GeV]");
+  hEpEm_acceptance_flat->GetXaxis()->SetTitleSize(0.05);
+  hEpEm_acceptance_flat->GetXaxis()->SetTitleOffset(0.8);
+  hEpEm_acceptance->GetYaxis()->SetRangeUser(0,0.16);
+  hEpEm_acceptance->Draw("EP");
+  hEpEm_acceptance_flat->Draw("EP same");
+  
+  TLegend *legmkIII = new TLegend(0.11,0.7,0.45,0.9);
+  legmkIII->SetTextSize(0.05);
+  legmkIII->SetFillColor(0);
+  legmkIII->AddEntry(hEpEm_acceptance,"QED+VMD M(e^{+}e^{-}) Acceptance","l");
+  
+  legmkIII->AddEntry(hEpEm_acceptance_flat,"Flat M(e^{+}e^{-}) Acceptance","l");
+  legmkIII->Draw("same");
+  
+  
+  //
+  double QED_par[8] = {0.957}; //{Mass}
+  TF1 *QED_norm = new TF1("QED_norm",Eval_Kroll_wada,0.,1.,1);
+  QED_norm->SetParameters(&QED_par[0]);
+  
+  TH1D *hEpEm_corrected_flat = new TH1D("hEpEm_corrected_flat","hEpEm_corrected_flat",100,0.0,1);
+  TH1D *hEpEm_QEDnorm_flat = new TH1D("hEpEm_QEDnorm_flat","hEpEm_QEDnorm_flat",100,0.0,1);
+  for (int i = 1; i<hIVEpEm_cut_clone->GetNbinsX(); i++) {
+    
+    Double_t bin_factor = 1.65; //this needs to be solved at somepoint
+    Double_t intotal_acceptance = hEpEm_acceptance_flat->GetBinContent(i)*bin_factor;
+    Double_t intotal_events_upper;
+    if (intotal_acceptance == 0) {
+      intotal_events_upper = 0;
+    }else{
+      intotal_events_upper = hIVEpEm_cut_clone->GetBinContent(i)/intotal_acceptance;
+    }
+    hEpEm_corrected_flat->SetBinContent(i,intotal_events_upper);
+    hEpEm_corrected_flat->SetBinError(i,sqrt(intotal_events_upper));
+    
+    Double_t QED_factor = QED_norm->Eval(hIVEpEm_cut_clone->GetBinCenter(i));//2.0e-06;
+    
+    hEpEm_QEDnorm_flat->SetBinContent(i,intotal_events_upper/QED_factor);
+    //hEpEm_QEDnorm->SetBinError(i,sqrt(intotal_events_upper/QED_factor));
+    
+  }
+  
+  
+  
+  //
+  
+  double pole_par[3] = {10, 0.59,0.0144}; //{A,Lambda,Gamma}
+  
+  TF1 *FF_fittepole = new TF1("FF_fittepole", Pole_FFII,0.02,0.92,3);
+  FF_fittepole->SetParameters(&pole_par[0]);
+  FF_fittepole->SetParLimits(0,0.,100.);
+  FF_fittepole->SetParLimits(1,pole_par[1] - pole_par[1]*0.1,pole_par[1] + pole_par[1]*0.1);
+  FF_fittepole->SetParLimits(2,pole_par[2] - pole_par[2]*0.5,pole_par[2] + pole_par[2]*0.5);
+  
+  //for flat
+  double pole_parII[3] = {10, 0.59,0.0144}; //{A,Lambda,Gamma}
+  
+  TF1 *FF_fittepoleII = new TF1("FF_fittepoleII", Pole_FFII,0.02,0.85,3);
+  FF_fittepoleII->SetParameters(&pole_parII[0]);
+  FF_fittepoleII->SetParLimits(0,0.,100.);
+  FF_fittepoleII->SetParLimits(1,pole_parII[1] - pole_parII[1]*0.1,pole_parII[1] + pole_parII[1]*0.1);
+  FF_fittepoleII->SetParLimits(2,pole_parII[2] - pole_parII[2]*0.5,pole_parII[2] + pole_parII[2]*0.5);
+  FF_fittepoleII->SetLineColor(kBlue);
+  //TF1 *FF_fitterGaus = new TF1("FF_fitterGaus","gaus",0.55,0.92);
+  
+  TCanvas *cmkI =  new TCanvas("cmkI","cmkI",1200,500);
+  
+  TH1D *hEpEm_QEDnorm = (TH1D*)in->Get("hEpEm_QEDnorm");
+  cmkI->cd();
+  hEpEm_QEDnorm->SetTitle("Expected distribution of |F(q^{2})|^{2}");
+  hEpEm_QEDnorm->SetLineColor(kBlack);
+  hEpEm_QEDnorm->SetYTitle("|F(q^{2})|^{2}");
+  hEpEm_QEDnorm->GetYaxis()->SetTitleSize(0.05);
+  hEpEm_QEDnorm->GetYaxis()->SetTitleOffset(0.8);
+  hEpEm_QEDnorm->GetXaxis()->SetTitle("M(e^{+}e^{-}) [GeV]");
+  hEpEm_QEDnorm->GetXaxis()->SetTitleSize(0.05);
+  hEpEm_QEDnorm->GetXaxis()->SetTitleOffset(0.8);
+  hEpEm_QEDnorm->Draw("EP");
+  hEpEm_QEDnorm_flat->SetLineColor(8);
+  hEpEm_QEDnorm_flat->Draw("EP same");
+  hEpEm_QEDnorm_flat->Fit("FF_fittepoleII","REM");
+  hEpEm_QEDnorm->Fit("FF_fittepole","REM+");
+
+  Double_t Lambda = FF_fittepole->GetParameter(1);
+  Double_t Lambdaerr = FF_fittepole->GetParError(1);
+  Double_t bn = 1./Lambda;
+  Double_t bn_err = Lambdaerr/(bn*bn);
+  
+  
+  Double_t Lambda_flat = FF_fittepoleII->GetParameter(1);
+  Double_t Lambdaerr_flat = FF_fittepoleII->GetParError(1);
+  Double_t bn_flat = 1./Lambda_flat;
+  Double_t bn_err_flat = Lambdaerr_flat/(bn_flat*bn_flat);
+  
+  
+  TString sLambda = Form("#Lambda^{2}_{fit}  = %2.4f #pm %2.4f  ", Lambda,Lambdaerr);
+  TString sbn = Form("b_{n} = %2.4f #pm %2.4f  ", bn,bn_err);
+  
+  TString sLambda_gen = Form("#Lambda^{2}_{gen}  = %2.4f  ", 0.5776);
+  TString sbn_gen = Form("b_{n gen} = %2.4f  ", 1./0.5776);
+  
+  TString sLambda_flat = Form("#Lambda^{2}_{fit}  = %2.4f #pm %2.4f  ", Lambda_flat,Lambdaerr_flat);
+  TString sbn_flat = Form("b_{n} = %2.4f #pm %2.4f  ", bn_flat,bn_err_flat);
+
   
   TLegend *legmkI = new TLegend(0.12,0.55,0.37,0.9);
   legmkI->SetTextSize(0.04);

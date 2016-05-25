@@ -40,6 +40,8 @@ void fitMKVoight(TH1 *, Double_t, Double_t, Double_t, Double_t, Double_t, Double
 Double_t Eval_Kroll_wada(Double_t *, Double_t *);
 Double_t VMD_FF(Double_t *, Double_t *);
 Double_t Pole_FF(Double_t *, Double_t *);
+Double_t Pole_FFII(Double_t *, Double_t *);
+
 Double_t myVoight(Double_t *, Double_t *);
 
 TString XSection_Hist_num(Double_t);
@@ -214,7 +216,7 @@ void Inclusive_Proposal_Plots(){
   TH2D *hscat_reconE_theta = new TH2D("hscat_reconE_theta","hscat_reconE_theta",100,0,50,100,0,50);
   TH2D *hscat_reconE_Qsqr = new TH2D("hscat_reconE_Qsqr","hscat_reconE_Qsqr",100,0,18,100,0,18);
 
-  for (int i=0; i<nevents; i++)//nevents
+  for (int i=0; i<nevents/100; i++)//nevents
   {
     //f->cd();
     if(!(i%500000)) std::cout << "\r done " << i << " out of " << nevents << " ==> " << double(i)*100.0/double(nevents) << "%" << flush;
@@ -313,7 +315,7 @@ void Inclusive_Proposal_Plots(){
         
         hQsqr_inclusive_gen_acc->Fill(-vQsqr_inc_gen.M2());
 
-        if (abs(vIV_EpEmGam.M() - 0.9577) < 2.5*0.0365 && vEmX.E() > 0.5) {
+        if (abs(vIV_EpEmGam.M() - 0.9577) < 2.5*0.0365 && vEmX.E() > 0.5) { //&& -vQsqr_inc.M2() < 11.5
           hIVEpEmGam_cut->Fill(vIV_EpEmGam.M());
           hMMPEmX_cut->Fill(vMM_PEmX.M());
           hIVEpEm_cut->Fill(vIV_EpEm.M());
@@ -362,7 +364,7 @@ void Inclusive_Proposal_Plots(){
         hMM2PEmEpGam->Fill(vMMPEmEpGam.M2());
 
 
-        if (abs(vIV_EpEmGam.M() - 0.9577) < 2.5*0.0365 && vEmX.E() > 0.5) {
+        if (abs(vIV_EpEmGam.M() - 0.9577) < 2.5*0.0365 && vEmX.E() > 0.5 ) {//&& -vQsqr_inc.M2() < 11.5
           hQsqr_recon_cut->Fill(-Qsq);
 
           hIVEpEmGam_cut->Fill(vIV_EpEmGam.M());
@@ -633,12 +635,13 @@ void Inclusive_Proposal_Plots(){
   
   //now lets try BW pole
   
-  double pole_par[3] = {10, 0.7,0.12}; //{A,Lambda,Gamma}
-  
+  double pole_par[3] = {10, 0.81,0.12}; //{A,Lambda,Gamma}
+  //double pole_par[3] = {10, 0.49,0.0144}; //{A,Lambda,Gamma}
+
   TF1 *FF_fittepole = new TF1("FF_fittepole", Pole_FF,0.02,0.92,3);
   FF_fittepole->SetParameters(&pole_par[0]);
   FF_fittepole->SetParLimits(0,0.,100.);
-  FF_fittepole->SetParLimits(1,pole_par[1] - pole_par[1]*0.5,pole_par[1] + pole_par[1]*0.5);
+  FF_fittepole->SetParLimits(1,pole_par[1] - pole_par[1]*0.01,pole_par[1] + pole_par[1]*0.01);
   FF_fittepole->SetParLimits(2,pole_par[2] - pole_par[2]*0.5,pole_par[2] + pole_par[2]*0.5);
 
   //TF1 *FF_fitterGaus = new TF1("FF_fitterGaus","gaus",0.55,0.92);
@@ -649,8 +652,8 @@ void Inclusive_Proposal_Plots(){
   c2->Print("Incl_plots.pdf");
   c3->Print("Incl_plots.pdf)");
   
-  //TFile fplot("FLAT/IncLusive_Plots_vmd.root","recreate");
-  TFile fplot("VMD/IncLusive_Plots_vmd.root","recreate");
+  //TFile fplot("FLAT/IncLusive_Plots_flat.root","recreate");
+  TFile fplot("VMD/IncLusive_Plots_vmdtest.root","recreate");
 
   
   hIVEpEmGam->Write();
@@ -845,20 +848,7 @@ Double_t VMD_FF(Double_t *x, Double_t *par) {
   
 }
 Double_t Pole_FF(Double_t *x, Double_t *par) {
-  
-  //  if (x[0] > 0.742 && x[0] < 0.779) {
-  //    TF1::RejectPoint();
-  //    return 0;
-  //  }else{
-  //
-  //    Double_t Lambda= par[1]*par[1];
-  //    Double_t qsqr = (x[0]*x[0]);
-  //    Double_t f = 0.;
-  //    Double_t Norm = par[0];
-  //    Double_t demon = 1. - qsqr/Lambda;
-  //    f = 1./demon;
-  //    return Norm*abs(f*f);
-  //  }
+
   Double_t Lambda= par[1]*par[1];
   Double_t gamma = par[2];
   Double_t qsqr = (x[0]*x[0]);
@@ -871,8 +861,24 @@ Double_t Pole_FF(Double_t *x, Double_t *par) {
   return Norm*f;
   //return Norm*abs(f*f);
   
+  
 }
+Double_t Pole_FFII(Double_t *x, Double_t *par) {
 
+  Double_t Lambdasqr= par[1];
+  Double_t gammasqr = par[2];
+  Double_t qsqr = (x[0]*x[0]);
+  Double_t f = 0.;
+  Double_t Norm = par[0];
+  
+  Double_t nom = Lambdasqr*(Lambdasqr + gammasqr);
+  Double_t demon = pow((Lambdasqr-qsqr),2) + Lambdasqr*gammasqr;
+  f = nom/demon;
+  return Norm*f;
+  //return Norm*abs(f*f);
+  
+  
+}
 
 void fitMKVoight(TH1 *h33 , Double_t low, Double_t high, Double_t p0, Double_t p1, Double_t p2, Double_t p3, Double_t initialPar, Double_t width, Double_t Gamma, Double_t factor, Int_t draw_opt){
   

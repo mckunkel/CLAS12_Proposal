@@ -11,6 +11,11 @@ Thomas Blum, Achim Denig, Ivan Logashenko, Eduardo de~Rafael, B.~Lee~Roberts,
 \newblock {The Muon (g-2) Theory Value: Present and Future}.
 \newblock 2013.
 
+\bibitem{miller}
+J.P. Miller et~al.
+\newblock Muon ( g - 2): experiment and theory.
+\newblock {\em Reports on Progress in Physics}, 70(5):795, 2007.
+
 \bibitem{Bennett:2006fi}
 G.~W. Bennett et~al.
 \newblock {Final Report of the Muon E821 Anomalous Magnetic Moment Measurement
@@ -109,6 +114,12 @@ Bastian Kubis and Judith Plenter.
 C.~W. Xiao, T.~Dato, C.~Hanhart, B.~Kubis, U.~G. Meißner, and A.~Wirzba.
 \newblock {Towards an improved understanding of eta --> gamma$^*$ gamma$^*$}.
 \newblock 2015.
+
+\bibitem{Nyffeler}
+A.~Nyffeler.
+\newblock On the precision of a data-driven estimate of hadronic light-by-light
+  scattering in the muon g-2: pseudoscalar-pole contribution.
+\newblock {\em arXiv}, (1602.03398), 2016.
 
 \bibitem{Dalitz}
 R~H Dalitz.
@@ -254,11 +265,6 @@ CLAS software repository.
 \newblock Monte-carlo program to simulate clas12 detector response.
 \newblock Technical report, 2016.
 
-\bibitem{gemc}
-M.~Ungaro.
-\newblock {CLAS12 GEANT-4 simulation package GEMC}.
-\newblock \url{ http://clasweb.jlab.org/wiki/index.php/CLAS12 Software}.
-
 \bibitem{Williams}
 M.~Williams et~al.
 \newblock Differential cross sections for the reactions
@@ -266,11 +272,10 @@ M.~Williams et~al.
   $\ensuremath{\gamma}p\ensuremath{\rightarrow}p{\ensuremath{\eta}}^{'}$.
 \newblock {\em Phys. Rev. C}, 80:045213, Oct 2009.
 
-\bibitem{clas.proposal.meson}
-M.~Battaglieri et~al.
-\newblock {Meson spectroscopy with low Q2 electron scattering in CLAS12}.
-\newblock Technical report, \texttt{CLAS} Analysis Proposal
-  \texttt{E12-11-005}, 2010.
+\bibitem{Sargsyan}
+M.~Sargsyan et~al.
+\newblock {CLAS-NOTE 90-007}.
+\newblock Technical report, \texttt{CLAS} Technical Note, 1990.
 
 \bibitem{clas.proposal.jpsi}
 P.~Nadel-Turonski et~al.
@@ -291,11 +296,6 @@ M.~Dugger et~al.
 \newblock $\ensuremath{\eta}$ photoproduction on the proton for photon energies
   from 0.75 to 1.95 gev.
 \newblock {\em Phys. Rev. Lett.}, 89:222002, Nov 2002.
-
-\bibitem{Sargsyan}
-M.~Sargsyan et~al.
-\newblock {CLAS-NOTE 90-007}.
-\newblock Technical report, \texttt{CLAS} Technical Note, 1990.
 
 \bibitem{peskin}
 M.E. Peskin and D.V. Schroeder.

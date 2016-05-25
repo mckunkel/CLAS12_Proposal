@@ -150,7 +150,7 @@ void plot_stuff(){
     hIVEpEmGam->GetXaxis()->SetTitle("M(e^{+}e^{-}#gamma) [GeV]");
     hIVEpEmGam->GetXaxis()->SetTitleSize(0.05);
     hIVEpEmGam->GetXaxis()->SetTitleOffset(0.8);
-    hIVEpEmGam->GetYaxis()->SetTitle("Counts");
+    hIVEpEmGam->GetYaxis()->SetTitle("Counts / 35.5 MeV");
     hIVEpEmGam->GetYaxis()->SetTitleSize(0.05);
     hIVEpEmGam->GetYaxis()->SetTitleOffset(1.0);
     
@@ -171,7 +171,7 @@ void plot_stuff(){
     hMMPEmX_cut->SetStats(false);
     hMMPEmX->GetXaxis()->SetTitleSize(0.05);
     hMMPEmX->GetXaxis()->SetTitleOffset(0.8);
-    hMMPEmX->GetYaxis()->SetTitle("Counts");
+    hMMPEmX->GetYaxis()->SetTitle("Counts / 35.5 MeV");
     hMMPEmX->GetYaxis()->SetTitleSize(0.05);
     hMMPEmX->GetYaxis()->SetTitleOffset(1.0);
     
@@ -235,25 +235,75 @@ void plot_stuff(){
     leg2->Draw("same");
     c->cd();
     
-    TH1D *hIVEPEm = (TH1D*)in->Get("hIVEpEm");
-    TH1D *hIVEPEm_cut = (TH1D*)in->Get("hIVEpEm_cut");
+    TH1D *hIVEpEm = (TH1D*)in->Get("hIVEpEm");
+    TH1D *hIVEpEm_cut = (TH1D*)in->Get("hIVEpEm_cut");
     TH1D *hEpEm_contam = (TH1D*)in->Get("hEpEm_contam");
+    
     
     hIVEpEm->GetXaxis()->SetTitle("M(e^{+}e^{-}) [GeV]");
     hIVEpEm->GetXaxis()->SetTitleSize(0.05);
     hIVEpEm->GetXaxis()->SetTitleOffset(0.8);
     
-    hIVEpEm->GetYaxis()->SetTitle("Counts");
+    hIVEpEm->GetYaxis()->SetTitle("Counts / 40 MeV");
     hIVEpEm->GetYaxis()->SetTitleSize(0.05);
-    hIVEpEm->GetYaxis()->SetTitleOffset(1.0);
+    hIVEpEm->GetYaxis()->SetTitleOffset(0.8);
     
+    hIVEpEm->SetLineColor(kBlack);
+    hIVEpEm->SetLineWidth(2);
+
+    
+    hIVEpEm_cut->SetLineColor(kRed);
+    hIVEpEm_cut->SetFillColor(kRed);
+    hIVEpEm_cut->SetFillStyle(3001);
+
+    
+    hEpEm_contam->SetLineColor(8);
+    hEpEm_contam->SetFillColor(8);
+    hEpEm_contam->SetFillStyle(3001);
+    
+    TLegend *leg3 = new TLegend(0.6,0.6,0.9,0.9);
+    leg3->SetFillColor(0);
+    leg3->AddEntry(hIVEpEm_cut,"Select e^{-} from #eta'#rightarrowe^{+}e^{-}#gamma");
+    leg3->AddEntry(hEpEm_contam,"Select e^{-}' from e^{-}p#rightarrow e^{-}'pX");
+  
     TCanvas *c2 = new TCanvas("c2","",1);
     hIVEpEm->Draw();
-    c2->cd();
+    hIVEpEm_cut->Rebin(4);
+    hIVEpEm_cut->Draw("same");
+    hEpEm_contam->Rebin(4);
+    hEpEm_contam->Draw("same");
+    hIVEpEm->Draw("same");
+    leg3->Draw("same");
+    c2->SetLogy();
     
     
+    TH1D *hEmP = (TH1D*)in->Get("hEmP");
+    TH1D *hEmP_cut = (TH1D*)in->Get("hEmP_cut");
     
+    hEmP->GetXaxis()->SetTitle("Momentum of e^{-} [GeV/c]");
+    hEmP->GetXaxis()->SetTitleSize(0.05);
+    hEmP->GetXaxis()->SetTitleOffset(0.8);
     
+    hEmP->GetYaxis()->SetTitle("Counts / 110 MeV");
+    hEmP->GetYaxis()->SetTitleSize(0.05);
+    hEmP->GetYaxis()->SetTitleOffset(0.8);
+    
+    hEmP->SetLineColor(kBlack);
+    hEmP->SetLineWidth(2);
+    
+    hEmP_cut->SetLineColor(kRed);
+    hEmP_cut->SetFillColor(kRed);
+    hEmP_cut->SetFillStyle(3001);
+    
+    TLegend *leg4 = new TLegend(0.6,0.6,0.9,0.9);
+    leg4->SetFillStyle(0);
+    leg4->AddEntry(hEmP_cut,"Select e^{-} from #eta'#rightarrow e^{+}e^{-}#gamma");
+    
+    TCanvas *c3 = new TCanvas("c3","",1);
+    hEmP->Draw();
+    hEmP_cut->Draw("same");
+    leg4->Draw("same");
+    c3->cd();
     
     
     

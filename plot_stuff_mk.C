@@ -171,52 +171,6 @@ void fitMKVoight(TH1 *h33 , Double_t low, Double_t high, Double_t p0, Double_t p
 
 
 void plot_stuff(){
-<<<<<<< HEAD
-   
-    gStyle->SetOptStat(0);
-    gStyle->SetOptTitle(0);
-    
-     gROOT->ForceStyle();
-    TFile *in = TFile::Open("IncLusive_Plots_vmd.root");
-    
-    TH1D *hIVEpEmGam = (TH1D*)in->Get("hIVEpEmGam");
-    TH1D *hIVEpEmGam_cut = (TH1D*)in->Get("hIVEpEmGam_cut");
-    
-    hIVEpEmGam->SetLineColor(kBlack);
-    hIVEpEmGam->SetStats(false);
-    hIVEpEmGam_cut->SetStats(false);
-    hIVEpEmGam->GetXaxis()->SetTitle("M(e^{+}e^{-}#gamma) [GeV]");
-    hIVEpEmGam->GetXaxis()->SetTitleSize(0.05);
-    hIVEpEmGam->GetXaxis()->SetTitleOffset(0.8);
-    hIVEpEmGam->GetYaxis()->SetTitle("Counts / 35.5 MeV");
-    hIVEpEmGam->GetYaxis()->SetTitleSize(0.05);
-    hIVEpEmGam->GetYaxis()->SetTitleOffset(1.0);
-    
-    hIVEpEmGam->SetLineWidth(2);
-    
-    hIVEpEmGam_cut->SetLineColor(kRed);
-    hIVEpEmGam_cut->SetFillColor(kRed);
-    hIVEpEmGam_cut->SetFillStyle(3001);
-    
-    TH1D *hMMPEmX = (TH1D*)in->Get("hMMPEmX");
-    TH1D *hMMPEmX_cut = (TH1D*)in->Get("hMMPEmX_cut");
-    
-    hMMPEmX->SetLineColor(kBlack);
-    hMMPEmX->SetLineWidth(2);
-    
-    hMMPEmX->GetXaxis()->SetTitle("M_{x}(pe^{-}) [GeV]");
-    hMMPEmX->SetStats(false);
-    hMMPEmX_cut->SetStats(false);
-    hMMPEmX->GetXaxis()->SetTitleSize(0.05);
-    hMMPEmX->GetXaxis()->SetTitleOffset(0.8);
-    hMMPEmX->GetYaxis()->SetTitle("Counts / 35.5 MeV");
-    hMMPEmX->GetYaxis()->SetTitleSize(0.05);
-    hMMPEmX->GetYaxis()->SetTitleOffset(1.0);
-    
-    hMMPEmX_cut->SetLineColor(kRed);
-    hMMPEmX_cut->SetFillColor(kRed);
-    hMMPEmX_cut->SetFillStyle(3001);
-=======
   
   gStyle->SetOptStat(0);
   gStyle->SetOptTitle(0);
@@ -224,7 +178,6 @@ void plot_stuff(){
   gROOT->ForceStyle();
   TFile *in = TFile::Open("IncLusive_Plots_vmd.root");
   TFile *inflat = TFile::Open("IncLusive_Plots_flat.root");
->>>>>>> master
 
   TH1D *hIVEpEmGam = (TH1D*)in->Get("hIVEpEmGam");
   TH1D *hIVEpEmGam_cut = (TH1D*)in->Get("hIVEpEmGam_cut");
@@ -284,116 +237,6 @@ void plot_stuff(){
     if(i>critMMbin){
       MMrest->SetBinContent(i,0);
     }
-<<<<<<< HEAD
-    MMrest->SetFillStyle(3001);
-    MMrest->SetFillColor(8);
-    MMrest->SetLineColor(8);
-    
-    TLegend *leg1 = new TLegend(0.25,0.7,0.9,0.9);
-    leg1->SetFillColor(0);
-    leg1->AddEntry(IVrest,"Select e^{-}' from e^{-}p#rightarrow e^{-}'pX");
-    leg1->AddEntry(hIVEpEmGam_cut,"Select e^{-} from #eta'#rightarrow e^{+}e^{-}#gamma");
-    
-    TLegend *leg2 = new TLegend(0.25,0.7,0.9,0.9);
-    leg2->SetFillColor(0);
-    leg2->AddEntry(MMrest,"Select e^{-}' from e^{-}p#rightarrow e^{-}'pX");
-    leg2->AddEntry(hMMPEmX_cut,"Select e^{-} from #eta'#rightarrow e^{+}e^{-}#gamma");
-    
-    TCanvas *c = new TCanvas("c","",1200,500);
-    c->Divide(2);
-    c->cd(1);
-    
-    IVrest->Draw();
-    fitMKVoight(hIVEpEmGam, 0.6, 2.1, 0, 0, 0, 0, 0.957, 0.01, 0.001, 2.5, 1);
-    
-    
-    hIVEpEmGam_cut->Draw("same");
-    hIVEpEmGam->Draw("same");
-    leg1->Draw("same");
-    c->cd(2);
-    
-    MMrest->Draw();
-    fitMKVoight(hMMPEmX, 0.6, 2.1, 0, 0, 0, 0, 0.957, 0.01, 0.001, 2.5, 1);
-    
-    hMMPEmX_cut->Draw("same");
-    hMMPEmX->Draw("same");
-    leg2->Draw("same");
-    c->cd();
-    
-    TH1D *hIVEpEm = (TH1D*)in->Get("hIVEpEm");
-    TH1D *hIVEpEm_cut = (TH1D*)in->Get("hIVEpEm_cut");
-    TH1D *hEpEm_contam = (TH1D*)in->Get("hEpEm_contam");
-    
-    
-    hIVEpEm->GetXaxis()->SetTitle("M(e^{+}e^{-}) [GeV]");
-    hIVEpEm->GetXaxis()->SetTitleSize(0.05);
-    hIVEpEm->GetXaxis()->SetTitleOffset(0.8);
-    
-    hIVEpEm->GetYaxis()->SetTitle("Counts / 40 MeV");
-    hIVEpEm->GetYaxis()->SetTitleSize(0.05);
-    hIVEpEm->GetYaxis()->SetTitleOffset(0.8);
-    
-    hIVEpEm->SetLineColor(kBlack);
-    hIVEpEm->SetLineWidth(2);
-
-    
-    hIVEpEm_cut->SetLineColor(kRed);
-    hIVEpEm_cut->SetFillColor(kRed);
-    hIVEpEm_cut->SetFillStyle(3001);
-
-    
-    hEpEm_contam->SetLineColor(8);
-    hEpEm_contam->SetFillColor(8);
-    hEpEm_contam->SetFillStyle(3001);
-    
-    TLegend *leg3 = new TLegend(0.6,0.6,0.9,0.9);
-    leg3->SetFillColor(0);
-    leg3->AddEntry(hIVEpEm_cut,"Select e^{-} from #eta'#rightarrowe^{+}e^{-}#gamma");
-    leg3->AddEntry(hEpEm_contam,"Select e^{-}' from e^{-}p#rightarrow e^{-}'pX");
-  
-    TCanvas *c2 = new TCanvas("c2","",1);
-    hIVEpEm->Draw();
-    hIVEpEm_cut->Rebin(4);
-    hIVEpEm_cut->Draw("same");
-    hEpEm_contam->Rebin(4);
-    hEpEm_contam->Draw("same");
-    hIVEpEm->Draw("same");
-    leg3->Draw("same");
-    c2->SetLogy();
-    
-    
-    TH1D *hEmP = (TH1D*)in->Get("hEmP");
-    TH1D *hEmP_cut = (TH1D*)in->Get("hEmP_cut");
-    
-    hEmP->GetXaxis()->SetTitle("Momentum of e^{-} [GeV/c]");
-    hEmP->GetXaxis()->SetTitleSize(0.05);
-    hEmP->GetXaxis()->SetTitleOffset(0.8);
-    
-    hEmP->GetYaxis()->SetTitle("Counts / 110 MeV");
-    hEmP->GetYaxis()->SetTitleSize(0.05);
-    hEmP->GetYaxis()->SetTitleOffset(0.8);
-    
-    hEmP->SetLineColor(kBlack);
-    hEmP->SetLineWidth(2);
-    
-    hEmP_cut->SetLineColor(kRed);
-    hEmP_cut->SetFillColor(kRed);
-    hEmP_cut->SetFillStyle(3001);
-    
-    TLegend *leg4 = new TLegend(0.6,0.6,0.9,0.9);
-    leg4->SetFillStyle(0);
-    leg4->AddEntry(hEmP_cut,"Select e^{-} from #eta'#rightarrow e^{+}e^{-}#gamma");
-    
-    TCanvas *c3 = new TCanvas("c3","",1);
-    hEmP->Draw();
-    hEmP_cut->Draw("same");
-    leg4->Draw("same");
-    c3->cd();
-    
-    
-    
-    
-=======
   }
   MMrest->SetFillStyle(3001);
   MMrest->SetFillColor(8);
@@ -601,7 +444,6 @@ void plot_stuff(){
   
   TString sLambda_flat = Form("#Lambda^{2}_{fit}  = %2.4f #pm %2.4f  ", Lambda_flat,Lambdaerr_flat);
   TString sbn_flat = Form("b_{n} = %2.4f #pm %2.4f  ", bn_flat,bn_err_flat);
->>>>>>> master
 
 
   

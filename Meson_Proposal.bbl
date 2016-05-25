@@ -279,6 +279,24 @@ P.~Nadel-Turonski et~al.
 \newblock Technical report, \texttt{CLAS} Analysis Proposal
   \texttt{E12-12-001}, 2012.
 
+\bibitem{etaelect}
+R.~Thompson et~al.
+\newblock The
+  $\mathit{ep}\ensuremath{\rightarrow}{\mathit{e}}^{\ensuremath{'}}\mathit{p}\mathit{\ensuremath{\eta}}$
+  reaction at and above the ${\mathit{s}}_{11}(1535)$ baryon resonance.
+\newblock {\em Phys. Rev. Lett.}, 86:1702--1706, Feb 2001.
+
+\bibitem{etaphoto}
+M.~Dugger et~al.
+\newblock $\ensuremath{\eta}$ photoproduction on the proton for photon energies
+  from 0.75 to 1.95 gev.
+\newblock {\em Phys. Rev. Lett.}, 89:222002, Nov 2002.
+
+\bibitem{Sargsyan}
+M.~Sargsyan et~al.
+\newblock {CLAS-NOTE 90-007}.
+\newblock Technical report, \texttt{CLAS} Technical Note, 1990.
+
 \bibitem{peskin}
 M.E. Peskin and D.V. Schroeder.
 \newblock {\em An Introduction to Quantum Field Theory}.

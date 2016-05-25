@@ -1,10 +1,10 @@
 \section{Measurement}\label{sec:measurement}
 This section is a description on how the \etaDal \ was simulated and reconstructed for this CLAS12 proposal.
 \subsection{Simulation and Reconstruction}
-To simulate the reaction in Eq.~\ref{eq:etaP}, the program PLUTO++~\cite{PLUTO} was utilize for its ability to simulate the decays of those according to QED, Vector Meson Dominance or a user defined TFF. For reconstruction of the desired topologies, the CLAS12 FASTMC~\cite{fastmc} was used, in which $\sim 5\cdot10^8$ events were generated for \etaPDal \ and then simulated with FASTMC at 75\% torus field. The efficiency for all detectors are assumed to be 100\% and only the geometric acceptance is considered for this proposal. Therefore the numbers that will be quoted in this proposal will be only an upper limit. An extra FASTMC simulation was performed for the torus field setting of 100\% to show the effects of the magnetic field on the lepton acceptance. 
+To simulate the reaction in Eq.~\ref{eq:etaP}, the program PLUTO++~\cite{PLUTO} was utilized for its ability to simulate the decays of those according to QED, Vector Meson Dominance or a user defined TFF. For reconstruction of the desired topologies, the CLAS12 FASTMC~\cite{fastmc} was used, in which $\sim 5\cdot10^8$ events were generated for \etaPDal \ and then simulated with FASTMC at 75\% torus field. The efficiency for all detectors are assumed to be 100\% and only the geometric acceptance is considered for this proposal. Therefore the numbers that will be quoted in this proposal will be only an upper limit. An extra FASTMC simulation was performed for the torus field setting of 100\% to show the effects of the magnetic field on the lepton acceptance. 
 %The EC efficiency  was calculated by comparing GEMC (GEANT4) simulations with FASTMC. This EC efficiency was also calculated with the g12 data set and was identical to the comparison of the two simulation methods.
  \newline
-\indent The production of \etaTP \ was weighted by photo-production differential cross-sections, $\frac{d\sigma}{d\Omega}(v,\cos\theta_{cm})$, published in~\cite{Williams}, and $Q^2$. Where $v$ is the virtual photon energy, $\cos\theta_{cm}$ is the production angle in the center-of-mass frame of the system and $Q^2$, the production virtual photon, is defined as $-(k-k')^2$. This was done to achieve a quasi realistic model of the production. The \epemT \  decay spectrum, of each meson, was weighted via the VMD model (including QED predictions). Another simulation was performed using a flat $M(\epem)$ distribution (No QED, No VMD) to analyze any effects of the model on the \epemT acceptance. The analysis showed that the acceptance, in $M(\epem)$, was independent of the decay model, see Fig.\ref{fig:VMDaccepted} and Fig.\ref{fig:FLATaccepted}.
+\indent The production of \etaTP \ was weighted by photo-production differential cross-sections, $\frac{d\sigma}{d\Omega}(v,\cos\theta_{cm})$, published in~\cite{Williams}, and $Q^2$. Where $v$ is the virtual photon energy, $\cos\theta_{cm}$ is the production angle in the center-of-mass frame of the system and $Q^2$, the production virtual photon, is defined as $-(k-k')^2$. This was done to achieve a quasi realistic model of the production. The \epemT \  decay spectrum, of each meson, was weighted via the VMD model (including QED predictions). Another simulation was performed using a flat $M(\epem)$ distribution (No QED, No VMD) to analyze any effects of the model on the \epemT acceptance. The analysis showed that the acceptance, in $M(\epem)$, was independent of the decay model until $M(\epem)\to M_{\etaP} $, see Fig.\ref{fig:VMDaccepted}.
 \subsubsection{Trigger Requirements}
 The standard CLAS12 electron trigger (HTCC(Nphe>2) * [ (PCAL+EC)>1.0 GeV ] is sufficient for this types of analysis. The rate for hadron production in electro-production where the scattered electron is left undetected is $\sim 140\,\rm{kHz}$~\cite{Sargsyan}. This rate needs to be scaled down by the ratio of hardon production cross-section to \etaTP \ production cross-section, see Eq.~\ref{XsecR} in Sec.~\ref{sec:yield}. This ratio was calculated $\sim\frac{1}{200}$, which leads to an overall rate of 0.7~kHz, while the expected data acquisition (DAQ) readout rate is 10~kHz.
 \subsubsection{Detection of \epemT Events} 
@@ -17,35 +17,24 @@ An inclusive reconstruction scheme
 \begin{align}
 ep\to e'p \etaP \rightarrow p e^+ \gamma e^- (e^-)
 \end{align}
-where a proton, a photon, a positron and one electron of unknown source is detected. It will be determined from kinematics which electron corresponds to the beam scattered electron or the Dalitz produced electron. 
-\todo{Add daniels plots}
-The acceptance was calculated by dividing the accepted events by the generated events, per $M(\epem)$ bin. The $\etaP$ Dalitz decay acceptance using the VMD as a decay model can be seen in Fig.\ref{fig:VMDaccepted}, while the acceptance using a flat \epemT \ mass distribution can be seen in Fig.~\ref{fig:FLATaccepted}. A comparison of these two figures shows a model independent \epemT \ acceptance. 
-%\begin{figure}[h!]\begin{center}
-%		\includegraphics[width=\figwidth,height=2.6\qfigheight]{\grpath/counts/75_TORUS/VMD/VMD_Generated_Accepted.pdf}
-%		\caption[Generated and Accepted counts, as a function of $M(\epem)$]{\label{fig:VMD}{Generated events (Top), accepted events for an exclusive (Middle), inclusive(Bottom) reconstruction schemes as a function of $M(\epem)$. In all panels a VMD decay model was employed}}
-%\end{center}\end{figure}
-%\begin{figure}[h!]\begin{center}
-%			\includegraphics[width=\figwidth,height=2.6\qfigheight]{\grpath/counts/75_TORUS/FLAT/FLAT_Generated_Accepted.pdf}
-%			\caption[Generated and Accepted counts, as a function of $M(\epem)$]{\label{fig:FLAT}{Generated events (Top), accepted events for an exclusive (Middle), inclusive(Bottom) reconstruction schemes as a function of $M(\epem)$. In all panels a Flat \epemT \ decay model was employed}}
-%\end{center}\end{figure}
-\FloatBarrier
-
+where a proton, a photon, a positron and one electron of unknown source is detected. It will be determined from kinematics which electron corresponds to: (a) beam scattered electron or (b) the Dalitz produced electron. In Fig.~\ref{fig:recon} below the inference of choosing the missing $e^-$ according to kinematics is shown. It is clearly shown that the combinatorial  background from choosing the incorrect $e^-$ is manageable.
 \begin{figure}[h!]\begin{center}
-		\includegraphics[width=\figwidth,height=1.2\qfigheight]{\grpath/counts/75_TORUS/VMD/VMD_Acceptance.pdf}
-		\caption[Acceptance, as a function of $M(\epem)$]{\label{fig:VMDaccepted}{Acceptance using a VMD decay model, as a function of $M(\epem)$ for the exclusive (Top) and inclusive reconstruction scheme(Bottom). }}
-\end{center}\end{figure}
-
- \begin{figure}[h!]\begin{center}
- 		\includegraphics[width=\figwidth,height=1.2\qfigheight]{\grpath/counts/75_TORUS/FLAT/FLAT_Acceptance.pdf}
- 		\caption[Acceptance, as a function of $M(\epem)$]{\label{fig:FLATaccepted}{Acceptance using a flat \epemT \ decay model, as a function of $M(\epem)$ for the exclusive (Top) and inclusive reconstruction scheme(Bottom).}}
- \end{center}\end{figure} 
+		\includegraphics[width=1.2\figwidth,height=1.2\qfigheight]{\grpath/counts/etaPDalitz_contamI.pdf}
+		\caption[Reconstrcution with FASTMC]{\label{fig:recon}{(Left) Invariant mass of $\epem \gamma$. (Right) Missing mass off of the proton and one $e^-$.  Red corresponds to the Dalitz $e^-$ being detected and selected, while green is when the scattered beam $e^-$ is detected and rejected. Blue line is a fit using a Voigtian + $2^{\mathrm{nd}}$ order polynomial.}}
+	\end{center}\end{figure}
+	\FloatBarrier
+After placing a cut of $2.5\sigma$ from the mean value of the fit for the left diagram in Fig.~\ref{fig:recon}, we conclude from Fig.~\ref{fig:recondalitz} that the background from leakage of the incorrect $e^-$ is negligible.
+\begin{figure}[h!]\begin{center}
+		\includegraphics[width=\figwidth,height=1.2\qfigheight]{\grpath/counts/etaPDalitz_contamII.pdf}
+		\caption[Reconstrcution with FASTMC]{\label{fig:recondalitz}{Invariant mass of $\epem$.  Red corresponds to the Dalitz $e^-$ being detected and selected, while green is when the scattered beam $e^-$ is detected but accepted in the kinematics.}}
+	\end{center}\end{figure}
+	\FloatBarrier
+The acceptance was calculated by dividing the accepted events by the generated events, per $M(\epem)$ bin. The $\etaP$ Dalitz decay acceptance using the VMD model along with the acceptance using a flat \epemT \ mass distribution can be seen in Fig.\ref{fig:VMDaccepted}.
+\begin{figure}[h!]\begin{center}
+		\includegraphics[width=\figwidth,height=1.2\qfigheight]{\grpath/counts/acceptance.pdf}
+		\caption[Acceptance as a function of $M(\epem)$]{\label{fig:VMDaccepted}{(Color Online)Acceptance as a function of $M(\epem)$ using two decay models.}}
+	\end{center}\end{figure}
 \FloatBarrier
-
-
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%THIS IS WHAT I ADDED:
 
 \subsection{Calculating the Expected Yield}\label{sec:yield}
 %\subsubsection{Calculating Photon Flux}\label{sec:calflux}
@@ -81,7 +70,7 @@ The rate for mesons in electro-production where the scattered electron is left u
 \label{etaPRate}
 \end{equation}
 
-A plot of Eq.~\ref{etaPRate} is shown in Fig.~\ref{fig:EtaPRate} (left y-axis). The total $\etaP\rightarrow\epem\gamma$ rates per 80 days, and as a function $W$, is calculated by multiplying Eq.\ref{etaPRate} with the product of the average detection efficiency $\epsilon\approx 5\%$ as well as the branching fraction $\mathcal{BR} $ for $\etaP\rightarrow\epem\gamma$. The corresponding plot is shown in Fig.~\ref{fig:EtaPRate} (right y-axis). Obviously, the total number $N_{tot}$ of expected $\etaP\rightarrow\epem\gamma$ events after 80 days of measurement is given by the integral of Fig.~\ref{fig:EtaPRate} over $W$. This leads to the expected yield:
+A plot of Eq.~\ref{etaPRate} is shown in Fig.~\ref{fig:EtaPRate} (left y-axis). The total $\etaP\rightarrow\epem\gamma$ rates per 80 days, and as a function $W$, is calculated by multiplying Eq.\ref{etaPRate} with the product of the average detection efficiency $\epsilon\approx 5\%$ as well as the branching fraction $\mathcal{BR} = 4.69\cdot10^{-4}$~\cite{BESIII} for $\etaP\rightarrow\epem\gamma$. The corresponding plot is shown in Fig.~\ref{fig:EtaPRate} (right y-axis). The total number $N_{tot}$ of expected $\etaP\rightarrow\epem\gamma$ events after 80 days of measurement is given by the integral of Fig.~\ref{fig:EtaPRate} over $W$. This leads to the expected yield:
 
 \begin{equation}
   N_{tot} = \int\limits_{1.9\,\rm{GeV}}^{2.8\,\rm{GeV}} \Big[ {\color{red}{N(W)_{\etaP\rightarrow\epem\gamma\text{ / 80 Days }}}} \Big]dW = \mathrm{\frac{52,100 \ events}{80 Days}}
@@ -90,15 +79,23 @@ A plot of Eq.~\ref{etaPRate} is shown in Fig.~\ref{fig:EtaPRate} (left y-axis). 
 
 
 \begin{figure}[h!]\begin{center}
-		\includegraphics[width=0.9\figwidth,height=0.9\qfigheight]{\grpath/XSection/Total_rates.pdf}\\
+		\includegraphics[width=1.0\figwidth,height=1.4\qfigheight]{\grpath/XSection/Total_rates.pdf}\\
 		\caption[etaP rates]{\label{fig:EtaPRate}{Total $\etaP$ production rate per 80 days (left y-axis) and total $\etaP\rightarrow \epem\gamma$ rates per 80 days (right y-axis) as a function of $W$. Both rates have been calculated according to Eq.~\ref{etaPRate}}}
 \end{center}\end{figure}
 
+Instead of using an average efficiency $\epsilon \sim 5\%$ for determining the expected yield, one could utilize the $M(\epem)$ dependent acceptance shown in Fig.~\ref{fig:VMDaccepted} to calculate the total expected yield using the same procedure as explained above. This number of events expected to be reconstructed as well as the acceptance corrected yield can be seen in Fig.~\ref{fig:counts} which is consistent with the previous number quoted in Eq.~\ref{yield}.
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-
-
+\begin{figure}[h!]\begin{center}
+		\includegraphics[width=\figwidth,height=1.3\qfigheight]{\grpath/counts/counts.pdf}
+		\caption[Acceptance as a function of $M(\epem)$]{\label{fig:counts}{(Color Online)Expected yield as a function of $M(\epem)$.}}
+	\end{center}\end{figure}
+	\FloatBarrier
+	From Fig.~\ref{fig:counts} the QED normalized spectrum can be deduced and is shown in Fig.~\ref{fig:results}. Both acceptance models (i.e. flat and QED+VMD) are used to determine the transition form factor. It is shown that there exists a systematic uncertainty depending on the chosen acceptance model. However, the final calculation on the slope parameter or the TFF shows a negligible impact of this uncertainty. Regardless of the acceptance model, it is shown in Fig.~\ref{fig:results} that the accumulated statistics collected by CLAS12 allow for a precision of each parameter $\lesssim 0.5\%$. 
+	\begin{figure}[h!]\begin{center}
+			\includegraphics[width=\figwidth,height=1.3\qfigheight]{\grpath/counts/result.pdf}
+			\caption[TFF as a function of $M(\epem)$]{\label{fig:results}{(Color Online)$\left|F(q^2)\right|^2$ as a function of $M(\epem)$ using two acceptance models. (black points) QED+VMD $M(\epem)$ acceptance model. (green points) Flat $M(\epem)$ acceptance model. The solid lines represent a fit using Eq.~\ref{TFFbitch} to the data points.}}
+		\end{center}\end{figure}
+	\FloatBarrier
 
 
 %\subsubsection{Expected Results}

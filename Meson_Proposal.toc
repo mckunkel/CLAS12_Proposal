@@ -13,16 +13,16 @@
 \contentsline {subsubsection}{\numberline {3.1.2}G12 Detection of $ e^+e^- $Events}{16}{subsubsection.3.1.2}
 \contentsline {paragraph}{CC Comparison}{17}{section*.16}
 \contentsline {paragraph}{EC Comparison}{19}{section*.19}
-\contentsline {section}{\numberline {4}$\eta ^{\prime } \rightarrow e^+e^- \gamma $\ with CLAS g12}{24}{section.4}
-\contentsline {section}{\numberline {5}Measurement}{24}{section.5}
-\contentsline {subsection}{\numberline {5.1}Simulation and Reconstruction}{25}{subsection.5.1}
-\contentsline {subsubsection}{\numberline {5.1.1}Trigger Requirements}{25}{subsubsection.5.1.1}
-\contentsline {subsubsection}{\numberline {5.1.2}Detection of $ e^+e^- $Events}{25}{subsubsection.5.1.2}
-\contentsline {subsubsection}{\numberline {5.1.3}Particle Identification}{25}{subsubsection.5.1.3}
-\contentsline {subsubsection}{\numberline {5.1.4}Acceptance}{26}{subsubsection.5.1.4}
-\contentsline {subsection}{\numberline {5.2}Calculating the Expected Yield}{27}{subsection.5.2}
-\contentsline {subsection}{\numberline {5.3}Acceptance at 100\% Torus field}{30}{subsection.5.3}
-\contentsline {subsection}{\numberline {5.4}Expected Systematic Uncertainties}{31}{subsection.5.4}
-\contentsline {section}{\numberline {6}Beam Time Request}{32}{section.6}
-\contentsline {section}{BIBLIOGRAPHY}{33}{section*.36}
-\contentsline {section}{APPENDICES}{37}{section*.37}
+\contentsline {subsubsection}{\numberline {3.1.3}$\eta ^{\prime } \rightarrow e^+e^- \gamma $\ with CLAS g12}{24}{subsubsection.3.1.3}
+\contentsline {section}{\numberline {4}Measurement}{24}{section.4}
+\contentsline {subsection}{\numberline {4.1}Simulation and Reconstruction}{25}{subsection.4.1}
+\contentsline {subsubsection}{\numberline {4.1.1}Trigger Requirements}{25}{subsubsection.4.1.1}
+\contentsline {subsubsection}{\numberline {4.1.2}Detection of $ e^+e^- $Events}{25}{subsubsection.4.1.2}
+\contentsline {subsubsection}{\numberline {4.1.3}Particle Identification}{25}{subsubsection.4.1.3}
+\contentsline {subsubsection}{\numberline {4.1.4}Acceptance}{26}{subsubsection.4.1.4}
+\contentsline {subsection}{\numberline {4.2}Calculating the Expected Yield}{28}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Acceptance at 100\% Torus field}{32}{subsection.4.3}
+\contentsline {subsection}{\numberline {4.4}Expected Systematic Uncertainties}{33}{subsection.4.4}
+\contentsline {section}{\numberline {5}Beam Time Request}{34}{section.5}
+\contentsline {section}{BIBLIOGRAPHY}{35}{section*.38}
+\contentsline {section}{APPENDICES}{39}{section*.39}

@@ -321,9 +321,9 @@ void plot_stuff_mk(){
   TLegend *legmkII = new TLegend(0.45,0.7,0.9,0.9);
   legmkII->SetTextSize(0.05);
   legmkII->SetFillColor(0);
-  legmkII->AddEntry(hIVEpEm_cut_clone,"Expected counts in 80 days","l");
+  legmkII->AddEntry(hIVEpEm_cut_clone,"Expected counts in 80 days (N_{tot}=52785)","l");
 
-  legmkII->AddEntry(hEpEm_corrected,"Accepted corrected counts in 80 days","l");
+  legmkII->AddEntry(hEpEm_corrected,"Acceptance corrected counts in 80 days","l");
   legmkII->Draw("same");
   
   

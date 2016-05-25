@@ -170,7 +170,8 @@ void fitMKVoight(TH1 *h33 , Double_t low, Double_t high, Double_t p0, Double_t p
 
 
 
-void plot_stuff(){
+void plot_stuff_mk(){
+
   
   gStyle->SetOptStat(0);
   gStyle->SetOptTitle(0);
@@ -469,7 +470,12 @@ void plot_stuff(){
   legmkI_I->AddEntry((TObject*)0,"","");
 
   legmkI_I->Draw("same");
-  
+
+  cmkI->Print("figures/counts/result.pdf");
+  cmkIII->Print("figures/counts/acceptance.pdf");
+  cmkII->Print("figures/counts/counts.pdf");
+
+
 }
 
 

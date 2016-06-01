@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.3.18)  25 MAY 2016 19:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.3.18)  31 MAY 2016 17:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -923,54 +923,84 @@ Package cleveref Info: `subfig' support loaded on input line 2983.
 (/usr/local/texlive/2014/texmf-dist/tex/latex/multirow/multirow.sty
 \bigstrutjot=\dimen179
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 26.
-\figwidth=\skip80
-\qfigheight=\skip81
-\hfigheight=\skip82
+(/usr/local/texlive/2014/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
+\LTleft=\skip80
+\LTright=\skip81
+\LTpre=\skip82
+\LTpost=\skip83
+\LTchunksize=\count156
+\LTcapwidth=\dimen180
+\LT@head=\box42
+\LT@firsthead=\box43
+\LT@foot=\box44
+\LT@lastfoot=\box45
+\LT@cols=\count157
+\LT@rows=\count158
+\c@LT@tables=\count159
+\c@LT@chunks=\count160
+\LT@p@ftn=\toks39
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 27.
+\figwidth=\skip84
+\qfigheight=\skip85
+\hfigheight=\skip86
 
 (./Meson_Proposal.aux)
 \openout1 = `Meson_Proposal.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: floatrow package is loaded.
 Package caption Info: float package is loaded.
 Package caption Info: floatrow package is loaded.
 Package caption Info: hyperref package is loaded.
+Package caption Info: longtable package is loaded.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/caption/ltcaption.sty
+Package: ltcaption 2013/02/03 v1.3-62 longtable captions (AR)
+)
 Package caption Info: End \AtBeginDocument code.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/floatrow/fr-subfig.sty
 Package: fr-subfig 2007/12/24 v0.1g (beta) floatrow: additions for subfig
-\FBsc@max=\skip83
-\FBso@max=\skip84
+\FBsc@max=\skip87
+\FBso@max=\skip88
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/floatrow/fr-longtable.sty
+Package: fr-longtable 2007/11/28 v0.1b (beta) floatrow: additions for longtable
+
+\flrow@LT@lasthead=\box46
+\flrow@LT@prelastfoot=\box47
+\c@FBLTpage=\count161
 )
 (/usr/local/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count156
-\scratchdimen=\dimen180
-\scratchbox=\box42
-\nofMPsegments=\count157
-\nofMParguments=\count158
-\everyMPshowfont=\toks39
-\MPscratchCnt=\count159
-\MPscratchDim=\dimen181
-\MPnumerator=\count160
-\makeMPintoPDFobject=\count161
-\everyMPtoPDFconversion=\toks40
+\scratchcounter=\count162
+\scratchdimen=\dimen181
+\scratchbox=\box48
+\nofMPsegments=\count163
+\nofMParguments=\count164
+\everyMPshowfont=\toks40
+\MPscratchCnt=\count165
+\MPscratchDim=\dimen182
+\MPnumerator=\count166
+\makeMPintoPDFobject=\count167
+\everyMPtoPDFconversion=\toks41
 ) (/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
@@ -987,8 +1017,8 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 ABD: EveryShipout initializing macros
-\AtBeginShipoutBox=\box43
-Package hyperref Info: Link coloring ON on input line 94.
+\AtBeginShipoutBox=\box49
+Package hyperref Info: Link coloring ON on input line 95.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -996,34 +1026,34 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count162
+\c@section@level=\count168
 )
-LaTeX Info: Redefining \ref on input line 94.
-LaTeX Info: Redefining \pageref on input line 94.
-LaTeX Info: Redefining \nameref on input line 94.
+LaTeX Info: Redefining \ref on input line 95.
+LaTeX Info: Redefining \pageref on input line 95.
+LaTeX Info: Redefining \nameref on input line 95.
 
 (./Meson_Proposal.out) (./Meson_Proposal.out)
 \@outlinefile=\write4
 \openout4 = `Meson_Proposal.out'.
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 101.
+LaTeX Font Info:    Try loading font information for U+msa on input line 102.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 101.
+LaTeX Font Info:    Try loading font information for U+msb on input line 102.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 111.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 112.
 
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 111.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 112.
  [1
 
 {/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./Meso
@@ -1049,7 +1079,7 @@ Overfull \hbox (0.30229pt too wide) in paragraph at lines 4--14
  of par-ti-cle physics
  []
 
-[2] <figures/intro/hadronicgm2.pdf, id=214, 493.845pt x 111.41624pt>
+[2] <figures/intro/hadronicgm2.pdf, id=210, 493.845pt x 111.41624pt>
 File: figures/intro/hadronicgm2.pdf Graphic file (type pdf)
 
 <use figures/intro/hadronicgm2.pdf>
@@ -1060,7 +1090,7 @@ Package pdftex.def Info: figures/intro/hadronicgm2.pdf used on input line 51.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [3] [4 <./figures/intro/hadronicgm2.pdf>] [5]) (./Kinematics.tex
-<figures/decays/psudoscalar_gammagamma.pdf, id=318, 388.45125pt x 234.8775pt>
+<figures/decays/psudoscalar_gammagamma.pdf, id=314, 388.45125pt x 234.8775pt>
 File: figures/decays/psudoscalar_gammagamma.pdf Graphic file (type pdf)
 
 <use figures/decays/psudoscalar_gammagamma.pdf>
@@ -1068,7 +1098,7 @@ Package pdftex.def Info: figures/decays/psudoscalar_gammagamma.pdf used on inpu
 t line 18.
 (pdftex.def)             Requested size: 143.99736pt x 111.71132pt.
 
-<figures/decays/psudoscalar_dalitz.pdf, id=319, 425.59pt x 202.7575pt>
+<figures/decays/psudoscalar_dalitz.pdf, id=315, 425.59pt x 202.7575pt>
 File: figures/decays/psudoscalar_dalitz.pdf Graphic file (type pdf)
 
 <use figures/decays/psudoscalar_dalitz.pdf>
@@ -1081,7 +1111,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [6] [7 <./figures/decays/psudoscalar_gammagamma.pdf> <./figures/decays/psudosca
 lar_dalitz.pdf>] (./tables/models.tex)
-<figures/decays/etaP_Dalitz_QED_FF_comparePlot.pdf, id=380, 569.12625pt x 520.9
+<figures/decays/etaP_Dalitz_QED_FF_comparePlot.pdf, id=376, 569.12625pt x 520.9
 4624pt>
 File: figures/decays/etaP_Dalitz_QED_FF_comparePlot.pdf Graphic file (type pdf)
 
@@ -1093,21 +1123,21 @@ Package pdftex.def Info: figures/decays/etaP_Dalitz_QED_FF_comparePlot.pdf used
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[8] <figures/decays/cmplot.pdf, id=393, 487.8225pt x 203.76125pt>
+[8] <figures/decays/cmplot.pdf, id=389, 487.8225pt x 203.76125pt>
 File: figures/decays/cmplot.pdf Graphic file (type pdf)
 
 <use figures/decays/cmplot.pdf>
 Package pdftex.def Info: figures/decays/cmplot.pdf used on input line 102.
 (pdftex.def)             Requested size: 324.00337pt x 148.95589pt.
 
-<figures/decays/mmplot.pdf, id=395, 487.8225pt x 203.76125pt>
+<figures/decays/mmplot.pdf, id=391, 487.8225pt x 203.76125pt>
 File: figures/decays/mmplot.pdf Graphic file (type pdf)
 
 <use figures/decays/mmplot.pdf>
 Package pdftex.def Info: figures/decays/mmplot.pdf used on input line 107.
 (pdftex.def)             Requested size: 324.00337pt x 148.95589pt.
 
-<figures/decays/etaP_total_conversionPlot.pdf, id=397, 569.12625pt x 520.94624p
+<figures/decays/etaP_total_conversionPlot.pdf, id=393, 569.12625pt x 520.94624p
 t>
 File: figures/decays/etaP_total_conversionPlot.pdf Graphic file (type pdf)
  <use figures/decays/etaP_total_conversionPlot.pdf>
@@ -1131,7 +1161,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 pdfTeX warning: /usr/texbin/pdflatex (file ./figures/decays/mmplot.pdf): PDF in
 clusion: multiple pdfs with page group included in a single page
 >]
-<figures/decays/etaP_Dalitz_decay_with_conversion_spectra.pdf, id=547, 569.1262
+<figures/decays/etaP_Dalitz_decay_with_conversion_spectra.pdf, id=543, 569.1262
 5pt x 520.94624pt>
 File: figures/decays/etaP_Dalitz_decay_with_conversion_spectra.pdf Graphic file
  (type pdf)
@@ -1144,7 +1174,7 @@ ra.pdf used on input line 121.
 (./Current_Measurement.tex [11 <./figures/decays/etaP_total_conversionPlot.pdf,
  page is rotated 90 degrees> <./figures/decays/etaP_Dalitz_decay_with_conversio
 n_spectra.pdf, page is rotated 90 degrees>]
-<figures/current_status/CLEO_keynote.pdf, id=654, 1027.84pt x 770.88pt>
+<figures/current_status/CLEO_keynote.pdf, id=650, 1027.84pt x 770.88pt>
 File: figures/current_status/CLEO_keynote.pdf Graphic file (type pdf)
 
 <use figures/current_status/CLEO_keynote.pdf>
@@ -1156,7 +1186,7 @@ Overfull \hbox (7.2614pt too wide) in paragraph at lines 32--33
  [] 
  []
 
-<figures/current_status/BESIII_EtaP.pdf, id=655, 597.23125pt x 845.1575pt>
+<figures/current_status/BESIII_EtaP.pdf, id=651, 597.23125pt x 845.1575pt>
 File: figures/current_status/BESIII_EtaP.pdf Graphic file (type pdf)
 
 <use figures/current_status/BESIII_EtaP.pdf>
@@ -1215,7 +1245,7 @@ cuts-eps-converted-to.pdf figures/lepton/Lepfeature_cuts.eps>
 (epstopdf)             \includegraphics on input line 97.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/lepton/Lepfeature_cuts-eps-converted-to.pdf, id=894, 567.11874pt x 353
+<figures/lepton/Lepfeature_cuts-eps-converted-to.pdf, id=899, 567.11874pt x 353
 .32pt>
 File: figures/lepton/Lepfeature_cuts-eps-converted-to.pdf Graphic file (type pd
 f)
@@ -1236,7 +1266,7 @@ converted-to.pdf figures/lepton/CC_nPE.eps>
 (epstopdf)             \includegraphics on input line 114.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/lepton/CC_nPE-eps-converted-to.pdf, id=926, 479.7925pt x 388.45125pt>
+<figures/lepton/CC_nPE-eps-converted-to.pdf, id=931, 479.7925pt x 388.45125pt>
 File: figures/lepton/CC_nPE-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figures/lepton/CC_nPE-eps-converted-to.pdf>
@@ -1261,7 +1291,7 @@ ps-converted-to.pdf figures/lepton/CC_NPEcut.eps>
 (epstopdf)             \includegraphics on input line 119.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/lepton/CC_NPEcut-eps-converted-to.pdf, id=929, 479.7925pt x 388.45125p
+<figures/lepton/CC_NPEcut-eps-converted-to.pdf, id=934, 479.7925pt x 388.45125p
 t>
 File: figures/lepton/CC_NPEcut-eps-converted-to.pdf Graphic file (type pdf)
  <use figures/lepton/CC_NPEcut-eps-converted-to.pdf>
@@ -1281,7 +1311,7 @@ ps-converted-to.pdf figures/lepton/Pim_EClow.eps>
 (epstopdf)             \includegraphics on input line 130.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/lepton/Pim_EClow-eps-converted-to.pdf, id=957, 566.115pt x 364.36125pt
+<figures/lepton/Pim_EClow-eps-converted-to.pdf, id=962, 566.115pt x 364.36125pt
 >
 File: figures/lepton/Pim_EClow-eps-converted-to.pdf Graphic file (type pdf)
  <use figures/lepton/Pim_EClow-eps-converted-to.pdf>
@@ -1300,7 +1330,7 @@ eps-converted-to.pdf figures/lepton/Pim_EChigh.eps>
 (epstopdf)             \includegraphics on input line 135.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/lepton/Pim_EChigh-eps-converted-to.pdf, id=960, 567.11874pt x 364.3612
+<figures/lepton/Pim_EChigh-eps-converted-to.pdf, id=965, 567.11874pt x 364.3612
 5pt>
 File: figures/lepton/Pim_EChigh-eps-converted-to.pdf Graphic file (type pdf)
  <use figures/lepton/Pim_EChigh-eps-converted-to.pdf>
@@ -1319,7 +1349,7 @@ t-eps-converted-to.pdf figures/lepton/Pim_EClowcut.eps>
 (epstopdf)             \includegraphics on input line 141.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/lepton/Pim_EClowcut-eps-converted-to.pdf, id=963, 569.12625pt x 353.32
+<figures/lepton/Pim_EClowcut-eps-converted-to.pdf, id=968, 569.12625pt x 353.32
 pt>
 File: figures/lepton/Pim_EClowcut-eps-converted-to.pdf Graphic file (type pdf)
  <use figures/lepton/Pim_EClowcut-eps-converted-to.pdf>
@@ -1338,7 +1368,7 @@ ut-eps-converted-to.pdf figures/lepton/Pim_EChighcut.eps>
 (epstopdf)             \includegraphics on input line 146.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/lepton/Pim_EChighcut-eps-converted-to.pdf, id=966, 570.13pt x 353.32pt
+<figures/lepton/Pim_EChighcut-eps-converted-to.pdf, id=971, 570.13pt x 353.32pt
 >
 File: figures/lepton/Pim_EChighcut-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -1358,7 +1388,7 @@ ps-converted-to.pdf figures/lepton/Pip_EClow.eps>
 (epstopdf)             \includegraphics on input line 153.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/lepton/Pip_EClow-eps-converted-to.pdf, id=972, 566.115pt x 364.36125pt
+<figures/lepton/Pip_EClow-eps-converted-to.pdf, id=977, 566.115pt x 364.36125pt
 >
 File: figures/lepton/Pip_EClow-eps-converted-to.pdf Graphic file (type pdf)
  <use figures/lepton/Pip_EClow-eps-converted-to.pdf>
@@ -1377,7 +1407,7 @@ eps-converted-to.pdf figures/lepton/Pip_EChigh.eps>
 (epstopdf)             \includegraphics on input line 158.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/lepton/Pip_EChigh-eps-converted-to.pdf, id=975, 567.11874pt x 364.3612
+<figures/lepton/Pip_EChigh-eps-converted-to.pdf, id=980, 567.11874pt x 364.3612
 5pt>
 File: figures/lepton/Pip_EChigh-eps-converted-to.pdf Graphic file (type pdf)
  <use figures/lepton/Pip_EChigh-eps-converted-to.pdf>
@@ -1396,7 +1426,7 @@ t-eps-converted-to.pdf figures/lepton/Pip_EClowcut.eps>
 (epstopdf)             \includegraphics on input line 163.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/lepton/Pip_EClowcut-eps-converted-to.pdf, id=978, 564.1075pt x 353.32p
+<figures/lepton/Pip_EClowcut-eps-converted-to.pdf, id=983, 564.1075pt x 353.32p
 t>
 File: figures/lepton/Pip_EClowcut-eps-converted-to.pdf Graphic file (type pdf)
  <use figures/lepton/Pip_EClowcut-eps-converted-to.pdf>
@@ -1415,7 +1445,7 @@ ut-eps-converted-to.pdf figures/lepton/Pip_EChighcut.eps>
 (epstopdf)             \includegraphics on input line 168.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/lepton/Pip_EChighcut-eps-converted-to.pdf, id=981, 565.11125pt x 353.3
+<figures/lepton/Pip_EChighcut-eps-converted-to.pdf, id=986, 565.11125pt x 353.3
 2pt>
 File: figures/lepton/Pip_EChighcut-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -1466,7 +1496,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 172.
 
-<figures/g12/etaPeeg_mimass.pdf, id=1120, 555.3832pt x 385.0989pt>
+<figures/g12/etaPeeg_mimass.pdf, id=1125, 555.3832pt x 385.0989pt>
 File: figures/g12/etaPeeg_mimass.pdf Graphic file (type pdf)
 
 <use figures/g12/etaPeeg_mimass.pdf>
@@ -1501,7 +1531,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 10.
 
-[25] <figures/counts/etaPDalitz_contamI.pdf, id=1210, 569.12625pt x 224.84pt>
+[25] <figures/counts/etaPDalitz_contamI.pdf, id=1215, 569.12625pt x 224.84pt>
 File: figures/counts/etaPDalitz_contamI.pdf Graphic file (type pdf)
 
 <use figures/counts/etaPDalitz_contamI.pdf>
@@ -1513,106 +1543,117 @@ Overfull \hbox (28.81572pt too wide) in paragraph at lines 22--23
  [] 
  []
 
-<figures/counts/etaPDalitz_contamII.pdf, id=1213, 569.12625pt x 386.44376pt>
+<figures/counts/etaPDalitz_contamII.pdf, id=1218, 569.12625pt x 386.44376pt>
 File: figures/counts/etaPDalitz_contamII.pdf Graphic file (type pdf)
 
 <use figures/counts/etaPDalitz_contamII.pdf>
 Package pdftex.def Info: figures/counts/etaPDalitz_contamII.pdf used on input l
 ine 28.
 (pdftex.def)             Requested size: 324.01454pt x 178.73923pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[26 <./figures/counts/etaPDalitz_contamI.pdf, page is rotated 90 degrees>]
-<figures/counts/acceptance.pdf, id=1266, 569.12625pt x 225.84375pt>
+ [26 <./figures/counts/etaPDalitz_contamI.pdf, page is rotated 90 degrees>]
+<figures/counts/acceptance.pdf, id=1270, 569.12625pt x 225.84375pt>
 File: figures/counts/acceptance.pdf Graphic file (type pdf)
 
 <use figures/counts/acceptance.pdf>
 Package pdftex.def Info: figures/counts/acceptance.pdf used on input line 34.
 (pdftex.def)             Requested size: 324.01454pt x 178.74887pt.
- [27 <./figures/counts/etaPDalitz_contamII.pdf, page is rotated 90 degrees> <./
-figures/counts/acceptance.pdf, page is rotated 90 degrees>]
-<figures/XSection/eta_phot_electXSection.pdf, id=1361, 682.46846pt x 256.08974p
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[27 <./figures/counts/etaPDalitz_contamII.pdf, page is rotated 90 degrees>]
+<figures/counts/Ratio.pdf, id=1321, 569.12625pt x 387.4475pt>
+File: figures/counts/Ratio.pdf Graphic file (type pdf)
+
+<use figures/counts/Ratio.pdf>
+Package pdftex.def Info: figures/counts/Ratio.pdf used on input line 41.
+(pdftex.def)             Requested size: 324.01454pt x 238.32314pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[28 <./figures/counts/acceptance.pdf, page is rotated 90 degrees>]
+<figures/XSection/eta_phot_electXSection.pdf, id=1374, 682.46846pt x 256.08974p
 t>
 File: figures/XSection/eta_phot_electXSection.pdf Graphic file (type pdf)
  <use figures/XSection/eta_phot_electXSection.pdf>
 Package pdftex.def Info: figures/XSection/eta_phot_electXSection.pdf used on in
-put line 46.
+put line 53.
 (pdftex.def)             Requested size: 324.00926pt x 178.74579pt.
 
-<figures/XSection/eta_phot_prodXSection.pdf, id=1362, 360.73311pt x 355.30382pt
+<figures/XSection/eta_phot_prodXSection.pdf, id=1375, 360.73311pt x 355.30382pt
 >
 File: figures/XSection/eta_phot_prodXSection.pdf Graphic file (type pdf)
  <use figures/XSection/eta_phot_prodXSection.pdf>
 Package pdftex.def Info: figures/XSection/eta_phot_prodXSection.pdf used on inp
-ut line 47.
+ut line 54.
 (pdftex.def)             Requested size: 226.80069pt x 134.05182pt.
- [28 <./figures/XSection/eta_phot_electXSection.pdf> <./figures/XSection/eta_ph
-ot_prodXSection.pdf>]
-<figures/XSection/hadron_prod_photoproduction.pdf, id=1402, 569.12625pt x 387.4
+ [29 <./figures/counts/Ratio.pdf, page is rotated 90 degrees>] [30 <./figures/X
+Section/eta_phot_electXSection.pdf> <./figures/XSection/eta_phot_prodXSection.p
+df>]
+<figures/XSection/hadron_prod_photoproduction.pdf, id=1462, 569.12625pt x 387.4
 475pt>
 File: figures/XSection/hadron_prod_photoproduction.pdf Graphic file (type pdf)
  <use figures/XSection/hadron_prod_photoproduction.pdf>
 Package pdftex.def Info: figures/XSection/hadron_prod_photoproduction.pdf used 
-on input line 61.
+on input line 68.
 (pdftex.def)             Requested size: 291.60527pt x 134.0538pt.
 
-<figures/XSection/etaP_total_XSection.pdf, id=1403, 569.12625pt x 368.37625pt>
-File: figures/XSection/etaP_total_XSection.pdf Graphic file (type pdf)
-
-<use figures/XSection/etaP_total_XSection.pdf>
-Package pdftex.def Info: figures/XSection/etaP_total_XSection.pdf used on input
- line 62.
+<figures/XSection/eta_prod_photoproduction.pdf, id=1463, 569.12625pt x 368.3762
+5pt>
+File: figures/XSection/eta_prod_photoproduction.pdf Graphic file (type pdf)
+ <use figures/XSection/eta_prod_photoproduction.pdf>
+Package pdftex.def Info: figures/XSection/eta_prod_photoproduction.pdf used on 
+input line 69.
 (pdftex.def)             Requested size: 291.60527pt x 134.04869pt.
- [29 <./figures/XSection/hadron_prod_photoproduction.pdf, page is rotated 90 de
-grees> <./figures/XSection/etaP_total_XSection.pdf, page is rotated 90 degrees>
-]
-<figures/XSection/Total_rates.pdf, id=1503, 569.12625pt x 315.1775pt>
+ [31 <./figures/XSection/hadron_prod_photoproduction.pdf, page is rotated 90 de
+grees> <./figures/XSection/eta_prod_photoproduction.pdf, page is rotated 90 deg
+rees>]
+<figures/XSection/Total_rates.pdf, id=1565, 569.12625pt x 315.1775pt>
 File: figures/XSection/Total_rates.pdf Graphic file (type pdf)
 
 <use figures/XSection/Total_rates.pdf>
-Package pdftex.def Info: figures/XSection/Total_rates.pdf used on input line 82
+Package pdftex.def Info: figures/XSection/Total_rates.pdf used on input line 89
 .
 (pdftex.def)             Requested size: 324.01454pt x 208.52756pt.
 
-<figures/counts/counts.pdf, id=1509, 569.12625pt x 225.84375pt>
+<figures/counts/counts.pdf, id=1571, 569.12625pt x 225.84375pt>
 File: figures/counts/counts.pdf Graphic file (type pdf)
 
 <use figures/counts/counts.pdf>
-Package pdftex.def Info: figures/counts/counts.pdf used on input line 89.
+Package pdftex.def Info: figures/counts/counts.pdf used on input line 98.
 (pdftex.def)             Requested size: 324.01454pt x 193.64633pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[30 <./figures/XSection/Total_rates.pdf, page is rotated 90 degrees>]
-<figures/counts/result.pdf, id=1564, 569.12625pt x 225.84375pt>
+<figures/counts/result.pdf, id=1572, 569.12625pt x 225.84375pt>
 File: figures/counts/result.pdf Graphic file (type pdf)
 
 <use figures/counts/result.pdf>
-Package pdftex.def Info: figures/counts/result.pdf used on input line 95.
+Package pdftex.def Info: figures/counts/result.pdf used on input line 103.
 (pdftex.def)             Requested size: 324.01454pt x 193.64633pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[31 <./figures/counts/counts.pdf, page is rotated 90 degrees>]
-<figures/counts/Ratio.pdf, id=1617, 1606.0pt x 1405.25pt>
-File: figures/counts/Ratio.pdf Graphic file (type pdf)
+[32 <./figures/XSection/Total_rates.pdf, page is rotated 90 degrees>] [33 <./fi
+gures/counts/counts.pdf, page is rotated 90 degrees> <./figures/counts/result.p
+df, page is rotated 90 degrees>]
+<figures/counts/sys.pdf, id=1721, 569.12625pt x 225.84375pt>
+File: figures/counts/sys.pdf Graphic file (type pdf)
 
-<use figures/counts/Ratio.pdf>
-Package pdftex.def Info: figures/counts/Ratio.pdf used on input line 130.
-(pdftex.def)             Requested size: 323.98795pt x 238.3104pt.
+<use figures/counts/sys.pdf>
+Package pdftex.def Info: figures/counts/sys.pdf used on input line 120.
+(pdftex.def)             Requested size: 324.01454pt x 193.64633pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[32 <./figures/counts/result.pdf, page is rotated 90 degrees>])
-(./BeamTime_Request.tex) [33 <./figures/counts/Ratio.pdf>] [34]
-(./Meson_Proposal.bbl [35
+[34]) (./BeamTime_Request.tex) [35 <./figures/counts/sys.pdf, page is rotated 9
+0 degrees>] (./Meson_Proposal.bbl [36
 
-] [36] [37]) [38] (./Appendix.tex
+] [37] [38]) [39] (./Appendix.tex
 (./meson_decay/gammagamma.tex
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
@@ -1646,7 +1687,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 1.
 
-[39]) (./meson_decay/dalitz.tex
+[40]) (./meson_decay/dalitz.tex
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 1.
@@ -1667,53 +1708,42 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 1.
 
-[40]
+[41]
 Overfull \hbox (25.15382pt too wide) in paragraph at lines 22--22
 [] 
  []
 
-[41] [42]) (./tables/counts.tex
-Overfull \hbox (15.51956pt too wide) in paragraph at lines 7--57
+[42] [43]) (./tables/counts.tex
+Overfull \hbox (39.54071pt too wide) in paragraph at lines 7--66
  [] 
  []
 
 
-LaTeX Warning: Float too large for page by 32.93326pt on input line 61.
-
-) (./tables/counts_full_torus.tex
-Overfull \hbox (15.51956pt too wide) in paragraph at lines 7--57
- [] 
- []
-
-
-LaTeX Warning: Float too large for page by 32.93326pt on input line 61.
+LaTeX Warning: Float too large for page by 20.73366pt on input line 68.
 
 ))
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[43]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 150.
- [44] [45]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 150.
+[44]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 151.
+ [45]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 151.
  (./Meson_Proposal.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 150.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 150.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 151.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 151.
 Package rerunfilecheck Info: File `Meson_Proposal.out' has not changed.
-(rerunfilecheck)             Checksum: 6378F027121543B0C08D5843D5D0CFEB;2340.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 150.
+(rerunfilecheck)             Checksum: EC6C9F7E6CC871213F09C9BD67BCF317;2276.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 151.
  ) 
 Here is how much of TeX's memory you used:
- 21269 strings out of 493117
- 395271 string characters out of 6135433
- 503531 words of memory out of 5000000
- 24026 multiletter control sequences out of 15000+600000
- 30735 words of font info for 85 fonts, out of 8000000 for 9000
+ 21427 strings out of 493117
+ 397604 string characters out of 6135433
+ 496352 words of memory out of 5000000
+ 24167 multiletter control sequences out of 15000+600000
+ 32046 words of font info for 89 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,16n,87p,1232b,650s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,16n,87p,1232b,642s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><
 /usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx6.pfb></u
@@ -1748,20 +1778,21 @@ e1/public/cm-super/sfbx1000.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1
 ublic/cm-super/sfbx1200.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/pub
 lic/cm-super/sfbx1440.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/publi
 c/cm-super/sfbx2074.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/
-cm-super/sfrm0800.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/cm
--super/sfrm0900.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/cm-s
-uper/sfrm1000.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/cm-sup
-er/sfrm1095.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/cm-super
-/sfrm1200.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/s
-frm1440.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfr
-m1728.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sftc1
-095.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfti109
-5.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sftt1095.
-pfb>
-Output written on Meson_Proposal.pdf (46 pages, 2059772 bytes).
+cm-super/sfrm0600.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/cm
+-super/sfrm0800.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/cm-s
+uper/sfrm0900.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/cm-sup
+er/sfrm1000.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/cm-super
+/sfrm1095.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/s
+frm1200.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfr
+m1440.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfrm1
+728.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sftc109
+5.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfti1095.
+pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sftt1095.pf
+b>
+Output written on Meson_Proposal.pdf (46 pages, 1988023 bytes).
 PDF statistics:
- 1968 PDF objects out of 2073 (max. 8388607)
- 1392 compressed objects within 14 object streams
- 222 named destinations out of 1000 (max. 500000)
- 450 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2064 PDF objects out of 2073 (max. 8388607)
+ 1438 compressed objects within 15 object streams
+ 229 named destinations out of 1000 (max. 500000)
+ 447 words of extra memory for PDF output out of 10000 (max. 10000000)
 

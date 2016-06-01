@@ -177,123 +177,9 @@ void plot_stuff_mk(){
   gStyle->SetOptTitle(0);
   
   gROOT->ForceStyle();
-  TFile *in = TFile::Open("IncLusive_Plots_vmd.root");
+  TFile *in = TFile::Open("IncLusive_Plots_vmdtest.root");
   TFile *inflat = TFile::Open("IncLusive_Plots_flat.root");
 
-  TH1D *hIVEpEmGam = (TH1D*)in->Get("hIVEpEmGam");
-  TH1D *hIVEpEmGam_cut = (TH1D*)in->Get("hIVEpEmGam_cut");
-  
-  hIVEpEmGam->SetLineColor(kBlack);
-  hIVEpEmGam->SetStats(false);
-  hIVEpEmGam_cut->SetStats(false);
-  hIVEpEmGam->GetXaxis()->SetTitle("M(e^{+}e^{-}#gamma) [GeV]");
-  hIVEpEmGam->GetXaxis()->SetTitleSize(0.05);
-  hIVEpEmGam->GetXaxis()->SetTitleOffset(0.8);
-  hIVEpEmGam->GetYaxis()->SetTitle("Counts");
-  hIVEpEmGam->GetYaxis()->SetTitleSize(0.05);
-  hIVEpEmGam->GetYaxis()->SetTitleOffset(1.0);
-  
-  hIVEpEmGam->SetLineWidth(2);
-  
-  hIVEpEmGam_cut->SetLineColor(kRed);
-  hIVEpEmGam_cut->SetFillColor(kRed);
-  hIVEpEmGam_cut->SetFillStyle(3001);
-  
-  TH1D *hMMPEmX = (TH1D*)in->Get("hMMPEmX");
-  TH1D *hMMPEmX_cut = (TH1D*)in->Get("hMMPEmX_cut");
-  
-  hMMPEmX->SetLineColor(kBlack);
-  hMMPEmX->SetLineWidth(2);
-  
-  hMMPEmX->GetXaxis()->SetTitle("M_{x}(pe^{-}) [GeV]");
-  hMMPEmX->SetStats(false);
-  hMMPEmX_cut->SetStats(false);
-  hMMPEmX->GetXaxis()->SetTitleSize(0.05);
-  hMMPEmX->GetXaxis()->SetTitleOffset(0.8);
-  hMMPEmX->GetYaxis()->SetTitle("Counts");
-  hMMPEmX->GetYaxis()->SetTitleSize(0.05);
-  hMMPEmX->GetYaxis()->SetTitleOffset(1.0);
-  
-  hMMPEmX_cut->SetLineColor(kRed);
-  hMMPEmX_cut->SetFillColor(kRed);
-  hMMPEmX_cut->SetFillStyle(3001);
-  
-  
-  TH1D *IVrest = (TH1D*)hIVEpEmGam->Clone();
-  int critIVbin = IVrest->GetXaxis()->FindFixBin(1.5);
-  
-  TH1D *MMrest = (TH1D*)hMMPEmX->Clone();
-  int critMMbin = MMrest->GetXaxis()->FindFixBin(1.2);
-  
-  for(int i=1;i<= IVrest->GetNbinsX();i++){
-    if(i<critIVbin){
-      IVrest->SetBinContent(i,0);
-    }
-  }
-  IVrest->SetFillStyle(3001);
-  IVrest->SetFillColor(8);
-  IVrest->SetLineColor(8);
-  
-  for(int i=1;i<= MMrest->GetNbinsX();i++){
-    if(i>critMMbin){
-      MMrest->SetBinContent(i,0);
-    }
-  }
-  MMrest->SetFillStyle(3001);
-  MMrest->SetFillColor(8);
-  MMrest->SetLineColor(8);
-  
-  TLegend *leg1 = new TLegend(0.25,0.7,0.9,0.9);
-  leg1->SetFillColor(0);
-  leg1->AddEntry(IVrest,"Select e^{-}' from e^{-}p#rightarrow e^{-}'pX");
-  leg1->AddEntry(hIVEpEmGam_cut,"Select e^{-} from #eta'#rightarrow e^{+}e^{-}#gamma");
-  
-  TLegend *leg2 = new TLegend(0.25,0.7,0.9,0.9);
-  leg2->SetFillColor(0);
-  leg2->AddEntry(MMrest,"Select e^{-}' from e^{-}p#rightarrow e^{-}'pX");
-  leg2->AddEntry(hMMPEmX_cut,"Select e^{-} from #eta'#rightarrow e^{+}e^{-}#gamma");
-  
-  TCanvas *c = new TCanvas("c","",1200,500);
-  c->Divide(2);
-  c->cd(1);
-  
-  IVrest->Draw();
-  fitMKVoight(hIVEpEmGam, 0.6, 2.1, 0, 0, 0, 0, 0.957, 0.01, 0.001, 2.5, 1);
-  
-  
-  hIVEpEmGam_cut->Draw("same");
-  hIVEpEmGam->Draw("same");
-  leg1->Draw("same");
-  c->cd(2);
-  
-  MMrest->Draw();
-  fitMKVoight(hMMPEmX, 0.6, 2.1, 0, 0, 0, 0, 0.957, 0.01, 0.001, 2.5, 1);
-  
-  hMMPEmX_cut->Draw("same");
-  hMMPEmX->Draw("same");
-  leg2->Draw("same");
-  c->cd();
-  
-  TH1D *hIVEPEm = (TH1D*)in->Get("hIVEpEm");
-  TH1D *hIVEPEm_cut = (TH1D*)in->Get("hIVEpEm_cut");
-  TH1D *hEpEm_contam = (TH1D*)in->Get("hEpEm_contam");
-  
-  hIVEpEm->GetXaxis()->SetTitle("M(e^{+}e^{-}) [GeV]");
-  hIVEpEm->GetXaxis()->SetTitleSize(0.05);
-  hIVEpEm->GetXaxis()->SetTitleOffset(0.8);
-  
-  hIVEpEm->GetYaxis()->SetTitle("Counts");
-  hIVEpEm->GetYaxis()->SetTitleSize(0.05);
-  hIVEpEm->GetYaxis()->SetTitleOffset(1.0);
-  
-  TCanvas *c2 = new TCanvas("c2","",1);
-  c2->cd();
-  
-  hIVEpEm->Draw();
-  
-  
-  
-  
   
   //MK stuff
 
@@ -367,26 +253,44 @@ void plot_stuff_mk(){
   TH1D *hEpEm_corrected_sys = new TH1D("hEpEm_corrected_sys","hEpEm_corrected_sys",100,0.0,1);
 
   TF1 *fsys = new TF1("fsys","0.05*x",0,1);
+
   for (int i = 1; i<hIVEpEm_cut_clone->GetNbinsX(); i++) {
     
     Double_t bin_factor = 1.65; //this needs to be solved at somepoint
     Double_t intotal_acceptance = hEpEm_acceptance_flat->GetBinContent(i)*bin_factor;
     Double_t intotal_events_upper;
+    
     if (intotal_acceptance == 0) {
       intotal_events_upper = 0;
     }else{
       intotal_events_upper = hIVEpEm_cut_clone->GetBinContent(i)/intotal_acceptance;
     }
+    
     hEpEm_corrected_flat->SetBinContent(i,intotal_events_upper);
     hEpEm_corrected_flat->SetBinError(i,sqrt(intotal_events_upper));
     
     Double_t QED_factor = QED_norm->Eval(hIVEpEm_cut_clone->GetBinCenter(i));//2.0e-06;
-    
     hEpEm_QEDnorm_flat->SetBinContent(i,intotal_events_upper/QED_factor);
     //hEpEm_QEDnorm->SetBinError(i,sqrt(intotal_events_upper/QED_factor));
-    //cout<<fsys->Eval(hIVEpEm_cut_clone->GetBinCenter(i))<<endl;
+    
+
+    //For systematic
+    Double_t num_sys = fsys->Eval(hIVEpEm_cut_clone->GetBinCenter(i));
+    Double_t intotal_acceptance_sys = hEpEm_acceptance->GetBinContent(i)*bin_factor*(1. + num_sys);
+    Double_t intotal_events_upper_sys;
+    
+    if (intotal_acceptance_sys == 0) {
+      intotal_events_upper_sys = 0;
+    }else{
+      intotal_events_upper_sys = hIVEpEm_cut_clone->GetBinContent(i)/intotal_acceptance_sys;
+    }
+    hEpEm_corrected_sys->SetBinContent(i,intotal_events_upper_sys/QED_factor);
+    //hEpEm_QEDnorm->SetBinError(i,sqrt(intotal_events_upper/QED_factor));
+    //cout<<bin_factor*num_sys*hEpEm_acceptance->GetBinContent(i)<<"  "<<intotal_events_upper_sys<<"  "<<i<<endl;
+
   }
-  
+  cout<<"Total & "<<TMath::Nint(hIVEpEm_cut_clone->Integral())<<" & "<<TMath::Nint(sqrt(hIVEpEm_cut_clone->Integral("")))<<"\\\\"<<endl;
+
   
   
   //
@@ -443,6 +347,8 @@ void plot_stuff_mk(){
   TString sLambda = Form("#Lambda^{2}_{fit}  = %2.4f #pm %2.4f  ", Lambda,Lambdaerr);
   TString sbn = Form("b_{n} = %2.4f #pm %2.4f  ", bn,bn_err);
   
+  Double_t Lambda_gen = 0.5776;
+  Double_t bn_gen = 1./0.5776;
   TString sLambda_gen = Form("#Lambda^{2}_{gen}  = %2.4f  ", 0.5776);
   TString sbn_gen = Form("b_{n gen} = %2.4f  ", 1./0.5776);
   
@@ -474,10 +380,72 @@ void plot_stuff_mk(){
 
   legmkI_I->Draw("same");
 
-  //cmkI->Print("figures/counts/result.pdf");
-  //cmkIII->Print("figures/counts/acceptance.pdf");
-  //cmkII->Print("figures/counts/counts.pdf");
+  
+  TCanvas *cmksys =  new TCanvas("cmksys","cmksys",1200,500);
+  cmksys->cd();
+  double pole_parsys[3] = {10, 0.59,0.0144}; //{A,Lambda,Gamma}
+  
+  TF1 *FF_fittepolesys = new TF1("FF_fittepolesys", Pole_FFII,0.02,0.92,3);
+  FF_fittepolesys->SetParameters(&pole_parsys[0]);
+  FF_fittepolesys->SetParLimits(0,0.,100.);
+  FF_fittepolesys->SetParLimits(1,pole_parsys[1] - pole_parsys[1]*0.1,pole_parsys[1] + pole_parsys[1]*0.1);
+  FF_fittepolesys->SetParLimits(2,pole_parsys[2] - pole_parsys[2]*0.5,pole_parsys[2] + pole_parsys[2]*0.5);
+  FF_fittepolesys->SetLineColor(kBlue);
+  //hEpEm_QEDnorm->Draw("EP");
+  hEpEm_corrected_sys->SetLineColor(kBlack);
+  hEpEm_corrected_sys->Draw("EP");
+  hEpEm_corrected_sys->Fit("FF_fittepolesys","REM");
 
+  Double_t Lambda_sys = FF_fittepolesys->GetParameter(1);
+  Double_t Lambdaerr_sys = FF_fittepolesys->GetParError(1);
+  Double_t bn_sys = 1./Lambda_sys;
+  Double_t bn_err_sys = Lambdaerr_sys/(bn_sys*bn_sys);
+ 
+  TString sLambda_sys = Form("#Lambda^{2}_{fit}  = %2.4f #pm %2.4f  ", Lambda_sys,Lambdaerr_sys);
+  TString sbn_sys = Form("b_{n} = %2.4f #pm %2.4f  ", bn_sys,bn_err_sys);
+
+  legmkI->Draw("same");
+  
+  TLegend *legmksys = new TLegend(0.37,0.55,0.63,0.9);
+  legmksys->SetTextSize(0.04);
+  
+  legmksys->SetHeader("\t QED+VMD M(e^{+}e^{-}) Acceptance ");
+  legmksys->SetFillColor(0);
+  legmksys->AddEntry((TObject*)0,"with 5% systematic","");
+
+  legmksys->AddEntry(FF_fittepolesys,sLambda_sys,"l");
+  legmksys->AddEntry((TObject*)0,sbn_sys,"");
+  legmksys->AddEntry((TObject*)0,sLambda_gen,"");
+  legmksys->AddEntry((TObject*)0,sbn_gen,"");
+  
+  legmksys->Draw("same");
+
+  //lets calculate percent error and percent difference
+  Double_t Lambda_percent_diff = abs(Lambda_sys - Lambda)/(0.5*(Lambda_sys + Lambda))*100.;
+  Double_t bn_percent_diff = abs(bn_sys - bn)/(0.5*(bn_sys + bn))*100.;
+  
+  Double_t Lambda_percent_err = abs((Lambda_gen - Lambda)/Lambda_gen)*100.;
+  Double_t bn_percent_err = abs((bn_gen - bn)/bn_gen)*100.;
+
+  Double_t Lambda_percent_errsys = abs((Lambda_gen - Lambda_sys)/Lambda_gen)*100.;
+  Double_t bn_percent_errsys = abs((bn_gen - bn_sys)/bn_gen)*100.;
+  
+  TString sLambda_perdif = Form("#Lambda^{2}_{sys}  = %2.4f #pm %2.4f  ", Lambda_percent_diff,bn_percent_diff);
+
+  
+  cout<<Lambda<<"  "<<bn<<endl;
+  cout<<Lambda_sys<<"  "<<bn_sys<<endl;
+  cout<<Lambda_gen<<"  "<<bn_gen<<endl;
+
+  
+  cout<<"Percent Diff "<<Lambda_percent_diff<<"  "<<bn_percent_diff<<endl;
+  cout<<"Percent Error "<<Lambda_percent_err<<"  "<<bn_percent_err<<endl;
+  cout<<"Percent Error sys "<<Lambda_percent_errsys<<"  "<<bn_percent_errsys<<endl;
+
+  //cmkI->Print("../figures/counts/result.pdf");
+  //cmkIII->Print("../figures/counts/acceptance.pdf");
+  //cmkII->Print("../figures/counts/counts.pdf");
+  cmksys->Print("../figures/counts/sys.pdf");
 
 }
 

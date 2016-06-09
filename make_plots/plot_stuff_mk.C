@@ -392,7 +392,15 @@ void plot_stuff_mk(){
   FF_fittepolesys->SetParLimits(2,pole_parsys[2] - pole_parsys[2]*0.5,pole_parsys[2] + pole_parsys[2]*0.5);
   FF_fittepolesys->SetLineColor(kBlue);
   //hEpEm_QEDnorm->Draw("EP");
+  hEpEm_corrected_sys->SetTitle("Expected distribution of |F(q^{2})|^{2} with 5% systematic on acceptance");
   hEpEm_corrected_sys->SetLineColor(kBlack);
+  hEpEm_corrected_sys->SetYTitle("|F(q^{2})|^{2}");
+  hEpEm_corrected_sys->GetYaxis()->SetTitleSize(0.05);
+  hEpEm_corrected_sys->GetYaxis()->SetTitleOffset(0.8);
+  hEpEm_corrected_sys->GetXaxis()->SetTitle("M(e^{+}e^{-}) [GeV]");
+  hEpEm_corrected_sys->GetXaxis()->SetTitleSize(0.05);
+  hEpEm_corrected_sys->GetXaxis()->SetTitleOffset(0.8);
+
   hEpEm_corrected_sys->Draw("EP");
   hEpEm_corrected_sys->Fit("FF_fittepolesys","REM");
 

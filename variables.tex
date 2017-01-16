@@ -1,0 +1,92 @@
+%%% new commands and macros %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newlength{\figwidth}
+\setlength{\figwidth}{0.9\columnwidth}
+
+\newlength{\qfigheight}
+\setlength{\qfigheight}{0.25\textheight}
+
+\newlength{\hfigheight}
+\setlength{\hfigheight}{0.5\textheight}
+
+\newcommand{\dedicationfont}{\fontencoding{T1}\fontfamily{anttlc}\fontseries{m}\fontshape{n}\fontsize{12}{15}\selectfont}
+
+\newcommand{\acro}[1]{#1\@}
+\newcommand{\abbr}[1]{\textsc{\texttt{#1}}}
+\newcommand{\abbrlc}[2]{\textsc{\texttt{#1}}\texttt{#2}}
+\newcommand{\desg}[1]{\texttt{#1}}
+\newcommand{\todo}[1]{\textbf{\uppercase{\emph{#1}}}} %\textcolor{Orange}{#1}}}
+
+
+%Some variables
+%
+%
+\def\g12{\emph{g12}}
+
+\def\G11{\emph{g11}}
+\def\clas{\abbr{CLAS }}
+
+\def\Lqcd{\mathcal{L}_{\mathtt{QCD}}}
+\def\qfield{\psi}
+\def\qbarfield{\overline{\psi}}
+
+\def\grpath{/Users/Mike/phdthesis/MY_THESIS/figures/print}
+\def\figures{/Users/Mike/phdthesis/MY_THESIS/figures/print}
+
+\newcommand{\bank}[4]{$\mathtt{#1}^{#2}_{#3}\lbrack\mathtt{#4}\rbrack$}
+
+\def\ith{$i$\textsuperscript{th}}
+
+\def\um{{\text{$\mu$}}m}
+
+%\def\coloronline{(Color online.)\ }
+\def\coloronline{}
+
+%%% particles
+\def\p{\mathrm{p}}
+\def\n{\mathrm{n}}
+\def\Kp{\mathrm{K}^{+}}
+\def\Km{\mathrm{K}^{-}}
+\def\K0{\mathrm{K}^{0}}
+\def\Y{\mathrm{Y}}
+\def\epos{\mathrm{e}^{+}}
+\def\eneg{\mathrm{e}^{-}}
+\def\gamstar{\mathrm{$\gamma$}^{*}}
+\def\piup{$\pi$}
+\def\gammaup{$\gamma$}
+%%% TAGGER and RF related times
+\def\trf{t_{\mathtt{RF}}}
+\def\ttag{t_{\mathtt{TAG}}}
+\def\ttagrf{t_{\mathtt{TAG,RF}}}
+\def\tprop{t_\mathrm{prop}}
+\def\ttrigoffset{t_{\mathrm{trigger-offset}}}
+
+%%% BEAM energy
+\def\ebeam{E_{\mathrm{beam}}}
+
+%%% Beta
+\def\betasttof{\beta_{\mathtt{ST-TOF}}}
+\def\betatof{\beta_{\mathrm{vtx}\mathtt{-TOF}}}
+\def\betap{\beta_{p}}
+
+%%% path lengths
+\def\lst{\ell_{\mathtt{ST}}}
+\def\ltof{\ell_{\mathtt{TOF}}}
+\def\lsttof{\ell_{\mathtt{ST-TOF}}}
+
+%%% raw subsystem times
+\def\tst{t_{\mathtt{ST}}}
+\def\ttof{t_{\mathtt{TOF}}}
+\def\dtsttof{\Delta t_{\mathrm{ST-TOF}}}
+
+%%% vertex times
+\def\tv{t_{\mathrm{vtx}}}
+\def\tvtagrf{t_{\mathrm{vtx}}(\mathtt{TAG_{RF}})}
+\def\tvst{t_{\mathrm{vtx}}(\mathtt{ST})}
+
+\def\adcst{\mathtt{ADC}_{\mathtt{ST}}}
+
+\newcommand{\bra}[1]{\left<#1\right|}
+\newcommand{\ket}[1]{\left|#1\right>}
+\newcommand{\braket}[2]{\left<#1\middle|#2\right>}
+\def\piz{$\mathrm{\pi^{0}}\ $}
+\def\epem{$e^+e^-\ $}

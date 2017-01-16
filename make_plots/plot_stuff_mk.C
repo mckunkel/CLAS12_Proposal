@@ -453,7 +453,12 @@ void plot_stuff_mk(){
   //cmkI->Print("../figures/counts/result.pdf");
   //cmkIII->Print("../figures/counts/acceptance.pdf");
   //cmkII->Print("../figures/counts/counts.pdf");
-  cmksys->Print("../figures/counts/sys.pdf");
+  //cmksys->Print("../figures/counts/sys.pdf");
+  
+  cmkI->Print("../figures/counts/result.C");
+  cmkIII->Print("../figures/counts/acceptance.C");
+  cmkII->Print("../figures/counts/counts.C");
+  cmksys->Print("../figures/counts/sys.C");
 
 }
 

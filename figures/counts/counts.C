@@ -448,7 +448,7 @@
    hIVEpEm_cut_clone->GetZaxis()->SetTitleFont(42);
    hIVEpEm_cut_clone->Draw("EP same");
    
-   TLegend *leg = new TLegend(-2.353437e-185,-2.353437e-185,-2.353437e-185,-2.353437e-185,NULL,"brNDC");
+   TLegend *leg = new TLegend(0.45,0.75,0.9,0.9,NULL,"brNDC");
    leg->SetBorderSize(1);
    leg->SetTextSize(0.05);
    leg->SetLineColor(1);
@@ -456,7 +456,7 @@
    leg->SetLineWidth(1);
    leg->SetFillColor(0);
    leg->SetFillStyle(1001);
-   TLegendEntry *entry=leg->AddEntry("hIVEpEm_cut_clone","Expected counts in 80 days (N_{tot}=52785)","l");
+   TLegendEntry *entry=leg->AddEntry("hIVEpEm_cut_clone","Expected counts in 80 days (N_{tot}=28,200)","l");
    entry->SetLineColor(1);
    entry->SetLineStyle(1);
    entry->SetLineWidth(1);
@@ -474,4 +474,6 @@
    cmkII->Modified();
    cmkII->cd();
    cmkII->SetSelected(cmkII);
+  
+  cmkII->Print("test.pdf");
 }

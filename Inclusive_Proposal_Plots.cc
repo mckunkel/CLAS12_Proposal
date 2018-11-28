@@ -817,7 +817,7 @@ Double_t Eval_Kroll_wada(Double_t *x, Double_t *par) {
   Double_t qsqr = (x[0]*x[0]);
   Double_t f=0.;
   
-  f = (1./Norm)*(4.0*structure_constant/(3.*pi)*(1./sqrt(qsqr))*sqrt(1 - 4.*(pow(Melectron,2)/qsqr)) * (1. + 2.0 *(pow(Melectron,2)/qsqr)) * (pow((1. - qsqr/(pow(M,2))),3)) ) ;
+  f = (Norm)*(2.0*structure_constant/(3.*pi)*(1./sqrt(qsqr))*sqrt(1 - 4.*(pow(Melectron,2)/qsqr)) * (1. + 2.0 *(pow(Melectron,2)/qsqr)) * (pow((1. - qsqr/(pow(M,2))),3)) ) ;
   
   return f;
 }
